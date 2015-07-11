@@ -286,11 +286,11 @@ ISBN: 978-1-xxx-xxxxx-x
 \end_layout
 
 \begin_layout Standard
-$Revision: 1.1 $
+$Revision: 1.2 $
 \end_layout
 
 \begin_layout Standard
-$Date: 2015/07/03 15:32:25 $ UTC
+$Date: 2015/07/05 21:35:37 $ UTC
 \end_layout
 
 \begin_layout Standard
@@ -11019,7 +11019,7 @@ Past, Reportative, Future Progressive, Pluperfect, Habitual, Infinitive,
 \end_layout
 
 \begin_layout Section
-Already \SpecialChar \ldots{}
+Ꮒ- \SpecialChar \ldots{}
 
 \end_layout
 
@@ -11256,15 +11256,11 @@ Usage
 \begin_layout Standard
 This special prefix has multiple uses.
  A few of these are detailed here.
- Others will be addressed in future lessons.
-\end_layout
-
-\begin_layout Standard
-Normally each possible use has enough context to prevent confusion as to
+ Normally each possible use has enough context to prevent confusion as to
  meaning.
 \end_layout
 
-\begin_layout Subsubsection*
+\begin_layout Subsection
 Lateral
 \end_layout
 
@@ -11479,8 +11475,9 @@ It is understood that Patricia is standing by the side of John, the speaker.
 \end_layout
 
 \end_deeper
-\begin_layout Subsubsection*
-Have already
+\begin_layout Subsection
+Already have \SpecialChar \ldots{}
+
 \end_layout
 
 \begin_layout Standard
@@ -11632,8 +11629,9 @@ when
 
 \end_deeper
 \end_deeper
-\begin_layout Subsubsection*
-Will already
+\begin_layout Subsection
+Will already have \SpecialChar \ldots{}
+
 \end_layout
 
 \begin_layout Standard
@@ -11953,8 +11951,8 @@ He/she is without want of it.
 
 \end_deeper
 \begin_layout Itemize
-ᎤᎨᎢ ᎠᏎᏃ ᏄᏚᎸᎲᎾ.
- Ugei asehno nudulvhvna.
+ᎤᎨᎢ ᏄᏚᎸᎲᎾ.
+ Ugei nudulvhvna.
 \end_layout
 
 \begin_deeper
@@ -11962,7 +11960,7 @@ He/she is without want of it.
 \begin_inset Quotes eld
 \end_inset
 
-He/she ate it but didn't want of it.
+He/she ate it without wantint it.
 \begin_inset Quotes erd
 \end_inset
 
@@ -11971,8 +11969,8 @@ He/she ate it but didn't want of it.
 
 \end_deeper
 \begin_layout Itemize
-ᎠᎩᎠ ᎠᏎᏃ ᏄᏚᎸᎲᎾ.
- Agia asehno nudulvhvna.
+ᎠᎩᎠ ᏄᏚᎸᎲᎾ.
+ Agia nudulvhvna.
 \end_layout
 
 \begin_deeper
@@ -11980,7 +11978,7 @@ He/she ate it but didn't want of it.
 \begin_inset Quotes eld
 \end_inset
 
-He/she is eating it but doesn't want it.
+He/she is eating it without wanting it.
 \begin_inset Quotes erd
 \end_inset
 
@@ -12233,7 +12231,7 @@ He ate something solid.
 \begin_inset Quotes eld
 \end_inset
 
-He habitually eats something solid again.
+He often eats something solid again.
 \begin_inset Quotes erd
 \end_inset
 
@@ -12269,7 +12267,7 @@ He turned it over there.
 \begin_inset Quotes eld
 \end_inset
 
-He turned it over again.
+He turned it over again there.
 \begin_inset Quotes erd
 \end_inset
 
@@ -14142,58 +14140,6 @@ Examples:
 
 \end_deeper
 \begin_layout Standard
-Sometimes the final 
-\begin_inset Quotes eld
-\end_inset
-
-Ꭲ
-\begin_inset Quotes erd
-\end_inset
-
- is pronounced 
-\begin_inset Quotes eld
-\end_inset
-
-Ꭿ
-\begin_inset Quotes erd
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Standard
-Example:
-\end_layout
-
-\begin_layout Itemize
-ᎦᏚ ᎤᏮᏣᏝᏁ.
- 
-\begin_inset Quotes eld
-\end_inset
-
-He fried the bread.
-\begin_inset Quotes erd
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-ᎬᏣᏝᏅᎯ ᎦᏚ.
- 
-\begin_inset Quotes eld
-\end_inset
-
-Fry bread.
-\begin_inset Quotes erd
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
 
 \emph on
 While not all verbs can be turned into descriptive words this way, many
@@ -15534,7 +15480,7 @@ Less hard.
 \end_layout
 
 \begin_layout Itemize
-ᏭᏲᏢᎢ ᏍᏓᏯ.
+ᏫᎦᏲᏢᎢ ᏍᏓᏯ.
  
 \begin_inset Quotes eld
 \end_inset
