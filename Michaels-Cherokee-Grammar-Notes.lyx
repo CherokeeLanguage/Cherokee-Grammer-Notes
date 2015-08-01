@@ -259,11 +259,11 @@ ISBN: 978-1-xxx-xxxxx-x
 \end_layout
 
 \begin_layout Standard
-$Revision: 1.5 $
+$Revision: 1.6 $
 \end_layout
 
 \begin_layout Standard
-$Date: 2015/08/01 04:59:13 $ UTC
+$Date: 2015/08/01 04:59:35 $ UTC
 \end_layout
 
 \begin_layout Standard
@@ -336,17 +336,10 @@ mainmatter{}
 \end_layout
 
 \begin_layout Standard
-\begin_inset Newpage cleardoublepage
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 
 \emph on
 This document is for the express and limited purpose of facilitating translation
-s into Cherokee of English texts and is not an instructional text.
+ of English into Cherokee and is not designed to be an instructional text.
 \end_layout
 
 \begin_layout Chapter
@@ -10475,11 +10468,11 @@ Completely\SpecialChar \ldots{}
 \end_layout
 
 \begin_layout Standard
-To indicate that 
+To indicate 
 \begin_inset Quotes eld
 \end_inset
 
-about in various places
+has been done to completion
 \begin_inset Quotes erd
 \end_inset
 
@@ -10672,6 +10665,13 @@ Conditional Indicative Future \SpecialChar \ldots{}
 \end_layout
 
 \begin_layout Standard
+
+\emph on
+This form may be used as a conditional future tense of the Indicative Mood,
+ or as a mild expression of the Imperative Mood.
+\end_layout
+
+\begin_layout Standard
 Take the 
 \noun on
 past tense
@@ -10711,8 +10711,7 @@ This form is used to indicate a
 \emph on
 conditional
 \emph default
- future factual statement or to express the desire for something to happen
- in a non-commanding way.
+ future factual statement or as a suggestion to do or let.
 \end_layout
 
 \begin_layout Description
@@ -10770,25 +10769,6 @@ He/she will or shall speak
 
 Let it become that he/she will or shall speak.
 \begin_inset Quotes erd
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\emph on
-\begin_inset Note Comment
-status collapsed
-
-\begin_layout Plain Layout
-This section needs much better examples.
- The Cherokee Messenger merely states:
-\emph on
- This form may be used as a conditional future tense of the Indicative Mood,
- or as a mild expression of the Imperative Mood.
-\end_layout
-
 \end_inset
 
 
@@ -11501,11 +11481,7 @@ Add the prefix
 \begin_inset Quotes erd
 \end_inset
 
- to any of the
-\begin_inset Quotes eld
-\end_inset
-
-
+ to any of the 
 \noun on
 Completive Past
 \noun default
