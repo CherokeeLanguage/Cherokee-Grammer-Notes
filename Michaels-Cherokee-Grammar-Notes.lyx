@@ -6,38 +6,11 @@
 \begin_preamble
 \usepackage{multicol}
 \usepackage{wallpaper}
-%change chapter heading spacing
-\makeatletter
-\def\@makechapterhead#1{%
-  \vspace*{0\p@}%
-  {\parindent \z@ \raggedright \normalfont
-    \ifnum \c@secnumdepth >\m@ne
-      \if@mainmatter
-        \huge\bfseries \@chapapp\space \thechapter
-        \par\nobreak
-        \vskip 20\p@
-      \fi
-    \fi
-    \interlinepenalty\@M
-    \Huge \bfseries #1\par\nobreak
-    \vskip 40\p@
-  }}
-\def\@makeschapterhead#1{%
-  \vspace*{0\p@}%
-  {\parindent \z@ \raggedright
-    \normalfont
-    \interlinepenalty\@M
-    \Huge \bfseries  #1\par\nobreak
-    \vskip 40\p@
-  }}
-\makeatother
-%end of change chapter header spacing
+\usepackage{lscape}
+\usepackage{amssymb}
 \end_preamble
 \use_default_options false
 \begin_modules
-theorems-ams
-eqs-within-sections
-figs-within-sections
 fixltx2e
 \end_modules
 \maintain_unincluded_children false
@@ -286,11 +259,11 @@ ISBN: 978-1-xxx-xxxxx-x
 \end_layout
 
 \begin_layout Standard
-$Revision: 1.3 $
+$Revision: 1.4 $
 \end_layout
 
 \begin_layout Standard
-$Date: 2015/07/11 15:53:48 $ UTC
+$Date: 2015/07/31 04:05:37 $ UTC
 \end_layout
 
 \begin_layout Standard
@@ -369,15 +342,15 @@ mainmatter{}
 
 \end_layout
 
-\begin_layout Chapter
-Grammar
-\end_layout
-
 \begin_layout Standard
 
 \emph on
-The following sections detail grammar rules to become familiar with before
- attempting any translations.
+This document is for the express and limited purpose of facilitating translation
+s into Cherokee of English texts.
+\end_layout
+
+\begin_layout Chapter
+Grammar
 \end_layout
 
 \begin_layout Section
@@ -404,11 +377,8 @@ begin{landscape}
 \noindent
 \align center
 \begin_inset Tabular
-<lyxtabular version="3" rows="110" columns="8">
+<lyxtabular version="3" rows="110" columns="5">
 <features rotate="0" islongtable="true" longtabularalignment="center">
-<column alignment="left" valignment="top" width="0pt">
-<column alignment="left" valignment="top" width="0pt">
-<column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
@@ -476,33 +446,6 @@ name "tab:Additional-Subject+Object-Pairings."
 
 \end_inset
 </cell>
-<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
 </row>
 <row endhead="true" endfirsthead="true">
 <cell alignment="left" valignment="top" usebox="none">
@@ -558,35 +501,6 @@ English
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size small
-Ambiguous
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
 </row>
 <row endhead="true" endfirsthead="true">
 <cell alignment="left" valignment="top" usebox="none">
@@ -599,33 +513,6 @@ Ambiguous
 \end_inset
 </cell>
 <cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -699,38 +586,11 @@ I + you (one)
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-I see you.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-No
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-1-14
+I see you.
 \end_layout
 
 \end_inset
@@ -773,38 +633,11 @@ You (one) + me
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-You see me.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-No
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" bottomline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-1-14
+You see me.
 \end_layout
 
 \end_inset
@@ -821,33 +654,6 @@ No
 \end_inset
 </cell>
 <cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -921,50 +727,11 @@ I + you two
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-I see you two.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-
-\backslash
-checkmark{}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Yes
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-1-14
+I see you two.
 \end_layout
 
 \end_inset
@@ -1007,38 +774,11 @@ Another and I + you (one)
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-He and I see you.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-1-14
+He and I see you.
 \end_layout
 
 \end_inset
@@ -1081,38 +821,11 @@ Another and I + you two
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-He and I see you two.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-1-14
+He and I see you two.
 \end_layout
 
 \end_inset
@@ -1155,50 +868,11 @@ You two + me
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-You two see me.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-
-\backslash
-checkmark{}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Yes
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-1-14
+You two see me.
 \end_layout
 
 \end_inset
@@ -1241,38 +915,11 @@ You (one) + another and me
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-You see him and me.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-1-14
+You see him and me.
 \end_layout
 
 \end_inset
@@ -1315,38 +962,11 @@ You two + another and me
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-You two see him and me.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" bottomline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-1-14
+You two see him and me.
 \end_layout
 
 \end_inset
@@ -1363,33 +983,6 @@ You two see him and me.
 \end_inset
 </cell>
 <cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1463,50 +1056,11 @@ I + you all
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-I see you all.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-
-\backslash
-checkmark{}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Yes
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-1-14
+I see you all.
 \end_layout
 
 \end_inset
@@ -1549,38 +1103,11 @@ They and I + you (one)
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-They and I see you.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-1-14
+They and I see you.
 \end_layout
 
 \end_inset
@@ -1623,50 +1150,11 @@ You all + me
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-You all see me.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-
-\backslash
-checkmark{}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Yes
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-1-14
+You all see me.
 \end_layout
 
 \end_inset
@@ -1709,38 +1197,11 @@ You (one) + them and me
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-You see them and me.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-1-14
+You see them and me.
 \end_layout
 
 \end_inset
@@ -1783,38 +1244,11 @@ You two + them and me
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-You two see them and me.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-1-14
+You two see them and me.
 \end_layout
 
 \end_inset
@@ -1857,38 +1291,11 @@ You all + another and me
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-You all see him and me.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" bottomline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-1-14
+You all see him and me.
 \end_layout
 
 \end_inset
@@ -1905,33 +1312,6 @@ You all see him and me.
 \end_inset
 </cell>
 <cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2005,38 +1385,11 @@ I + another (a)
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-I see him.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-No
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-1-7
+I see him.
 \end_layout
 
 \end_inset
@@ -2079,38 +1432,11 @@ I + another (i)
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-I see it.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-No
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-1-7
+I see it.
 \end_layout
 
 \end_inset
@@ -2153,50 +1479,11 @@ I + another (i) [b]
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-I want it.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-
-\backslash
-checkmark{}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Yes
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-1-7
+I want it.
 \end_layout
 
 \end_inset
@@ -2239,38 +1526,11 @@ Another + me
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-He wants me.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" bottomline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-1-12
+He wants me.
 \end_layout
 
 \end_inset
@@ -2314,33 +1574,6 @@ He wants me.
 \end_inset
 </cell>
 <cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2387,38 +1620,11 @@ I + them (a)
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-I see them.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-No
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-1-8
+I see them.
 \end_layout
 
 \end_inset
@@ -2461,38 +1667,11 @@ I + them (i) [b]
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-I want them.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-No
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-1-10
+I want them.
 \end_layout
 
 \end_inset
@@ -2535,38 +1714,11 @@ They + me
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-They see me.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-No
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-1-12
+They see me.
 \end_layout
 
 \end_inset
@@ -2609,50 +1761,11 @@ I + them (i)
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-I see them.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-
-\backslash
-checkmark{}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Yes
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-1-8
+I see them.
 \end_layout
 
 \end_inset
@@ -2695,38 +1808,11 @@ You all + them (i)
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-You all see them.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" bottomline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-1-10
+You all see them.
 \end_layout
 
 \end_inset
@@ -2743,33 +1829,6 @@ You all see them.
 \end_inset
 </cell>
 <cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2843,38 +1902,11 @@ You (one) + another (a)
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-You see him.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-No
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-1-7
+You see him.
 \end_layout
 
 \end_inset
@@ -2917,38 +1949,11 @@ You (one) + another (i)
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-You see it.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-No
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-1-7
+You see it.
 \end_layout
 
 \end_inset
@@ -2991,50 +1996,11 @@ You (one) + another (i) [b]
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-You want it.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-
-\backslash
-checkmark{}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Yes
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-1-7
+You want it.
 \end_layout
 
 \end_inset
@@ -3077,38 +2043,11 @@ Another + you (one).
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-He wants you.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" bottomline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-1-12
+He wants you.
 \end_layout
 
 \end_inset
@@ -3125,33 +2064,6 @@ He wants you.
 \end_inset
 </cell>
 <cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3225,38 +2137,11 @@ You (one) + them (a)
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-You see them.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-No
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-1-8
+You see them.
 \end_layout
 
 \end_inset
@@ -3299,38 +2184,11 @@ You (one) + them (i)
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-You see them.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-No
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-1-8
+You see them.
 \end_layout
 
 \end_inset
@@ -3373,38 +2231,11 @@ You (one) + them (i) [b]
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-You see them.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Some
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-1-8
+You see them.
 \end_layout
 
 \end_inset
@@ -3447,38 +2278,11 @@ They + you (one)
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-They see you.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Some
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-1-12
+They see you.
 \end_layout
 
 \end_inset
@@ -3521,38 +2325,11 @@ They + you all
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-They see you all
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Yes
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-1-12
+They see you all
 \end_layout
 
 \end_inset
@@ -3595,50 +2372,11 @@ You all + them (a)
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-You all see them.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-
-\backslash
-checkmark{}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" bottomline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-1-10
+You all see them.
 \end_layout
 
 \end_inset
@@ -3655,33 +2393,6 @@ checkmark{}
 \end_inset
 </cell>
 <cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3755,38 +2466,11 @@ You two + another (a)
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-You two see him.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-No
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-1-10
+You two see him.
 \end_layout
 
 \end_inset
@@ -3829,50 +2513,11 @@ You two + another (i)
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-You two see it.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-
-\backslash
-checkmark{}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Yes
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-1-10
+You two see it.
 \end_layout
 
 \end_inset
@@ -3915,38 +2560,11 @@ He + you two
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-He sees you two.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" bottomline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-1-12
+He sees you two.
 \end_layout
 
 \end_inset
@@ -3963,33 +2581,6 @@ He sees you two.
 \end_inset
 </cell>
 <cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -4063,38 +2654,11 @@ You two + them (i)
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-You two see them.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-No
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-1-10
+You two see them.
 \end_layout
 
 \end_inset
@@ -4137,50 +2701,11 @@ You two + them (a)
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-You two see them.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-
-\backslash
-checkmark{}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Yes
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-1-10
+You two see them.
 \end_layout
 
 \end_inset
@@ -4223,38 +2748,11 @@ They + you two
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-They see you two.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" bottomline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-1-12
+They see you two.
 \end_layout
 
 \end_inset
@@ -4271,33 +2769,6 @@ They see you two.
 \end_inset
 </cell>
 <cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -4371,38 +2842,11 @@ You all + another (a)
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-You all see him.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-No
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-1-10
+You all see him.
 \end_layout
 
 \end_inset
@@ -4445,50 +2889,11 @@ You all + another (i)
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-You all want it.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-
-\backslash
-checkmark{}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Yes
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-1-10
+You all want it.
 \end_layout
 
 \end_inset
@@ -4531,38 +2936,11 @@ Another + you all
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-He wants you all.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" bottomline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-1-12
+He wants you all.
 \end_layout
 
 \end_inset
@@ -4579,33 +2957,6 @@ He wants you all.
 \end_inset
 </cell>
 <cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -4679,38 +3030,11 @@ You all and I + another (a)
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-You all and I see him.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-No
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-1-13
+You all and I see him.
 \end_layout
 
 \end_inset
@@ -4753,38 +3077,11 @@ You all and I + another (i)
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-You all and I see it.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-No
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-1-13
+You all and I see it.
 \end_layout
 
 \end_inset
@@ -4827,50 +3124,11 @@ You all and I + another (i) [b]
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-You all and I want it.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-
-\backslash
-checkmark{}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Yes
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-1-13
+You all and I want it.
 \end_layout
 
 \end_inset
@@ -4913,38 +3171,11 @@ Another and I + you two.
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-1-13
+
 \end_layout
 
 \end_inset
@@ -4987,38 +3218,11 @@ Another + you all and me
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-He wants you all and me.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" bottomline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-1-13
+He wants you all and me.
 \end_layout
 
 \end_inset
@@ -5035,33 +3239,6 @@ He wants you all and me.
 \end_inset
 </cell>
 <cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -5135,38 +3312,11 @@ You all and I + them (a)
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-You all and I see them.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-No
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-1-13
+You all and I see them.
 \end_layout
 
 \end_inset
@@ -5209,38 +3359,11 @@ You all and I + them (i)
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-You all and I see them.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-No
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-1-13
+You all and I see them.
 \end_layout
 
 \end_inset
@@ -5283,38 +3406,11 @@ They + you all and me.
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-They see you all and me.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-No
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" bottomline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-1-13
+They see you all and me.
 \end_layout
 
 \end_inset
@@ -5331,33 +3427,6 @@ No
 \end_inset
 </cell>
 <cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -5431,38 +3500,11 @@ You and I + another (a)
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-You and I want him.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-No
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-1-10
+You and I want him.
 \end_layout
 
 \end_inset
@@ -5505,38 +3547,11 @@ You and I + another (i)
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-You and I want it.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-No
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-1-10
+You and I want it.
 \end_layout
 
 \end_inset
@@ -5579,50 +3594,11 @@ You and I + another (i) [b]
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-You and I want it.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-
-\backslash
-checkmark{}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Yes
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-1-10
+You and I want it.
 \end_layout
 
 \end_inset
@@ -5665,38 +3641,11 @@ Another + you and me
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-He wants you and me.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" bottomline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-1-12
+He wants you and me.
 \end_layout
 
 \end_inset
@@ -5713,33 +3662,6 @@ He wants you and me.
 \end_inset
 </cell>
 <cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -5813,38 +3735,11 @@ You and I + them (a)
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-You and I see them.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-No
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-1-10
+You and I see them.
 \end_layout
 
 \end_inset
@@ -5887,38 +3782,11 @@ You and I + them (i)
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-You and I see them.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-No
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-1-10
+You and I see them.
 \end_layout
 
 \end_inset
@@ -5961,38 +3829,11 @@ You and I + them (i) [b]
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-You and I want them.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-No
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-1-10
+You and I want them.
 \end_layout
 
 \end_inset
@@ -6035,38 +3876,11 @@ They + you (one) and me.
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-They see you and me.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-No
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" bottomline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-1-12
+They see you and me.
 \end_layout
 
 \end_inset
@@ -6083,33 +3897,6 @@ No
 \end_inset
 </cell>
 <cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6183,38 +3970,11 @@ Another and I + another (a)
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-He and I see him.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-No
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-1-13
+He and I see him.
 \end_layout
 
 \end_inset
@@ -6257,38 +4017,11 @@ Another and I + another (i)
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-He and I see it.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-1-13
+He and I see it.
 \end_layout
 
 \end_inset
@@ -6331,50 +4064,11 @@ Another and I + another (i) [b]
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-He and I want it.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-
-\backslash
-checkmark{}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Yes
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-1-13
+He and I want it.
 \end_layout
 
 \end_inset
@@ -6417,38 +4111,11 @@ Another + another and me
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-He wants him and me.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" bottomline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-1-13
+He wants him and me.
 \end_layout
 
 \end_inset
@@ -6465,33 +4132,6 @@ He wants him and me.
 \end_inset
 </cell>
 <cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6565,38 +4205,11 @@ Another and I + them (a)
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-He and I see them.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-No
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-1-13
+He and I see them.
 \end_layout
 
 \end_inset
@@ -6639,38 +4252,11 @@ Another and I + them (i)
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-He and I see them.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-No
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-1-13
+He and I see them.
 \end_layout
 
 \end_inset
@@ -6713,38 +4299,11 @@ Another and I + them (i) [b]
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-He and I want them.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-No
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-1-13
+He and I want them.
 \end_layout
 
 \end_inset
@@ -6787,38 +4346,11 @@ They + another and me.
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-They see him and me.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-No
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" bottomline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-1-13
+They see him and me.
 \end_layout
 
 \end_inset
@@ -6835,33 +4367,6 @@ No
 \end_inset
 </cell>
 <cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6935,38 +4440,11 @@ They and I + another (a)
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-They and I see him.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-No
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-1-13
+They and I see him.
 \end_layout
 
 \end_inset
@@ -7009,38 +4487,11 @@ They and I + another (i)
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-They and I see it.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-No
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-1-13
+They and I see it.
 \end_layout
 
 \end_inset
@@ -7083,50 +4534,11 @@ They and I + another (i) [b]
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-They and I want it.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-
-\backslash
-checkmark{}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Yes
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-1-13
+They and I want it.
 \end_layout
 
 \end_inset
@@ -7169,38 +4581,11 @@ Another + them and me.
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-He wants them and me.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" bottomline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-1-13
+He wants them and me.
 \end_layout
 
 \end_inset
@@ -7217,33 +4602,6 @@ He wants them and me.
 \end_inset
 </cell>
 <cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7317,38 +4675,11 @@ They and I + them (a)
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-They and I see them.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-No
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-1-13
+They and I see them.
 \end_layout
 
 \end_inset
@@ -7391,38 +4722,11 @@ They and I + them (i)
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-They and I see them.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-No
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-1-13
+They and I see them.
 \end_layout
 
 \end_inset
@@ -7465,38 +4769,11 @@ They and I + them (i) [b]
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-They and I want them.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-No
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-1-13
+They and I want them.
 \end_layout
 
 \end_inset
@@ -7539,38 +4816,11 @@ They + them and me.
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-They see them and me.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-No
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" bottomline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-1-13
+They see them and me.
 \end_layout
 
 \end_inset
@@ -7587,33 +4837,6 @@ No
 \end_inset
 </cell>
 <cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7687,38 +4910,11 @@ Another + another (a)
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 He sees him.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-No
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-1-7
 \end_layout
 
 \end_inset
@@ -7761,38 +4957,11 @@ Another + another (i)
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-He sees it.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-1-7
+He sees it.
 \end_layout
 
 \end_inset
@@ -7835,38 +5004,11 @@ Another + another (i) [b]
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-He wants it.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-No
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" bottomline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-1-7
+He wants it.
 \end_layout
 
 \end_inset
@@ -7901,33 +5043,6 @@ No
 \end_inset
 </cell>
 <cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7983,38 +5098,11 @@ They + another (a)
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 They see him.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-No
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-1-7
 \end_layout
 
 \end_inset
@@ -8057,38 +5145,11 @@ They + another (i)
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-They see it.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-1-7
+They see it.
 \end_layout
 
 \end_inset
@@ -8131,38 +5192,11 @@ They + another (i) [b]
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-They want it.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-No
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-1-7
+They want it.
 \end_layout
 
 \end_inset
@@ -8205,38 +5239,11 @@ Another + them (a)
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-He wants them.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Yes
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-1-8
+He wants them.
 \end_layout
 
 \end_inset
@@ -8279,38 +5286,11 @@ Another + them (i)
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-He wants them.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-1-8
+He wants them.
 \end_layout
 
 \end_inset
@@ -8353,50 +5333,11 @@ You all and I + them (i) [b]
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-You all and I want them.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-
-\backslash
-checkmark{}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-1-13
+You all and I want them.
 \end_layout
 
 \end_inset
@@ -8439,38 +5380,11 @@ Another + them (i) [b]
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-He wants them.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-No
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" bottomline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-1-8
+He wants them.
 \end_layout
 
 \end_inset
@@ -8487,33 +5401,6 @@ No
 \end_inset
 </cell>
 <cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -8587,38 +5474,11 @@ They + them (a)
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-They see them.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-No
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-1-8
+They see them.
 \end_layout
 
 \end_inset
@@ -8661,38 +5521,11 @@ They + them (i)
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-They see them.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-1-8
+They see them.
 \end_layout
 
 \end_inset
@@ -8735,38 +5568,11 @@ They + them (i) [b]
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-They want them.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-No
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" bottomline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-1-8
+They want them.
 \end_layout
 
 \end_inset
@@ -8815,9 +5621,8 @@ begin{landscape}
 \noindent
 \align center
 \begin_inset Tabular
-<lyxtabular version="3" rows="13" columns="7">
+<lyxtabular version="3" rows="13" columns="6">
 <features rotate="0" islongtable="true" longtabularalignment="center">
-<column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
@@ -8879,15 +5684,6 @@ Indefinite Subject+Object Pairings.
 \end_inset
 </cell>
 <cell multicolumn="2" alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -8960,17 +5756,6 @@ English
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size small
-Ambiguous
-\end_layout
-
-\end_inset
-</cell>
 </row>
 <row>
 <cell alignment="left" valignment="top" usebox="none">
@@ -8983,15 +5768,6 @@ Ambiguous
 \end_inset
 </cell>
 <cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -9083,15 +5859,6 @@ I am being seen.
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
 \begin_inset Text
 
@@ -9144,15 +5911,6 @@ One(s) who + you and me
 
 \begin_layout Plain Layout
 You and I are being seen.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
 \end_layout
 
 \end_inset
@@ -9213,15 +5971,6 @@ He and I are being seen.
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" rightline="true" usebox="none">
 \begin_inset Text
 
@@ -9274,15 +6023,6 @@ One(s) who + you all and me
 
 \begin_layout Plain Layout
 You all and I are being seen.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
 \end_layout
 
 \end_inset
@@ -9343,15 +6083,6 @@ They and I are being seen.
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" rightline="true" usebox="none">
 \begin_inset Text
 
@@ -9404,15 +6135,6 @@ One(s) who + you (one)
 
 \begin_layout Plain Layout
 You are being seen.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
 \end_layout
 
 \end_inset
@@ -9473,15 +6195,6 @@ You two are being seen.
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" rightline="true" usebox="none">
 \begin_inset Text
 
@@ -9534,15 +6247,6 @@ One(s) who + you all
 
 \begin_layout Plain Layout
 You all are being seen.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
 \end_layout
 
 \end_inset
@@ -9603,15 +6307,6 @@ He is being seen.
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" rightline="true" usebox="none">
 \begin_inset Text
 
@@ -9664,15 +6359,6 @@ One(s) who + them
 
 \begin_layout Plain Layout
 They are being seen.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
 \end_layout
 
 \end_inset
@@ -9730,9 +6416,8 @@ begin{landscape}
 \noindent
 \align center
 \begin_inset Tabular
-<lyxtabular version="3" rows="18" columns="7">
+<lyxtabular version="3" rows="18" columns="6">
 <features rotate="0" islongtable="true" longtabularalignment="center">
-<column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
@@ -9794,15 +6479,6 @@ Reflexive Pairings.
 \end_inset
 </cell>
 <cell multicolumn="2" alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -9875,17 +6551,6 @@ English
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size small
-Ambiguous
-\end_layout
-
-\end_inset
-</cell>
 </row>
 <row>
 <cell alignment="left" valignment="top" usebox="none">
@@ -9898,15 +6563,6 @@ Ambiguous
 \end_inset
 </cell>
 <cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -10008,15 +6664,6 @@ I see myself.
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
 \begin_inset Text
 
@@ -10069,15 +6716,6 @@ I + me [b]
 
 \begin_layout Plain Layout
 I want myself.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
 \end_layout
 
 \end_inset
@@ -10138,15 +6776,6 @@ He and I see ourselves.
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" rightline="true" usebox="none">
 \begin_inset Text
 
@@ -10199,15 +6828,6 @@ They and I + ourselves
 
 \begin_layout Plain Layout
 They and I see ourselves.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
 \end_layout
 
 \end_inset
@@ -10268,15 +6888,6 @@ They and I want ourselves.
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" rightline="true" usebox="none">
 \begin_inset Text
 
@@ -10329,15 +6940,6 @@ You all + yourselves
 
 \begin_layout Plain Layout
 You all see yourselves.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
 \end_layout
 
 \end_inset
@@ -10398,15 +7000,6 @@ You see yourself.
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" rightline="true" usebox="none">
 \begin_inset Text
 
@@ -10459,15 +7052,6 @@ You + yourself [b]
 
 \begin_layout Plain Layout
 You want yourself.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
 \end_layout
 
 \end_inset
@@ -10528,15 +7112,6 @@ You two see yourselves.
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" rightline="true" usebox="none">
 \begin_inset Text
 
@@ -10589,15 +7164,6 @@ You and I + ourselves
 
 \begin_layout Plain Layout
 You and I see ourselves.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
 \end_layout
 
 \end_inset
@@ -10658,15 +7224,6 @@ You and I want ourselves.
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" rightline="true" usebox="none">
 \begin_inset Text
 
@@ -10719,15 +7276,6 @@ You all and I + ourselves
 
 \begin_layout Plain Layout
 You all and I see ourselves.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
 \end_layout
 
 \end_inset
@@ -10788,15 +7336,6 @@ You all and I see ourselves.
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" rightline="true" usebox="none">
 \begin_inset Text
 
@@ -10849,15 +7388,6 @@ Another and I + ourselves.
 
 \begin_layout Plain Layout
 He and I see ourselves.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
 \end_layout
 
 \end_inset
@@ -10915,15 +7445,6 @@ Another and I + ourselves.
 
 \begin_layout Plain Layout
 He and I want ourselves.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
 \end_layout
 
 \end_inset
@@ -11019,11 +7540,141 @@ Past, Reportative, Future Progressive, Pluperfect, Habitual, Infinitive,
 \end_layout
 
 \begin_layout Section
-Creating descriptive words - 
+ᎤᏩᏒ, himself \SpecialChar \ldots{}
+
+\end_layout
+
+\begin_layout Description
+ᎠᏋᏒ 
 \begin_inset Quotes eld
 \end_inset
 
--Ꭵ⁴Ꭲ
+Myself.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+ᏨᏒ 
+\begin_inset Quotes eld
+\end_inset
+
+Thyself.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+ᎤᏩᏒ 
+\begin_inset Quotes eld
+\end_inset
+
+Himself.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+ᎩᏅᏒ 
+\begin_inset Quotes eld
+\end_inset
+
+Ourselves.
+ (Your one self and myself.)
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+ᎣᎩᏅᏒ 
+\begin_inset Quotes eld
+\end_inset
+
+Ourselves.
+ (Himself and myself.)
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+ᏍᏛᏒ 
+\begin_inset Quotes eld
+\end_inset
+
+Your two selves.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+ᎤᏅᏒ 
+\begin_inset Quotes eld
+\end_inset
+
+Themselves.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+ᎢᎬᏒ 
+\begin_inset Quotes eld
+\end_inset
+
+Ourselves.
+ (Your all selves and myself.)
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+ᎣᎬᏒ 
+\begin_inset Quotes eld
+\end_inset
+
+Ourselves.
+ (Themself and myself.)
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+ᎢᏨᏒ 
+\begin_inset Quotes eld
+\end_inset
+
+Yourselves.
+ (Your all selves.)
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+ᎤᏅᏒ 
+\begin_inset Quotes eld
+\end_inset
+
+Themselves.
 \begin_inset Quotes erd
 \end_inset
 
@@ -11031,20 +7682,669 @@ Creating descriptive words -
 \end_layout
 
 \begin_layout Standard
-If you want to be able to describe something based on a state of being,
- like 
+
+\emph on
+\begin_inset space \hfill{}
+\end_inset
+
+Cherokee Messenger
+\emph default
+, pg 12
+\end_layout
+
+\begin_layout Section
+-ᎥᎩ, -ᎥᎢ, -Ꭵ, -ᎡᎢ
+\end_layout
+
+\begin_layout Standard
+The following shows the final suffixes 
+\emph on
+-vgi
+\emph default
+, 
+\emph on
+-vi
+\emph default
+, 
+\emph on
+-v
+\emph default
+, 
+\emph on
+-ei
+\emph default
+ as they were used in 1844.
+ Even though it is not reflected in a lot of modern teaching materials,
+ there are communities which still use the -ᎥᎩ suffix.
+\end_layout
+
+\begin_layout Description
+-Ꭵ [-v] 
 \begin_inset Quotes eld
 \end_inset
 
-jumpy
+did or was doing
 \begin_inset Quotes erd
 \end_inset
 
- for 
+
+\end_layout
+
+\begin_layout Description
+-ᎥᎩ [-vgi] 
 \begin_inset Quotes eld
 \end_inset
 
-jumping
+did or was doing (with my personal knowledge or consciousness)
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+-ᎡᎢ [-ei] 
+\begin_inset Quotes eld
+\end_inset
+
+did or was doing (without my personal knowledge or consciousness)
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+-ᎥᎢ [-vi] 
+\begin_inset Quotes eld
+\end_inset
+
+his doing (already done)
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\emph on
+(This form should be treated as a noun in the text.)
+\end_layout
+
+\begin_layout Subsection
+Examples:
+\end_layout
+
+\begin_layout Itemize
+ᎧᏁᎪᎢ - 
+\begin_inset Quotes eld
+\end_inset
+
+He is usually or on certain occasions speaking.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+ᎧᏁᎬ - 
+\begin_inset Quotes eld
+\end_inset
+
+He was speaking.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+ᎧᏁᎬᎩ - 
+\begin_inset Quotes eld
+\end_inset
+
+He was speaking (with my personal knowledge or consciousness).
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+ᎧᏁᎨᎢ - 
+\begin_inset Quotes eld
+\end_inset
+
+He was speaking (without my personal knowledge or consciousness).
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+ᎧᏁᎬᎢ - 
+\begin_inset Quotes eld
+\end_inset
+
+His word (that he was speaking).
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\emph on
+(This form should be treated as a noun.)
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+ᎤᏁᏨ - 
+\begin_inset Quotes eld
+\end_inset
+
+He spoke.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+ᎤᏁᏦᎢ - 
+\begin_inset Quotes eld
+\end_inset
+
+He has spoken (habitually or on certain occasions).
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+ᎤᏁᏨᎩ - 
+\begin_inset Quotes eld
+\end_inset
+
+He spoke (with my personal knowledge or consciousness).
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+ᎤᏁᏤᎢ - 
+\begin_inset Quotes eld
+\end_inset
+
+He spoke (without my personal knowledge or consciousness).
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+ᎤᏁᏤᏍᏗ - 
+\begin_inset Quotes eld
+\end_inset
+
+He will have spoke.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+ᎤᏁᏨᎢ - 
+\begin_inset Quotes eld
+\end_inset
+
+His word (that he spoke).
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\emph on
+(This form should be treated as a noun.)
+\end_layout
+
+\end_deeper
+\begin_layout Section
+ᎨᏒᎢ, ᎨᏐᎢ \SpecialChar \ldots{}
+
+\end_layout
+
+\begin_layout Standard
+The following indicates the main meanings for some of the more common forms
+ of 
+\begin_inset Quotes eld
+\end_inset
+
+is
+\begin_inset Quotes erd
+\end_inset
+
+ as found in the text.
+\end_layout
+
+\begin_layout Description
+ᎨᏒ 
+\begin_inset Quotes eld
+\end_inset
+
+was
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+ᎨᏐᎢ 
+\begin_inset Quotes eld
+\end_inset
+
+is usually, is under certain conditions
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+ᎨᏒᎩ 
+\begin_inset Quotes eld
+\end_inset
+
+was (with personal knowledge, or consciousness)
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+ᎨᏎᎢ 
+\begin_inset Quotes eld
+\end_inset
+
+was (without personal knowledge, or consciousness)
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+ᎨᏎᏍᏗ 
+\begin_inset Quotes eld
+\end_inset
+
+will be
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+ᎨᏒᎢ 
+\begin_inset Quotes eld
+\end_inset
+
+being
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+ᎤᏤᎵ, his \SpecialChar \ldots{}
+
+\end_layout
+
+\begin_layout Description
+ᎠᏆᏤᎵ 
+\begin_inset Quotes eld
+\end_inset
+
+Mine.
+ (It.)
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Description
+ᏗᏆᏤᎵ 
+\begin_inset Quotes eld
+\end_inset
+
+Mine.
+ (Them.)
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Description
+ᏣᏤᎵ 
+\begin_inset Quotes eld
+\end_inset
+
+Your ones.
+ (It.)
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Description
+ᏗᏣᏤᎵ 
+\begin_inset Quotes eld
+\end_inset
+
+Your ones.
+ (Them.)
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Description
+ᎤᏤᎵ 
+\begin_inset Quotes eld
+\end_inset
+
+His.
+ (It.)
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Description
+ᏧᏤᎵ 
+\begin_inset Quotes eld
+\end_inset
+
+His.
+ (Them.)
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Description
+ᎩᎾᏤᎵ 
+\begin_inset Quotes eld
+\end_inset
+
+Ours.
+ (Your one's and mine.) (It.)
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Description
+ᏗᎩᎾᏤᎵ 
+\begin_inset Quotes eld
+\end_inset
+
+Ours.
+ (Your one's and mine.) (Them.)
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Description
+ᎣᎩᎾᏤᎵ 
+\begin_inset Quotes eld
+\end_inset
+
+Ours.
+ (His and mine.) (It.)
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Description
+ᏦᎩᎾᏤᎵ 
+\begin_inset Quotes eld
+\end_inset
+
+Ours.
+ (His and mine.) (Them.)
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Description
+ᏍᏓᏤᎵ 
+\begin_inset Quotes eld
+\end_inset
+
+Your twos.
+ (It.)
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Description
+ᏗᏍᏓᏤᎵ 
+\begin_inset Quotes eld
+\end_inset
+
+Your twos.
+ (Them.)
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Description
+ᎤᎾᏤᎵ 
+\begin_inset Quotes eld
+\end_inset
+
+Theirs.
+ (It.)
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Description
+ᏧᎾᏤᎵ 
+\begin_inset Quotes eld
+\end_inset
+
+Theirs.
+ (Them.)
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Description
+ᎢᎦᏤᎵ 
+\begin_inset Quotes eld
+\end_inset
+
+Ours.
+ (Your alls and mine.) (It.)
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Description
+ᏗᎦᏤᎵ 
+\begin_inset Quotes eld
+\end_inset
+
+Ours.
+ (Your alls and mine.) (Them.)
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Description
+ᎣᎦᏤᎵ 
+\begin_inset Quotes eld
+\end_inset
+
+Ours.
+ (Theirs and mine.) (It.)
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Description
+ᏦᎦᏤᎵ 
+\begin_inset Quotes eld
+\end_inset
+
+Ours.
+ (Theirs and mine.) (Them.)
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Description
+ᎢᏣᏤᎵ 
+\begin_inset Quotes eld
+\end_inset
+
+Your alls.
+ (It.)
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Description
+ᏗᏣᏤᎵ 
+\begin_inset Quotes eld
+\end_inset
+
+Your alls.
+ (Them.)
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Description
+ᎤᎾᏤᎵ 
+\begin_inset Quotes eld
+\end_inset
+
+Theirs.
+ (It.)
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Description
+ᏧᎾᏤᎵ 
+\begin_inset Quotes eld
+\end_inset
+
+Theirs.
+ (Them.)
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+The suffix 
+\begin_inset Quotes eld
+\end_inset
+
+-ga
+\begin_inset Quotes erd
+\end_inset
+
+ can be added to indicate 
+\begin_inset Quotes eld
+\end_inset
+
+positively
+\begin_inset Quotes erd
+\end_inset
+
+ and the suffix 
+\begin_inset Quotes eld
+\end_inset
+
+-gaya
+\begin_inset Quotes erd
+\end_inset
+
+ can be indicated to indicate 
+\begin_inset Quotes eld
+\end_inset
+
+really
 \begin_inset Quotes erd
 \end_inset
 
@@ -11052,132 +8352,111 @@ jumping
 \begin_inset Quotes eld
 \end_inset
 
-hungry
-\begin_inset Quotes erd
-\end_inset
-
- for 
-\begin_inset Quotes eld
-\end_inset
-
-is hungry
-\begin_inset Quotes erd
-\end_inset
-
-, you can often take the 
-\emph on
-Past Tense
-\emph default
- form and use the suffix 
-\begin_inset Quotes eld
-\end_inset
-
--Ꭵ⁴Ꭲ
+truly positively
 \begin_inset Quotes erd
 \end_inset
 
 .
- These new word forms use the 
-\begin_inset Quotes eld
-\end_inset
 
-Ꮧ-
-\begin_inset Quotes erd
-\end_inset
-
- prefix rules for making plurals and must be inflected for person.
- The word order normally reverses as the new word with the 
-\begin_inset Quotes eld
-\end_inset
-
--Ꭵ⁴Ꭲ
-\begin_inset Quotes erd
-\end_inset
-
- suffix is a descriptive word and normally goes in front of what it is describin
-g.
- 
 \emph on
-Keeping the 
+ The suffix 
 \begin_inset Quotes eld
 \end_inset
 
-⁴
+-ga
 \begin_inset Quotes erd
 \end_inset
 
- tone is very important.
+ seems to be a variation on 
+\begin_inset Quotes eld
+\end_inset
+
+-ka
+\begin_inset Quotes erd
+\end_inset
+
+ (more) and 
+\begin_inset Quotes eld
+\end_inset
+
+-ya
+\begin_inset Quotes erd
+\end_inset
+
+ seems to be 
+\begin_inset Quotes eld
+\end_inset
+
+-yai
+\begin_inset Quotes erd
+\end_inset
+
+ (truly, purely)
 \end_layout
 
-\begin_layout Standard
-Examples:
-\end_layout
+\begin_layout Description
+ᎠᏆᏤᎵ 
+\begin_inset Quotes eld
+\end_inset
 
-\begin_layout Itemize
-ᏧᎳ ᎤᏔᏕᎦᏁ.
- The fox was thirsty.
-\end_layout
+Mine.
+\begin_inset Quotes erd
+\end_inset
 
-\begin_deeper
-\begin_layout Itemize
-ᎤᏔᏕᎦᏅᎢ ᏧᎳ.
- The thirsty fox.
-\end_layout
 
-\begin_layout Itemize
-ᏧᏂᏔᏕᎦᏅᎢ ᏧᎳ.
- The thirsty foxes.
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-ᎠᏧᏣ ᎤᏲᏏᏍᎨ.
- The boy was hungry.
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-ᎤᏲᏏᏍᎬᎢ ᎠᏧᏣ.
- The hungry boy.
-\end_layout
-
-\begin_layout Itemize
-ᏧᏂᏲᏏᏍᎬᎢ ᎠᏂᏧᏣ.
- The hungry boys.
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-ᏣᎵᏘᏎ.
- You escaped.
- You ran away.
 \end_layout
 
 \begin_deeper
-\begin_layout Itemize
-ᏣᎵᏘᏒᎢ ᏂᎯ.
- You appear flighty.
- You look like you want to run away.
+\begin_layout Description
+ᎠᏆᏤᎵᎦ 
+\begin_inset Quotes eld
+\end_inset
+
+Positively mine.
+\begin_inset Quotes erd
+\end_inset
+
+, 
+\begin_inset Quotes eld
+\end_inset
+
+More mine.
+\begin_inset Quotes erd
+\end_inset
+
+
 \end_layout
 
-\end_deeper
-\begin_layout Itemize
-ᎦᏚ ᎤᏩᏚᏁ.
- He baked the bread.
-\end_layout
+\begin_layout Description
+ᎠᏆᏤᎵᎦᏯ 
+\begin_inset Quotes eld
+\end_inset
 
-\begin_deeper
-\begin_layout Itemize
-ᎤᏩᏚᏅᎢ ᎦᏚ.
- Baked bread.
+Really mine.
+\begin_inset Quotes erd
+\end_inset
+
+, 
+\begin_inset Quotes eld
+\end_inset
+
+Truly more mine.
+\begin_inset Quotes erd
+\end_inset
+
+
 \end_layout
 
 \end_deeper
 \begin_layout Standard
 
 \emph on
-While not all verbs can be turned into descriptive words this way, many
- can.
+\begin_inset space \hfill{}
+\end_inset
+
+Cherokee Messenger
+\emph default
+, pp 12-13
 \end_layout
 
 \begin_layout Section
@@ -11412,160 +8691,27 @@ iy-
 \end_layout
 
 \begin_layout Section
-All over (Ambulative) 
-\end_layout
+Able to \SpecialChar \ldots{}
+, Can \SpecialChar \ldots{}
 
-\begin_layout Standard
-To indicate that someone is 
-\begin_inset Quotes eld
-\end_inset
-
-going around and doing
-\begin_inset Quotes erd
-\end_inset
-
- or something is happening or being done 
-\begin_inset Quotes eld
-\end_inset
-
-all over
-\begin_inset Quotes erd
-\end_inset
-
- you take the 
-\noun on
-past tense
-\noun default
- form and add one of the following special endings.
-\end_layout
-
-\begin_layout Description
--ᎢᏙᎭ [-i²³do³²ha] 
-\begin_inset Quotes eld
-\end_inset
-
-is going around and  \SpecialChar \ldots{}
-
-\begin_inset Quotes erd
-\end_inset
-
-
-\end_layout
-
-\begin_layout Description
--ᎢᏙᎸᎢ [-i²³do³²lv²³ɂi] 
-\begin_inset Quotes eld
-\end_inset
-
-went around and \SpecialChar \ldots{}
-
-\begin_inset Quotes erd
-\end_inset
-
-
-\end_layout
-
-\begin_layout Description
--ᎢᏙᎰᎢ [-i²³do³²ho³ɂi] 
-\begin_inset Quotes eld
-\end_inset
-
-habitually goes around and \SpecialChar \ldots{}
--ing
-\begin_inset Quotes erd
-\end_inset
-
-
-\end_layout
-
-\begin_layout Description
--ᎢᏓ [-i²³da] 
-\begin_inset Quotes eld
-\end_inset
-
-let go around and \SpecialChar \ldots{}
-
-\begin_inset Quotes erd
-\end_inset
-
-
-\end_layout
-
-\begin_layout Description
--ᎢᏓᏍᏗ [-i²dạ²sdi] 
-\begin_inset Quotes eld
-\end_inset
-
-to go around and \SpecialChar \ldots{}
- 
-\begin_inset Quotes erd
-\end_inset
-
-
-\end_layout
-
-\begin_layout Section
-Already have \SpecialChar \ldots{}
-
-\end_layout
-
-\begin_layout Standard
-☞ The Ꮒ- prefix can indicate 
-\begin_inset Quotes eld
-\end_inset
-
-
-\emph on
-had already begun
-\begin_inset Quotes erd
-\end_inset
-
-
-\emph default
- or 
-\begin_inset Quotes eld
-\end_inset
-
-
-\emph on
-had already occurred
-\begin_inset Quotes erd
-\end_inset
-
-
-\emph default
- when used with the past tense form.
 \end_layout
 
 \begin_layout Standard
 
 \emph on
-You are indicating a past event happening alongside another past event.
- The events are 
+See also 
 \begin_inset Quotes eld
 \end_inset
 
-beside
+Able to if
 \begin_inset Quotes erd
 \end_inset
 
- or 
+ and 
 \begin_inset Quotes eld
 \end_inset
 
-next to
-\begin_inset Quotes erd
-\end_inset
-
- each other.
-\end_layout
-
-\begin_layout Standard
-This requires a change of the ending to 
-\begin_inset Quotes eld
-\end_inset
-
--oi
+Not able to if
 \begin_inset Quotes erd
 \end_inset
 
@@ -11573,257 +8719,32 @@ This requires a change of the ending to
 \end_layout
 
 \begin_layout Standard
-Examples:
-\end_layout
-
-\begin_layout Itemize
-ᎤᏛᏁᎢ Udvhnei.
- 
+To refer to someone's or something's ability to do something use one of
+ the following combined prefixes on the infinitive form.
+ These prefixes are a combination of 
 \begin_inset Quotes eld
 \end_inset
 
-He/she said it.
+ga-
 \begin_inset Quotes erd
 \end_inset
 
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-ᏄᏛᏃᎢ.
- Nudvhnoi.
- 
-\emph on
-Ni- -udvhn- -oi.
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
+ and an appropropriate 
 \begin_inset Quotes eld
 \end_inset
 
-He/she had already said it.
- He/she was already saying it.
+Set B
 \begin_inset Quotes erd
 \end_inset
 
-
-\end_layout
-
-\end_deeper
-\end_deeper
-\begin_layout Itemize
-ᎤᎨᎢ.
- Ugei.
- He/she ate.
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-ᎠᎩᎪᎲᎢ ᏄᎪᎢ.
- Agigohei nugoi.
- 
-\emph on
-Ni- -ug- -oi.
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-\begin_inset Quotes eld
-\end_inset
-
-When I saw him, he had already eaten.
- When I saw him, he was already eating.
-\begin_inset Quotes erd
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-
-\emph on
-The concept of 
-\begin_inset Quotes eld
-\end_inset
-
-when
-\begin_inset Quotes erd
-\end_inset
-
- is implied because we are talking about a first event in relation to a
- second event.
-\end_layout
-
-\end_deeper
-\end_deeper
-\begin_layout Section
-Already will have \SpecialChar \ldots{}
-
-\end_layout
-
-\begin_layout Standard
-☞ The Ꮒ- prefix can indicate 
-\begin_inset Quotes eld
-\end_inset
-
-
-\emph on
-will have already begun
-\begin_inset Quotes erd
-\end_inset
-
-
-\emph default
- or 
-\emph on
-
-\begin_inset Quotes eld
-\end_inset
-
-will have already occurred
-\begin_inset Quotes erd
-\end_inset
-
-
-\emph default
- when used with the habitual form.
+ bound pronoun.
 \end_layout
 
 \begin_layout Standard
 
 \emph on
-You are indicating a future event happening alongside another future event.
- The events are 
-\begin_inset Quotes eld
-\end_inset
-
-beside
-\begin_inset Quotes erd
-\end_inset
-
- or 
-\begin_inset Quotes eld
-\end_inset
-
-next to
-\begin_inset Quotes erd
-\end_inset
-
- each other.
-\end_layout
-
-\begin_layout Standard
-This requires replacing the 
-\begin_inset Quotes eld
-\end_inset
-
--oi
-\begin_inset Quotes erd
-\end_inset
-
- ending with 
-\begin_inset Quotes eld
-\end_inset
-
--esdi
-\begin_inset Quotes erd
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Standard
-Examples:
-\end_layout
-
-\begin_layout Itemize
-ᎠᏗᏍᎪᎢ Adisgoi.
- He/she usually says it.
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-ᎾᏗᏍᎨᏍᏗ.
- Nadisgesdi.
- 
-\emph on
-Ni- -adisg- -esdi.
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-\begin_inset Quotes eld
-\end_inset
-
-He/she will already be saying it.
- He/she will already have said it.
-\begin_inset Quotes erd
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\end_deeper
-\begin_layout Itemize
-ᎠᎩᏍᎪᎢ.
- Agisgoi.
- He/she usually eats.
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-ᏥᎪᏩᏘᎭ ᎾᎩᏍᎨᏍᏗ.
- Jigowhtiha nagisgesdi.
- 
-\emph on
-Ni- -agisg- -esdi.
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-\begin_inset Quotes eld
-\end_inset
-
-When I see him, he will already be eating.
- When I see him, he will already have eaten.
-\begin_inset Quotes erd
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-
-\emph on
-The concept of 
-\begin_inset Quotes eld
-\end_inset
-
-when
-\begin_inset Quotes erd
-\end_inset
-
- is implied because we are talking about a first event in relation to a
- second event.
-\end_layout
-
-\end_deeper
-\end_deeper
-\begin_layout Section
-Currently able to do \SpecialChar \ldots{}
-
-\end_layout
-
-\begin_layout Standard
-To indicate if someone or something is 
-\emph on
-currently
-\emph default
- able to do something use one of the following combined prefixes on the
- infinitive form.
+There is a noticeable difference between the 1844 Cherokee Messenger (CM)
+ dialect and the Cherokee English Dictionary (CED) dialect.
 \end_layout
 
 \begin_layout Description
@@ -11838,9 +8759,24 @@ I am able to \SpecialChar \ldots{}
 
 
 \emph on
- (ga + agị)
+ (CED)
 \end_layout
 
+\begin_deeper
+\begin_layout Description
+ᎬᎩ- [gv²kị²-] 
+\begin_inset Quotes eld
+\end_inset
+
+I am able to \SpecialChar \ldots{}
+
+\begin_inset Quotes erd
+\end_inset
+
+ (CM)
+\end_layout
+
+\end_deeper
 \begin_layout Description
 ᎦᏣ- [ga²jạ²-] 
 \begin_inset Quotes eld
@@ -11853,7 +8789,99 @@ You are able to \SpecialChar \ldots{}
 
 
 \emph on
- (ga + ja)
+ (CED)
+\end_layout
+
+\begin_deeper
+\begin_layout Description
+ᎨᏣ- [ge²jạ²-] 
+\begin_inset Quotes eld
+\end_inset
+
+You are able to \SpecialChar \ldots{}
+
+\begin_inset Quotes erd
+\end_inset
+
+ (CM)
+\end_layout
+
+\end_deeper
+\begin_layout Description
+ᎬᏩ- [gv²wa²-] 
+\begin_inset Quotes eld
+\end_inset
+
+He is able to \SpecialChar \ldots{}
+
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\emph on
+(CED)
+\end_layout
+
+\begin_deeper
+\begin_layout Description
+ᎬᏩ- [gv²hwa²-] 
+\begin_inset Quotes eld
+\end_inset
+
+He is able to \SpecialChar \ldots{}
+
+\begin_inset Quotes erd
+\end_inset
+
+ (CM)
+\end_layout
+
+\end_deeper
+\begin_layout Description
+ᎦᎩᏂ- [ga²gị²ni²-] 
+\begin_inset Quotes eld
+\end_inset
+
+You and I are able to \SpecialChar \ldots{}
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\emph on
+ (CED)
+\end_layout
+
+\begin_deeper
+\begin_layout Description
+ᎨᎩᏂ- [ge²gị²ni²-] 
+\begin_inset Quotes eld
+\end_inset
+
+You and I are able to \SpecialChar \ldots{}
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\emph on
+ (CM)
+\end_layout
+
+\end_deeper
+\begin_layout Description
+ᎦᏲᎩᏂ- [gạ²yo²gị²ni²-] 
+\begin_inset Quotes eld
+\end_inset
+
+He and I are able to \SpecialChar \ldots{}
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\emph on
+ (CED) (CM)
 \end_layout
 
 \begin_layout Description
@@ -11868,24 +8896,58 @@ You two are able to \SpecialChar \ldots{}
 
 
 \emph on
- (ga + sdi)
+ (CED)
 \end_layout
 
+\begin_deeper
 \begin_layout Description
-ᎦᎩᏂ- [ga²gị²ni²-] 
+ᎨᏍᏗ- [ge²sdi²-] 
 \begin_inset Quotes eld
 \end_inset
 
-You and I are able to \SpecialChar \ldots{}
+You two are able to \SpecialChar \ldots{}
 
 \begin_inset Quotes erd
 \end_inset
 
 
 \emph on
- (ga + gini)
+ (CM)
 \end_layout
 
+\end_deeper
+\begin_layout Description
+ᎦᎩ- [ga²gị²-] 
+\begin_inset Quotes eld
+\end_inset
+
+You all and I are able to \SpecialChar \ldots{}
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\emph on
+ (CED)
+\end_layout
+
+\begin_deeper
+\begin_layout Description
+ᎨᎩ- [ge²gị²-] 
+\begin_inset Quotes eld
+\end_inset
+
+You all and I are able to \SpecialChar \ldots{}
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\emph on
+ (CM)
+\end_layout
+
+\end_deeper
 \begin_layout Description
 ᎦᏥ- [ga¹ji²-] 
 \begin_inset Quotes eld
@@ -11898,22 +8960,39 @@ You all are able to \SpecialChar \ldots{}
 
 
 \emph on
- (ga + iji)
+ (CED)
 \end_layout
 
+\begin_deeper
 \begin_layout Description
-ᎦᏲᎩᏂ- [gạ²yo²gị²ni²-] 
+ᎨᏥ- [ge¹ji²-] 
 \begin_inset Quotes eld
 \end_inset
 
-He and I are able to \SpecialChar \ldots{}
+You all are able to \SpecialChar \ldots{}
 
 \begin_inset Quotes erd
 \end_inset
 
 
 \emph on
- (ga + ogini)
+ (CM)
+\end_layout
+
+\end_deeper
+\begin_layout Description
+ᎬᏩᏂ- [gv²wạ²ni²-] 
+\begin_inset Quotes eld
+\end_inset
+
+They are able to \SpecialChar \ldots{}
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\emph on
+ (CED) (CM)
 \end_layout
 
 \begin_layout Description
@@ -11928,86 +9007,135 @@ They and I are able to \SpecialChar \ldots{}
 
 
 \emph on
- (ga + ogi)
-\end_layout
-
-\begin_layout Description
-ᎬᏩ- [gv²wa²-] 
-\begin_inset Quotes eld
-\end_inset
-
-He is able to \SpecialChar \ldots{}
-
-\begin_inset Quotes erd
-\end_inset
-
- 
-\emph on
-(ga + u)
-\end_layout
-
-\begin_layout Description
-ᎬᏩᏂ- [gv²wạ²ni²-] 
-\begin_inset Quotes eld
-\end_inset
-
-They are able to \SpecialChar \ldots{}
-
-\begin_inset Quotes erd
-\end_inset
-
-
-\emph on
- (ga + uni)
+ (CED) (CM)
 \end_layout
 
 \begin_layout Standard
-Example:
+Examples:
 \end_layout
 
-\begin_layout Itemize
-ᎠᎩᎪᏩᏛᏗ.
- 
-\begin_inset Quotes eld
+\begin_layout Standard
+
+\emph on
+\begin_inset space \hfill{}
 \end_inset
 
-My ability to see it.
-\begin_inset Quotes erd
-\end_inset
-
-
+Cherokee Messenger (CM)
+\emph default
+, pg 96
 \end_layout
 
-\begin_deeper
-\begin_layout Itemize
-ᎬᎩᎪᏩᏛᏗ.
- 
-\begin_inset Quotes eld
+\begin_layout Standard
+
+\emph on
+\begin_inset space \hfill{}
 \end_inset
 
-I am able to see it.
-\begin_inset Quotes erd
-\end_inset
-
-
+Cherokee English Dictionary (CED)
+\emph default
+, pg 321
 \end_layout
 
-\begin_layout Itemize
-Ꮭ ᏱᎬᎩᎪᏩᏛᏗ.
- 
-\begin_inset Quotes eld
-\end_inset
-
-I am not able to see it.
-\begin_inset Quotes erd
-\end_inset
-
-
-\end_layout
-
-\end_deeper
 \begin_layout Section
-Doing Accidentally (Accidental) 
+Able to if , Can if
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+See also 
+\begin_inset Quotes eld
+\end_inset
+
+Able to \SpecialChar \ldots{}
+
+\begin_inset Quotes erd
+\end_inset
+
+ and 
+\begin_inset Quotes eld
+\end_inset
+
+Not able to if
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+For conditional ability, take the 
+\noun on
+Immediate Tense
+\noun default
+ stem and add the prefix 
+\begin_inset Quotes eld
+\end_inset
+
+Ᏼ-
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Examples:
+\end_layout
+
+\begin_layout Itemize
+ᏴᏥᏁᎩ 
+\begin_inset Quotes eld
+\end_inset
+
+I can speak if \SpecialChar \ldots{}
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+ᏴᎯᏁᎩ 
+\begin_inset Quotes eld
+\end_inset
+
+You can speak if \SpecialChar \ldots{}
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+ᏴᎧᏁᎩ 
+\begin_inset Quotes eld
+\end_inset
+
+He/she can speak if \SpecialChar \ldots{}
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+\begin_inset space \hfill{}
+\end_inset
+
+Cherokee Messenger (CM)
+\emph default
+, pg 111
+\end_layout
+
+\begin_layout Section
+Accidentally \SpecialChar \ldots{}
+ (Accidental) 
 \end_layout
 
 \begin_layout Standard
@@ -12084,579 +9212,7 @@ to accidentally \SpecialChar \ldots{}
 \end_layout
 
 \begin_layout Section
-Causing it to happen by direct action (Causative) 
-\end_layout
-
-\begin_layout Standard
-To indicate that something is being caused to happen add one of the following
- special endings to the matching tense stem.
- 
-\noun on
-There is a special pronciation change based on the final sound of the stem
- you are attaching to!
-\end_layout
-
-\begin_layout Standard
-
-\emph on
-The present tense suffix attaches to the present tense stem, the past tense
- suffix attaches to the past tense stem, and so forth.
-\end_layout
-
-\begin_layout Standard
-This suffix only attaches to verbs that do not indicate something or someone
- is in control of what they are doing.
- The suffix can be added to such verbs as 
-\begin_inset Quotes eld
-\end_inset
-
-It is boiling
-\begin_inset Quotes erd
-\end_inset
-
- but cannot be added to such verbs 
-\begin_inset Quotes eld
-\end_inset
-
-He is running
-\begin_inset Quotes erd
-\end_inset
-
-.
- In the 
-\begin_inset Quotes eld
-\end_inset
-
-boiling
-\begin_inset Quotes erd
-\end_inset
-
- case it is an outside force acting upon 
-\begin_inset Quotes eld
-\end_inset
-
-it
-\begin_inset Quotes erd
-\end_inset
-
-.
- In the running case 
-\begin_inset Quotes eld
-\end_inset
-
-he
-\begin_inset Quotes erd
-\end_inset
-
- is already a cause for the running action and any verb that indicates some
- degree of 
-\begin_inset Quotes eld
-\end_inset
-
-to make it
-\begin_inset Quotes erd
-\end_inset
-
- or 
-\begin_inset Quotes eld
-\end_inset
-
-to cause it
-\begin_inset Quotes erd
-\end_inset
-
- should be used instead.
-\end_layout
-
-\begin_layout Subsection*
-S-Form
-\end_layout
-
-\begin_layout Standard
-Use one of the following suffixes if the stem ends with a 
-\begin_inset Quotes eld
-\end_inset
-
-a
-\begin_inset Quotes erd
-\end_inset
-
-, 
-\begin_inset Quotes eld
-\end_inset
-
-e
-\begin_inset Quotes erd
-\end_inset
-
-, 
-\begin_inset Quotes eld
-\end_inset
-
-i
-\begin_inset Quotes erd
-\end_inset
-
-, 
-\begin_inset Quotes eld
-\end_inset
-
-o
-\begin_inset Quotes erd
-\end_inset
-
-, 
-\begin_inset Quotes eld
-\end_inset
-
-u
-\begin_inset Quotes erd
-\end_inset
-
-, 
-\begin_inset Quotes eld
-\end_inset
-
-v
-\begin_inset Quotes erd
-\end_inset
-
-, 
-\begin_inset Quotes eld
-\end_inset
-
-w
-\begin_inset Quotes erd
-\end_inset
-
-, 
-\begin_inset Quotes eld
-\end_inset
-
-y
-\begin_inset Quotes erd
-\end_inset
-
-, 
-\begin_inset Quotes eld
-\end_inset
-
-n
-\begin_inset Quotes erd
-\end_inset
-
-, or 
-\begin_inset Quotes eld
-\end_inset
-
-l
-\begin_inset Quotes erd
-\end_inset
-
- sound.
- 
-\emph on
-These are the soft 
-\begin_inset Quotes eld
-\end_inset
-
-sonorant
-\begin_inset Quotes erd
-\end_inset
-
- sounds.
-\end_layout
-
-\begin_layout Description
--ᏍᏗᎭ [-sdi²ha] 
-\begin_inset Quotes eld
-\end_inset
-
-is causing it to \SpecialChar \ldots{}
-
-\begin_inset Quotes erd
-\end_inset
-
-
-\end_layout
-
-\begin_layout Description
--ᏍᏓᏅᎢ [-sdạ²nv²³ɂi] 
-\begin_inset Quotes eld
-\end_inset
-
-did cause it to \SpecialChar \ldots{}
-
-\begin_inset Quotes erd
-\end_inset
-
-
-\end_layout
-
-\begin_layout Description
--ᏍᏗᏍᎪᎢ [-sdi²sgo³ɂi] 
-\begin_inset Quotes eld
-\end_inset
-
-habitually causes it to be \SpecialChar \ldots{}
--ing
-\begin_inset Quotes erd
-\end_inset
-
-
-\end_layout
-
-\begin_layout Description
--ᏍᏓ [-sda] 
-\begin_inset Quotes eld
-\end_inset
-
-let cause it to \SpecialChar \ldots{}
-
-\begin_inset Quotes erd
-\end_inset
-
-
-\end_layout
-
-\begin_layout Description
--ᏍᏙᏗ [-sdọ²di] 
-\begin_inset Quotes eld
-\end_inset
-
-to cause it to \SpecialChar \ldots{}
-
-\begin_inset Quotes erd
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsection*
-H-Form
-\end_layout
-
-\begin_layout Standard
-If the stem ends with a 
-\begin_inset Quotes eld
-\end_inset
-
-d/t
-\begin_inset Quotes erd
-\end_inset
-
-, 
-\begin_inset Quotes eld
-\end_inset
-
-g/k
-\begin_inset Quotes erd
-\end_inset
-
-, 
-\begin_inset Quotes eld
-\end_inset
-
-tl
-\begin_inset Quotes erd
-\end_inset
-
-, 
-\begin_inset Quotes eld
-\end_inset
-
-j/ch
-\begin_inset Quotes erd
-\end_inset
-
-, or 
-\begin_inset Quotes eld
-\end_inset
-
-s
-\begin_inset Quotes erd
-\end_inset
-
- sound then use one of the following suffixes.
- 
-\emph on
-These are the harder 
-\begin_inset Quotes eld
-\end_inset
-
-obstruent
-\begin_inset Quotes erd
-\end_inset
-
- sounds.
-\end_layout
-
-\begin_layout Description
--ᏗᎭ [-hdi²ha] 
-\begin_inset Quotes eld
-\end_inset
-
-is causing it to \SpecialChar \ldots{}
-
-\begin_inset Quotes erd
-\end_inset
-
-
-\end_layout
-
-\begin_layout Description
--ᏓᏅᎢ [-hdạ²nv²³ɂi] 
-\begin_inset Quotes eld
-\end_inset
-
-did cause it to \SpecialChar \ldots{}
-
-\begin_inset Quotes erd
-\end_inset
-
-
-\end_layout
-
-\begin_layout Description
--ᏗᏍᎪᎢ [-hdi²sgo³ɂi] 
-\begin_inset Quotes eld
-\end_inset
-
-habitually causes it to be \SpecialChar \ldots{}
--ing
-\begin_inset Quotes erd
-\end_inset
-
-
-\end_layout
-
-\begin_layout Description
--Ꮣ [-hda] 
-\begin_inset Quotes eld
-\end_inset
-
-let cause it to \SpecialChar \ldots{}
-
-\begin_inset Quotes erd
-\end_inset
-
-
-\end_layout
-
-\begin_layout Description
--ᏙᏗ [-hdọ²di] 
-\begin_inset Quotes eld
-\end_inset
-
-to cause it to \SpecialChar \ldots{}
-
-\begin_inset Quotes erd
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\emph on
-When this set is used, an ending 
-\begin_inset Quotes eld
-\end_inset
-
-d
-\begin_inset Quotes erd
-\end_inset
-
- becomes 
-\begin_inset Quotes eld
-\end_inset
-
-t
-\begin_inset Quotes erd
-\end_inset
-
-, an ending 
-\begin_inset Quotes eld
-\end_inset
-
-g
-\begin_inset Quotes erd
-\end_inset
-
- becomes 
-\begin_inset Quotes eld
-\end_inset
-
-k
-\begin_inset Quotes erd
-\end_inset
-
-, , and an ending 
-\begin_inset Quotes eld
-\end_inset
-
-j
-\begin_inset Quotes erd
-\end_inset
-
- becomes 
-\begin_inset Quotes eld
-\end_inset
-
-ch
-\begin_inset Quotes erd
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Section
-In order to \SpecialChar \ldots{}
- (Venitive)
-\end_layout
-
-\begin_layout Standard
-To indicate that someone came or went in order to do something.
-\end_layout
-
-\begin_layout Description
--ᎢᎦ [-i³ga] 
-\begin_inset Quotes eld
-\end_inset
-
-is coming in order to \SpecialChar \ldots{}
-
-\begin_inset Quotes erd
-\end_inset
-
-
-\end_layout
-
-\begin_layout Description
--ᎢᎸᎢ [-i²³ḥlv²³ɂi] 
-\begin_inset Quotes eld
-\end_inset
-
-came in order to \SpecialChar \ldots{}
-
-\begin_inset Quotes erd
-\end_inset
-
- 
-\emph on
-This is a soft 
-\begin_inset Quotes eld
-\end_inset
-
-h
-\begin_inset Quotes erd
-\end_inset
-
- and does not cause lv (Ꮈ) to become hlv (Ꮲ).
-\end_layout
-
-\begin_layout Description
--ᎢᎯᎰᎢ [-i²³hị³ho³ɂi] 
-\begin_inset Quotes eld
-\end_inset
-
-habitually comes in order to \SpecialChar \ldots{}
-
-\begin_inset Quotes erd
-\end_inset
-
-
-\end_layout
-
-\begin_layout Description
--ᎢᎦ [-i²ga] 
-\begin_inset Quotes eld
-\end_inset
-
-let come in order to \SpecialChar \ldots{}
-
-\begin_inset Quotes erd
-\end_inset
-
-
-\end_layout
-
-\begin_layout Description
--ᎢᏍᏗ [-ị²sdi] 
-\begin_inset Quotes eld
-\end_inset
-
-to come in order to \SpecialChar \ldots{}
-
-\begin_inset Quotes erd
-\end_inset
-
-
-\end_layout
-
-\begin_layout Section
-Is about to \SpecialChar \ldots{}
- (Pre-Incipient)
-\end_layout
-
-\begin_layout Standard
-To indicate that something is about to take place.
-\end_layout
-
-\begin_layout Description
--ᎢᏗ [-Ꭲ⁴Ꮧ] 
-\begin_inset Quotes eld
-\end_inset
-
-is coming in order to \SpecialChar \ldots{}
-
-\begin_inset Quotes erd
-\end_inset
-
-
-\end_layout
-
-\begin_layout Description
--ᎢᏗᏒᎢ [-i²di³sv²³ɂi] 
-\begin_inset Quotes eld
-\end_inset
-
-came in order to \SpecialChar \ldots{}
-
-\begin_inset Quotes erd
-\end_inset
-
-
-\end_layout
-
-\begin_layout Description
--ᎢᏗᏍᎪᎢ [-idi³sgo³ɂi] 
-\begin_inset Quotes eld
-\end_inset
-
-habitually comes in order to \SpecialChar \ldots{}
-
-\begin_inset Quotes erd
-\end_inset
-
-
-\end_layout
-
-\begin_layout Description
--ᎢᏕᎾ [-i²de⁴na] 
-\begin_inset Quotes eld
-\end_inset
-
-let come in order to \SpecialChar \ldots{}
-
-\begin_inset Quotes erd
-\end_inset
-
-
-\end_layout
-
-\begin_layout Section
-Doing Again (Duplicative) 
+Again (Duplicative) 
 \end_layout
 
 \begin_layout Standard
@@ -13083,43 +9639,1055 @@ Cherokee Reference Grammer (2015) - Brad Montgomery-Anderson
 \end_layout
 
 \begin_layout Section
-Doing Over and Over (Repetitive) 
+Already have \SpecialChar \ldots{}
+
 \end_layout
 
 \begin_layout Standard
-To indicate that something is being done 
+☞ The Ꮒ- prefix can indicate 
 \begin_inset Quotes eld
 \end_inset
 
-over and over
-\begin_inset Quotes erd
-\end_inset
 
- you take the 
-\noun on
-past tense
-\noun default
- form and add one of the following special endings.
- 
 \emph on
-These endings are only for 
-\begin_inset Quotes eld
-\end_inset
-
-over and over
+had already begun
 \begin_inset Quotes erd
 \end_inset
 
-, not 
+
+\emph default
+ or 
 \begin_inset Quotes eld
 \end_inset
 
-again
+
+\emph on
+had already occurred
+\begin_inset Quotes erd
+\end_inset
+
+
+\emph default
+ when used with the past tense form.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+You are indicating a past event happening alongside another past event.
+ The events are 
+\begin_inset Quotes eld
+\end_inset
+
+beside
+\begin_inset Quotes erd
+\end_inset
+
+ or 
+\begin_inset Quotes eld
+\end_inset
+
+next to
+\begin_inset Quotes erd
+\end_inset
+
+ each other.
+\end_layout
+
+\begin_layout Standard
+This requires a change of the ending to 
+\begin_inset Quotes eld
+\end_inset
+
+-oi
 \begin_inset Quotes erd
 \end_inset
 
 .
- Uses 
+\end_layout
+
+\begin_layout Standard
+Examples:
+\end_layout
+
+\begin_layout Itemize
+ᎤᏛᏁᎢ Udvhnei.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+He/she said it.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+ᏄᏛᏃᎢ.
+ Nudvhnoi.
+ 
+\emph on
+Ni- -udvhn- -oi.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Quotes eld
+\end_inset
+
+He/she had already said it.
+ He/she was already saying it.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+ᎤᎨᎢ.
+ Ugei.
+ He/she ate.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+ᎠᎩᎪᎲᎢ ᏄᎪᎢ.
+ Agigohei nugoi.
+ 
+\emph on
+Ni- -ug- -oi.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Quotes eld
+\end_inset
+
+When I saw him, he had already eaten.
+ When I saw him, he was already eating.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+The concept of 
+\begin_inset Quotes eld
+\end_inset
+
+when
+\begin_inset Quotes erd
+\end_inset
+
+ is implied because we are talking about a first event in relation to a
+ second event.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Section
+Already will have \SpecialChar \ldots{}
+
+\end_layout
+
+\begin_layout Standard
+☞ The Ꮒ- prefix can indicate 
+\begin_inset Quotes eld
+\end_inset
+
+
+\emph on
+will have already begun
+\begin_inset Quotes erd
+\end_inset
+
+
+\emph default
+ or 
+\emph on
+
+\begin_inset Quotes eld
+\end_inset
+
+will have already occurred
+\begin_inset Quotes erd
+\end_inset
+
+
+\emph default
+ when used with the habitual form.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+You are indicating a future event happening alongside another future event.
+ The events are 
+\begin_inset Quotes eld
+\end_inset
+
+beside
+\begin_inset Quotes erd
+\end_inset
+
+ or 
+\begin_inset Quotes eld
+\end_inset
+
+next to
+\begin_inset Quotes erd
+\end_inset
+
+ each other.
+\end_layout
+
+\begin_layout Standard
+This requires replacing the 
+\begin_inset Quotes eld
+\end_inset
+
+-oi
+\begin_inset Quotes erd
+\end_inset
+
+ ending with 
+\begin_inset Quotes eld
+\end_inset
+
+-esdi
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Examples:
+\end_layout
+
+\begin_layout Itemize
+ᎠᏗᏍᎪᎢ Adisgoi.
+ He/she usually says it.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+ᎾᏗᏍᎨᏍᏗ.
+ Nadisgesdi.
+ 
+\emph on
+Ni- -adisg- -esdi.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Quotes eld
+\end_inset
+
+He/she will already be saying it.
+ He/she will already have said it.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+ᎠᎩᏍᎪᎢ.
+ Agisgoi.
+ He/she usually eats.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+ᏥᎪᏩᏘᎭ ᎾᎩᏍᎨᏍᏗ.
+ Jigowhtiha nagisgesdi.
+ 
+\emph on
+Ni- -agisg- -esdi.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Quotes eld
+\end_inset
+
+When I see him, he will already be eating.
+ When I see him, he will already have eaten.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+The concept of 
+\begin_inset Quotes eld
+\end_inset
+
+when
+\begin_inset Quotes erd
+\end_inset
+
+ is implied because we are talking about a first event in relation to a
+ second event.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Section
+Apt to \SpecialChar \ldots{}
+ Likely \SpecialChar \ldots{}
+
+\end_layout
+
+\begin_layout Standard
+Take the 
+\noun on
+past tense
+\noun default
+ form and add one of the following suffixes..
+ 
+\emph on
+Uses 
+\begin_inset Quotes eld
+\end_inset
+
+Set B
+\begin_inset Quotes erd
+\end_inset
+
+ pronouns.
+\end_layout
+
+\begin_layout Description
+-ᎠᏔ 
+\begin_inset Quotes eld
+\end_inset
+
+is apt to \SpecialChar \ldots{}
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+-ᎠᏛ 
+\begin_inset Quotes eld
+\end_inset
+
+was apt to \SpecialChar \ldots{}
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Description
+-ᎠᏛᎩ 
+\begin_inset Quotes eld
+\end_inset
+
+was (consciously) apt to \SpecialChar \ldots{}
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+-ᎠᏕᎢ 
+\begin_inset Quotes eld
+\end_inset
+
+was (unconsciously) apt to \SpecialChar \ldots{}
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Description
+-ᎠᏙᎢ 
+\begin_inset Quotes eld
+\end_inset
+
+habitually is apt to \SpecialChar \ldots{}
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Description
+-ᎠᏖᏍᏗ 
+\begin_inset Quotes eld
+\end_inset
+
+will be apt to \SpecialChar \ldots{}
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Description
+-ᎠᏛᎢ 
+\begin_inset Quotes eld
+\end_inset
+
+aptness to \SpecialChar \ldots{}
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Causing \SpecialChar \ldots{}
+ (Instrumental) 
+\end_layout
+
+\begin_layout Standard
+To indicate that something is being caused to happen add one of the following
+ special endings to the matching tense stem.
+ 
+\noun on
+There is a special pronciation change based on the final sound of the stem
+ you are attaching to!
+\end_layout
+
+\begin_layout Standard
+This suffix only attaches to verbs that do not indicate something or someone
+ doing for themselves.
+ This suffix can not be used on verbs such as 
+\begin_inset Quotes eld
+\end_inset
+
+He is running
+\begin_inset Quotes erd
+\end_inset
+
+.
+ In such cases a verb that indicates some degree of 
+\begin_inset Quotes eld
+\end_inset
+
+to make it
+\begin_inset Quotes erd
+\end_inset
+
+, 
+\begin_inset Quotes eld
+\end_inset
+
+to cause it
+\begin_inset Quotes erd
+\end_inset
+
+, or 
+\begin_inset Quotes eld
+\end_inset
+
+to motivate it
+\begin_inset Quotes erd
+\end_inset
+
+ should be used instead.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Note: The present tense suffix attaches to the present tense stem, the past
+ tense suffix attaches to the past tense stem, and so forth.
+\end_layout
+
+\begin_layout Subsection*
+S-Form
+\end_layout
+
+\begin_layout Standard
+Use one of the following suffixes if the stem ends with a 
+\begin_inset Quotes eld
+\end_inset
+
+a
+\begin_inset Quotes erd
+\end_inset
+
+, 
+\begin_inset Quotes eld
+\end_inset
+
+e
+\begin_inset Quotes erd
+\end_inset
+
+, 
+\begin_inset Quotes eld
+\end_inset
+
+i
+\begin_inset Quotes erd
+\end_inset
+
+, 
+\begin_inset Quotes eld
+\end_inset
+
+o
+\begin_inset Quotes erd
+\end_inset
+
+, 
+\begin_inset Quotes eld
+\end_inset
+
+u
+\begin_inset Quotes erd
+\end_inset
+
+, 
+\begin_inset Quotes eld
+\end_inset
+
+v
+\begin_inset Quotes erd
+\end_inset
+
+, 
+\begin_inset Quotes eld
+\end_inset
+
+w
+\begin_inset Quotes erd
+\end_inset
+
+, 
+\begin_inset Quotes eld
+\end_inset
+
+y
+\begin_inset Quotes erd
+\end_inset
+
+, 
+\begin_inset Quotes eld
+\end_inset
+
+n
+\begin_inset Quotes erd
+\end_inset
+
+, or 
+\begin_inset Quotes eld
+\end_inset
+
+l
+\begin_inset Quotes erd
+\end_inset
+
+ sound.
+ 
+\emph on
+These are the soft 
+\begin_inset Quotes eld
+\end_inset
+
+sonorant
+\begin_inset Quotes erd
+\end_inset
+
+ sounds.
+\end_layout
+
+\begin_layout Description
+-ᏍᏗᎭ [-sdi²ha] 
+\begin_inset Quotes eld
+\end_inset
+
+is causing it to \SpecialChar \ldots{}
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+-ᏍᏓᏅᎢ [-sdạ²nv²³ɂi] 
+\begin_inset Quotes eld
+\end_inset
+
+did cause it to \SpecialChar \ldots{}
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+-ᏍᏗᏍᎪᎢ [-sdi²sgo³ɂi] 
+\begin_inset Quotes eld
+\end_inset
+
+habitually causes it to be \SpecialChar \ldots{}
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+-ᏍᏓ [-sda] 
+\begin_inset Quotes eld
+\end_inset
+
+let cause it to \SpecialChar \ldots{}
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+-ᏍᏙᏗ [-sdọ²di] 
+\begin_inset Quotes eld
+\end_inset
+
+to cause it to \SpecialChar \ldots{}
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+H-Form
+\end_layout
+
+\begin_layout Standard
+If the stem ends with a 
+\begin_inset Quotes eld
+\end_inset
+
+d/t
+\begin_inset Quotes erd
+\end_inset
+
+, 
+\begin_inset Quotes eld
+\end_inset
+
+g/k
+\begin_inset Quotes erd
+\end_inset
+
+, 
+\begin_inset Quotes eld
+\end_inset
+
+tl
+\begin_inset Quotes erd
+\end_inset
+
+, 
+\begin_inset Quotes eld
+\end_inset
+
+j/ch
+\begin_inset Quotes erd
+\end_inset
+
+, or 
+\begin_inset Quotes eld
+\end_inset
+
+s
+\begin_inset Quotes erd
+\end_inset
+
+ sound then use one of the following suffixes.
+ 
+\emph on
+These are the harder 
+\begin_inset Quotes eld
+\end_inset
+
+obstruent
+\begin_inset Quotes erd
+\end_inset
+
+ sounds.
+\end_layout
+
+\begin_layout Description
+-ᏗᎭ [-hdi²ha] 
+\begin_inset Quotes eld
+\end_inset
+
+is causing it to \SpecialChar \ldots{}
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+-ᏓᏅᎢ [-hdạ²nv²³ɂi] 
+\begin_inset Quotes eld
+\end_inset
+
+did cause it to \SpecialChar \ldots{}
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+-ᏗᏍᎪᎢ [-hdi²sgo³ɂi] 
+\begin_inset Quotes eld
+\end_inset
+
+habitually causes it to be \SpecialChar \ldots{}
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+-Ꮣ [-hda] 
+\begin_inset Quotes eld
+\end_inset
+
+let cause it to \SpecialChar \ldots{}
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+-ᏙᏗ [-hdọ²di] 
+\begin_inset Quotes eld
+\end_inset
+
+to cause it to \SpecialChar \ldots{}
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+When this set is used, an ending 
+\begin_inset Quotes eld
+\end_inset
+
+d
+\begin_inset Quotes erd
+\end_inset
+
+ becomes 
+\begin_inset Quotes eld
+\end_inset
+
+t
+\begin_inset Quotes erd
+\end_inset
+
+, an ending 
+\begin_inset Quotes eld
+\end_inset
+
+g
+\begin_inset Quotes erd
+\end_inset
+
+ becomes 
+\begin_inset Quotes eld
+\end_inset
+
+k
+\begin_inset Quotes erd
+\end_inset
+
+, , and an ending 
+\begin_inset Quotes eld
+\end_inset
+
+j
+\begin_inset Quotes erd
+\end_inset
+
+ becomes 
+\begin_inset Quotes eld
+\end_inset
+
+ch
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section
+Completely\SpecialChar \ldots{}
+ To finality \SpecialChar \ldots{}
+ (Completive) 
+\end_layout
+
+\begin_layout Standard
+To indicate that 
+\begin_inset Quotes eld
+\end_inset
+
+about in various places
+\begin_inset Quotes erd
+\end_inset
+
+ take the 
+\noun on
+past tense
+\noun default
+ form and add one of the following special endings.
+\end_layout
+
+\begin_layout Description
+-ᎣᎲᏍᎦ [-ọ²hṿ³sga] 
+\begin_inset Quotes eld
+\end_inset
+
+is completely \SpecialChar \ldots{}
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+-ᎣᏅᎢ [-ọ²hnv²³ɂi] 
+\begin_inset Quotes eld
+\end_inset
+
+did completely \SpecialChar \ldots{}
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+-ᎣᎲᏍᎪᎢ [-ọ²hṿ³sgo³ɂi] 
+\begin_inset Quotes eld
+\end_inset
+
+habitually \SpecialChar \ldots{}
+ with completion
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+-ᎣᎿ [-ọ²hna] 
+\begin_inset Quotes eld
+\end_inset
+
+let completely \SpecialChar \ldots{}
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+-ᎣᎲᏍᏗ [-ọ²hṿ²sdi] 
+\begin_inset Quotes eld
+\end_inset
+
+to completely \SpecialChar \ldots{}
+ 
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Confirmingly \SpecialChar \ldots{}
+, Intensely \SpecialChar \ldots{}
+ (Perfective or Intensive) 
+\end_layout
+
+\begin_layout Standard
+To indicate doing it confirmingly.
+ 
+\emph on
+Use the endings for 
+\begin_inset Quotes eld
+\end_inset
+
+Again \SpecialChar \ldots{}
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Come in order to \SpecialChar \ldots{}
+ (Approaching)
+\end_layout
+
+\begin_layout Standard
+To indicate that someone came 
+\emph on
+approaching
+\emph default
+ the point of view in order to do something.
+\end_layout
+
+\begin_layout Description
+-ᎢᎦ [-i³ga] 
+\begin_inset Quotes eld
+\end_inset
+
+is coming in order to \SpecialChar \ldots{}
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+-ᎢᎸᎢ [-i²³ḥlv²³ɂi] 
+\begin_inset Quotes eld
+\end_inset
+
+came in order to \SpecialChar \ldots{}
+
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\emph on
+This is a soft 
+\begin_inset Quotes eld
+\end_inset
+
+h
+\begin_inset Quotes erd
+\end_inset
+
+ and does not cause lv (Ꮈ) to become hlv (Ꮲ).
+\end_layout
+
+\begin_layout Description
+-ᎢᎯᎰᎢ [-i²³hị³ho³ɂi] 
+\begin_inset Quotes eld
+\end_inset
+
+habitually comes in order to \SpecialChar \ldots{}
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+-ᎢᎦ [-i²ga] 
+\begin_inset Quotes eld
+\end_inset
+
+let come in order to \SpecialChar \ldots{}
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+-ᎢᏍᏗ [-ị²sdi] 
+\begin_inset Quotes eld
+\end_inset
+
+to come in order to \SpecialChar \ldots{}
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Conditional Indicative Future \SpecialChar \ldots{}
+ Weak Imperative \SpecialChar \ldots{}
+
+\end_layout
+
+\begin_layout Standard
+Take the 
+\noun on
+past tense
+\noun default
+ form and add 
+\begin_inset Quotes eld
+\end_inset
+
+-ᎥᎭ
+\begin_inset Quotes erd
+\end_inset
+
+.
+ 
+\emph on
+Uses 
 \begin_inset Quotes eld
 \end_inset
 
@@ -13135,16 +10703,32 @@ Set B
 \begin_inset Quotes erd
 \end_inset
 
- prefixes as parent verb.
+ as parent verb.
+\end_layout
+
+\begin_layout Standard
+This form is used to indicate a 
+\emph on
+conditional
+\emph default
+ future factual statement or to express the desire for something to happen
+ in a non-commanding way.
 \end_layout
 
 \begin_layout Description
--ᎢᎶᎠ [-i²³lọ³ɂa] 
+ᏥᏁᏨᎭ 
 \begin_inset Quotes eld
 \end_inset
 
-is \SpecialChar \ldots{}
- over and over
+I will or shall speak
+\begin_inset Quotes erd
+\end_inset
+
+, 
+\begin_inset Quotes eld
+\end_inset
+
+Let it become that I will speak.
 \begin_inset Quotes erd
 \end_inset
 
@@ -13152,12 +10736,19 @@ is \SpecialChar \ldots{}
 \end_layout
 
 \begin_layout Description
--ᎢᎶᎥᎢ [-i²³lọ³v²³ɂi] 
+ᎯᏁᏨᎭ 
 \begin_inset Quotes eld
 \end_inset
 
-did \SpecialChar \ldots{}
- over and over
+You will or shall speak
+\begin_inset Quotes erd
+\end_inset
+
+, 
+\begin_inset Quotes eld
+\end_inset
+
+Let it become that you will or shall speak.
 \begin_inset Quotes erd
 \end_inset
 
@@ -13165,227 +10756,144 @@ did \SpecialChar \ldots{}
 \end_layout
 
 \begin_layout Description
--ᎢᎶᏍᎪᎢ [-i²³lo³²sgo³ɂi] 
+ᎧᏁᏨᎭ 
 \begin_inset Quotes eld
 \end_inset
 
-habitually \SpecialChar \ldots{}
--ing over and over
+He/she will or shall speak
+\begin_inset Quotes erd
+\end_inset
+
+, 
+\begin_inset Quotes eld
+\end_inset
+
+Let it become that he/she will or shall speak.
 \begin_inset Quotes erd
 \end_inset
 
 
 \end_layout
 
-\begin_layout Description
--ᎢᎶᏣ [-i²lo²³ja] 
-\begin_inset Quotes eld
-\end_inset
+\begin_layout Standard
 
-let \SpecialChar \ldots{}
- over and over
-\begin_inset Quotes erd
+\emph on
+\begin_inset Note Comment
+status collapsed
+
+\begin_layout Plain Layout
+This section needs much better examples.
+ The Cherokee Messenger merely states:
+\emph on
+ This form may be used as a conditional future tense of the Indicative Mood,
+ or as a mild expression of the Imperative Mood.
+\end_layout
+
 \end_inset
 
 
 \end_layout
 
-\begin_layout Description
--ᎢᎶᏍᏗ [-i²³lo³²sdi] 
-\begin_inset Quotes eld
-\end_inset
-
-to \SpecialChar \ldots{}
- over and over
-\begin_inset Quotes erd
+\begin_layout Standard
+\begin_inset space \hfill{}
 \end_inset
 
 
+\emph on
+Cherokee Messenger,
+\emph default
+ pg 96
 \end_layout
 
 \begin_layout Section
-Doing for \SpecialChar \ldots{}
-, Doing to \SpecialChar \ldots{}
- (Applicative)
-\end_layout
-
-\begin_layout Standard
-To indicate that something is being done to someone else or being done for
- someone else, you take the 
-\noun on
-past tense
-\noun default
- form and add one of the following special 
+Creating descriptive words - 
 \begin_inset Quotes eld
 \end_inset
 
-doing for
+-Ꭵ⁴Ꭲ
 \begin_inset Quotes erd
 \end_inset
 
- endings.
+
+\end_layout
+
+\begin_layout Standard
+If you want to be able to describe something based on a state of being,
+ like 
+\begin_inset Quotes eld
+\end_inset
+
+jumpy
+\begin_inset Quotes erd
+\end_inset
+
+ for 
+\begin_inset Quotes eld
+\end_inset
+
+jumping
+\begin_inset Quotes erd
+\end_inset
+
+ or 
+\begin_inset Quotes eld
+\end_inset
+
+hungry
+\begin_inset Quotes erd
+\end_inset
+
+ for 
+\begin_inset Quotes eld
+\end_inset
+
+is hungry
+\begin_inset Quotes erd
+\end_inset
+
+, you can often take the 
+\emph on
+Past Tense
+\emph default
+ form and use the suffix 
+\begin_inset Quotes eld
+\end_inset
+
+-Ꭵ⁴Ꭲ
+\begin_inset Quotes erd
+\end_inset
+
+.
+ These new word forms use the 
+\begin_inset Quotes eld
+\end_inset
+
+Ꮧ-
+\begin_inset Quotes erd
+\end_inset
+
+ prefix rules for making plurals and must be inflected for person.
+ The word order normally reverses as the new word with the 
+\begin_inset Quotes eld
+\end_inset
+
+-Ꭵ⁴Ꭲ
+\begin_inset Quotes erd
+\end_inset
+
+ suffix is a descriptive word and normally goes in front of what it is describin
+g.
  
-\end_layout
-
-\begin_layout Standard
-
 \emph on
-You should only use pronouns that indicate animate to animate relationships
- when using this ending.
-\end_layout
-
-\begin_layout Description
--ᎡᎭ [-eha] 
+Keeping the 
 \begin_inset Quotes eld
 \end_inset
 
-is doing for \SpecialChar \ldots{}
- is doing to \SpecialChar \ldots{}
-
+⁴
 \begin_inset Quotes erd
 \end_inset
 
-
-\end_layout
-
-\begin_layout Description
--Ꮟ [-si] 
-\begin_inset Quotes eld
-\end_inset
-
-let be doing for \SpecialChar \ldots{}
- let be doing to \SpecialChar \ldots{}
-
-\begin_inset Quotes erd
-\end_inset
-
-
-\end_layout
-
-\begin_layout Description
--ᎡᎵ [-eli] 
-\begin_inset Quotes eld
-\end_inset
-
-just did for \SpecialChar \ldots{}
- just doing to \SpecialChar \ldots{}
-
-\begin_inset Quotes erd
-\end_inset
-
-
-\end_layout
-
-\begin_layout Description
--ᎡᎰᎢ [-ehoi] 
-\begin_inset Quotes eld
-\end_inset
-
-habitually does for \SpecialChar \ldots{}
- habitually does to \SpecialChar \ldots{}
-
-\begin_inset Quotes erd
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Description
--ᎡᎰᎢ [-ehvi] 
-\begin_inset Quotes eld
-\end_inset
-
-was doing for \SpecialChar \ldots{}
- was doing to \SpecialChar \ldots{}
-
-\begin_inset Quotes erd
-\end_inset
-
-
-\end_layout
-
-\begin_layout Description
--ᎡᎮᏍᏗ [-ehesdi] 
-\begin_inset Quotes eld
-\end_inset
-
-will be doing for \SpecialChar \ldots{}
- will be doing to \SpecialChar \ldots{}
-
-\begin_inset Quotes erd
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Description
--ᎡᎸᎢ [-elvi] 
-\begin_inset Quotes eld
-\end_inset
-
-did for \SpecialChar \ldots{}
- did to \SpecialChar \ldots{}
-
-\begin_inset Quotes erd
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Description
--ᎡᎸᎢ [-elv²i] 
-\begin_inset Quotes eld
-\end_inset
-
-later, do it for \SpecialChar \ldots{}
- later, do it to \SpecialChar \ldots{}
-
-\begin_inset Quotes erd
-\end_inset
-
-
-\end_layout
-
-\begin_layout Description
--ᎡᎵ [-eli] 
-\begin_inset Quotes eld
-\end_inset
-
-will do it for \SpecialChar \ldots{}
- will do it to \SpecialChar \ldots{}
-
-\begin_inset Quotes erd
-\end_inset
-
- - 
-\emph on
-Requires the use of the 
-\begin_inset Quotes eld
-\end_inset
-
-Ꮣ-
-\begin_inset Quotes erd
-\end_inset
-
- future prefix.
-\end_layout
-
-\end_deeper
-\begin_layout Description
--ᎡᏗ [-ehdi] 
-\begin_inset Quotes eld
-\end_inset
-
-to do for \SpecialChar \ldots{}
- to do to \SpecialChar \ldots{}
-
-\begin_inset Quotes erd
-\end_inset
-
-
+ tone is very important.
 \end_layout
 
 \begin_layout Standard
@@ -13393,270 +10901,91 @@ Examples:
 \end_layout
 
 \begin_layout Itemize
-ᏄᏛᏁᎸᎢ.
- 
-\begin_inset Quotes eld
-\end_inset
-
-He did it.
-\begin_inset Quotes erd
-\end_inset
-
-
+ᏧᎳ ᎤᏔᏕᎦᏁ.
+ The fox was thirsty.
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-ᎾᏆᏛᏁᎴᎭ.
- 
-\begin_inset Quotes eld
-\end_inset
-
-He is doing it for me.
-\begin_inset Quotes erd
-\end_inset
-
-
+ᎤᏔᏕᎦᏅᎢ ᏧᎳ.
+ The thirsty fox.
 \end_layout
 
-\begin_deeper
 \begin_layout Itemize
-
-\emph on
-Ꮒ + ᎠᎩ + ᎤᏛᏁᎸᎢ + ᎡᎭ.
+ᏧᏂᏔᏕᎦᏅᎢ ᏧᎳ.
+ The thirsty foxes.
 \end_layout
 
 \end_deeper
-\end_deeper
 \begin_layout Itemize
-ᏚᏟᏆᏗᏅᏒᎢ.
- 
-\begin_inset Quotes eld
-\end_inset
-
-He turned it over.
-\begin_inset Quotes erd
-\end_inset
-
-
+ᎠᏧᏣ ᎤᏲᏏᏍᎨ.
+ The boy was hungry.
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-ᏙᏓᏣᏟᏆᏗᏅᏎᎵ.
- 
-\begin_inset Quotes eld
-\end_inset
+ᎤᏲᏏᏍᎬᎢ ᎠᏧᏣ.
+ The hungry boy.
+\end_layout
 
-He will turn it over for you.
-\begin_inset Quotes erd
-\end_inset
+\begin_layout Itemize
+ᏧᏂᏲᏏᏍᎬᎢ ᎠᏂᏧᏣ.
+ The hungry boys.
+\end_layout
 
-
+\end_deeper
+\begin_layout Itemize
+ᏣᎵᏘᏎ.
+ You escaped.
+ You ran away.
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-
-\emph on
-Ꮧ + Ꮣ + Ꮳ + ᎤᏟᏆᏗᏅᏒᎢ + ᎡᎵ.
+ᏣᎵᏘᏒᎢ ᏂᎯ.
+ You appear flighty.
+ You look like you want to run away.
 \end_layout
 
 \end_deeper
-\end_deeper
 \begin_layout Itemize
-ᏅᏯ ᎤᎩᏒᎢ.
- 
-\begin_inset Quotes eld
-\end_inset
-
-He got a rock.
-\begin_inset Quotes erd
-\end_inset
-
-
+ᎦᏚ ᎤᏩᏚᏁ.
+ He baked the bread.
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-ᏅᏯ ᏥᎩᏎᎸᎢ.
- 
-\begin_inset Quotes eld
-\end_inset
-
-I got a rock for him.
-\begin_inset Quotes erd
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-
-\emph on
-Ꮵ + ᎤᎩᏒᎢ + ᎡᎸᎢ.
-\end_layout
-
-\end_deeper
-\end_deeper
-\begin_layout Standard
-On some verbs one can add the prefix 
-\begin_inset Quotes eld
-\end_inset
-
-Ꮻ-
-\begin_inset Quotes erd
-\end_inset
-
- to indicate 
-\begin_inset Quotes eld
-\end_inset
-
-to
-\begin_inset Quotes erd
-\end_inset
-
- as in 
-\begin_inset Quotes eld
-\end_inset
-
-towards someone or at someone
-\begin_inset Quotes erd
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Standard
-Example:
-\end_layout
-
-\begin_layout Itemize
-ᏕᎪᏪᎵᎠ.
- 
-\begin_inset Quotes eld
-\end_inset
-
-He is writing them.
-\begin_inset Quotes erd
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-ᏕᎪᏪᎳᏁᎭ.
- 
-\begin_inset Quotes eld
-\end_inset
-
-He is writing them for him.
-\begin_inset Quotes erd
-\end_inset
-
- - 
-\emph on
-ᏕᎪᏪᎳᏅᎢ + ᎡᎭ.
- (Writing them on his behalf.)
-\end_layout
-
-\begin_layout Itemize
-ᏫᏗᎪᏪᎳᏁᎭ.
- 
-\begin_inset Quotes eld
-\end_inset
-
-He is writing them to him.
-\begin_inset Quotes erd
-\end_inset
-
- - 
-\emph on
-Ꮻ + ᏕᎪᏪᎳᏅᎢ + ᎡᎭ.
- (Writing them for him to send to him.)
+ᎤᏩᏚᏅᎢ ᎦᏚ.
+ Baked bread.
 \end_layout
 
 \end_deeper
 \begin_layout Standard
-These endings are also used to indicate 
-\begin_inset Quotes eld
-\end_inset
-
-something bad happening by an unspecified actor to people
-\begin_inset Quotes erd
-\end_inset
-
- when used with verbs that indicate or could indicate something negative
- happening.
-\end_layout
-
-\begin_layout Standard
-Example:
-\end_layout
-
-\begin_layout Itemize
-ᏓᏆᎴᎳ ᎤᏲᏤ.
- 
-\begin_inset Quotes eld
-\end_inset
-
-The car broke.
-\begin_inset Quotes erd
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-ᏓᏆᎴᎳ ᎤᏲᏤᎴ.
- 
-\begin_inset Quotes eld
-\end_inset
-
-The car broke down on him.
-\begin_inset Quotes erd
-\end_inset
-
- - 
-\emph on
-Literally: The car broke for him.
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-ᎤᏲᏨᎢ + ᎡᎸᎢ.
-\end_layout
-
-\end_deeper
-\end_deeper
-\begin_layout Standard
 
 \emph on
-More details can be found in the paper 
-\begin_inset Quotes eld
-\end_inset
-
-Cherokee Grammar Applicative Suffix
-\begin_inset Quotes erd
-\end_inset
-
- published by Dr.
- Wyman Kirk.
+While not all verbs can be turned into descriptive words this way, many
+ can.
 \end_layout
 
 \begin_layout Section
 Going somewhere to \SpecialChar \ldots{}
-, Periodically doing \SpecialChar \ldots{}
- (Andative)
+ (Departing)
 \end_layout
 
 \begin_layout Standard
-To indicate that someone is going somewhere to do something, or that they
- are doing it at intervals.
- 
+To indicate that someone went 
+\emph on
+departing
+\emph default
+ from the point of view in order to do something.
+\end_layout
+
+\begin_layout Standard
+This ending can also be used to indicate doing it at intervals
+\end_layout
+
+\begin_layout Standard
+
 \emph on
 These endings are only used for 
 \begin_inset Quotes eld
@@ -14094,6 +11423,1114 @@ I want him to climb a tree periodically.
 
 \end_deeper
 \end_deeper
+\begin_layout Section
+If about to \SpecialChar \ldots{}
+
+\end_layout
+
+\begin_layout Standard
+Add the prefix 
+\begin_inset Quotes eld
+\end_inset
+
+Ᏹ-
+\begin_inset Quotes erd
+\end_inset
+
+ to any of the 
+\begin_inset Quotes eld
+\end_inset
+
+Is about to
+\begin_inset Quotes erd
+\end_inset
+
+ forms.
+\end_layout
+
+\begin_layout Itemize
+ᏯᎩᏁᏥᏗ.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+If I am about to speak.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+ᏱᏣᏁᏥᏗ.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+If you are about to speak.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+ᏳᏁᏥᏗ.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+If he/she is about to speak.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+If have \SpecialChar \ldots{}
+
+\end_layout
+
+\begin_layout Standard
+Add the prefix 
+\begin_inset Quotes eld
+\end_inset
+
+Ᏹ-
+\begin_inset Quotes erd
+\end_inset
+
+ to any of the
+\begin_inset Quotes eld
+\end_inset
+
+
+\noun on
+Completive Past
+\noun default
+ forms.
+\end_layout
+
+\begin_layout Itemize
+ᏯᎩᏁᏨ.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+If I have spoken.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+ᏯᏣᏁᏨ.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+If you have spoken.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+ᏳᏁᏨ.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+If he/she has spoken.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+If it \SpecialChar \ldots{}
+
+\end_layout
+
+\begin_layout Standard
+Add the prefix 
+\begin_inset Quotes eld
+\end_inset
+
+Ᏹ-
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Examples:
+\end_layout
+
+\begin_layout Itemize
+ᏱᏥᏁᎦ.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+If I speak.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+ᏱᏁᎦ.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+If you speak.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+ᏱᎧᏁᎦ.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+If he/she speaks.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+If it intended to \SpecialChar \ldots{}
+
+\end_layout
+
+\begin_layout Standard
+Add the prefix 
+\begin_inset Quotes eld
+\end_inset
+
+Ᏹ-
+\begin_inset Quotes erd
+\end_inset
+
+ and the 
+\noun on
+Conditional Future
+\noun default
+ suffix 
+\begin_inset Quotes eld
+\end_inset
+
+-ᎢᏎᎢ
+\begin_inset Quotes erd
+\end_inset
+
+ to the 
+\noun on
+Ꮯompletive Future
+\noun default
+ form.
+ Be careful to follow the same pronunciation pattern as illustrated in 
+\emph on
+
+\begin_inset Quotes eld
+\end_inset
+
+If it should with intent (under the condition of) \SpecialChar \ldots{}
+
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+ᏱᏗᏥᏁᏥᏎᎢ.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+If I intended to speak.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+ᏱᏘᏁᏥᏎᎢ.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+If you intended to speak.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+ᏱᏓᎧᏁᏥᏎᎢ.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+If he/she intended to speak.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+If it should (in the future) \SpecialChar \ldots{}
+
+\end_layout
+
+\begin_layout Standard
+Add 
+\begin_inset Quotes eld
+\end_inset
+
+Ᏼ-
+\begin_inset Quotes erd
+\end_inset
+
+ to the 
+\noun on
+Ꮯompletive Future
+\noun default
+ form.
+\end_layout
+
+\begin_layout Standard
+Examples:
+\end_layout
+
+\begin_layout Itemize
+ᏴᏓᏥᏁᏥ.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+If I should speak \SpecialChar \ldots{}
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+ᏴᏘᏁᏥ.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+If you should speak \SpecialChar \ldots{}
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+ᏴᏓᎧᏁᏥ.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+If he/she should speak \SpecialChar \ldots{}
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+If it should with intent (under the condition of) \SpecialChar \ldots{}
+
+\end_layout
+
+\begin_layout Standard
+Add the prefix 
+\begin_inset Quotes eld
+\end_inset
+
+Ᏹ-
+\begin_inset Quotes erd
+\end_inset
+
+ and the 
+\noun on
+Conditional Future
+\noun default
+ suffix 
+\begin_inset Quotes eld
+\end_inset
+
+-ᎢᏐᎢ
+\begin_inset Quotes erd
+\end_inset
+
+ to the 
+\noun on
+Ꮯompletive Future
+\noun default
+ form.
+ 
+\emph on
+Be careful of the pronunciation pattern illustrated with the examples.
+\end_layout
+
+\begin_layout Itemize
+ᏱᏗᏥᏁᏥᏐᎢ.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+If, on the condition of \SpecialChar \ldots{}
+, I will intend to speak.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+(Ᏹ + ᏓᏥᏁᏥ + ᎢᏐᎢ).
+\end_layout
+
+\begin_layout Itemize
+(Ᏹ + Ꮣ + Ꮵ + ᎤᏁᏨᎢ + ᎢᏐᎢ).
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+ᏱᏘᏁᏥᏐᎢ.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+If, on the condition of \SpecialChar \ldots{}
+, you will intend to speak.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+(Ᏹ + ᏘᏁᏥ + ᎢᏐᎢ).
+\end_layout
+
+\begin_layout Itemize
+(Ᏹ + Ꮣ + Ꭿ + ᎤᏁᏨᎢ + ᎢᏐᎢ).
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+ᏱᏓᎧᏁᏥᏐᎢ.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+If, on the condition of \SpecialChar \ldots{}
+, he/she will intend to speak.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+(Ᏹ + ᏓᎧᏁᏥ + ᎢᏐᎢ).
+\end_layout
+
+\begin_layout Itemize
+(Ᏹ + Ꮣ + Ꭷ + ᎤᏁᏨᎢ + ᎢᏐᎢ).
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+ᏱᏗᏂᏁᏥᏐᎢ.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+If, on the condition of \SpecialChar \ldots{}
+, you one and I will intend to speak.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+(Ᏹ + ᏓᏂᏁᏥ + ᎢᏐᎢ)
+\end_layout
+
+\begin_layout Itemize
+(Ᏹ + Ꮣ + ᎢᏂ + ᎤᏁᏨᎢ + ᎢᏐᎢ).
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+ᏴᏓᏲᏍᏗᏁᏥᏐᎢ.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+If, on the condition of \SpecialChar \ldots{}
+, he/she and I will intend to speak.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+(Ᏹ + ᏓᏲᏍᏗᏁᏥ + ᎢᏐᎢ).
+\end_layout
+
+\begin_layout Itemize
+(Ᏹ + Ꮣ + ᎣᏍᏗ + ᎤᏁᏨᎢ + ᎢᏐᎢ).
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+ᏱᏗᏍᏗᏁᏥᏐᎢ.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+If, on the condition of \SpecialChar \ldots{}
+, you two will intend to speak.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+(Ᏹ + ᏓᏍᏗᏁᏥ + ᎢᏐᎢ).
+\end_layout
+
+\begin_layout Itemize
+(Ᏹ + Ꮣ + ᏍᏗ + ᎤᏁᏨᎢ + ᎢᏐᎢ).
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+ᏱᏗᏗᏁᏥᏐᎢ.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+If, on the condition of \SpecialChar \ldots{}
+, you all and I will intend to speak.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+(Ᏹ + ᏓᏗᏁᏥ + ᎢᏐᎢ).
+\end_layout
+
+\begin_layout Itemize
+(Ᏹ + Ꮣ + ᎢᏗ + ᎤᏁᏨᎢ + ᎢᏐᎢ).
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+ᏴᏓᏲᏥᏁᏥᏐᎢ.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+If, on the condition of \SpecialChar \ldots{}
+, they and I will intend to speak.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+(Ᏹ + ᏓᏲᏥᏁᏥ + ᎢᏐᎢ).
+\end_layout
+
+\begin_layout Itemize
+(Ᏹ + Ꮣ + ᎣᏥ + ᎤᏁᏨᎢ + ᎢᏐᎢ).
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+ᏱᏗᏥᏁᏥᏐᎢ.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+If, on the condition of \SpecialChar \ldots{}
+, you all will intend to speak.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+(Ᏹ + ᏓᏥᏁᏥ + ᎢᏐᎢ)
+\end_layout
+
+\begin_layout Itemize
+(Ᏹ + Ꮣ + ᎢᏥ + ᎤᏁᏨᎢ + ᎢᏐᎢ).
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+ᏱᏗᏂᏁᏥᏐᎢ.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+If, on the condition of \SpecialChar \ldots{}
+, they intend to speak.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+(Ᏹ + ᏛᏂᏁᏥ + ᎢᏐᎢ)
+\end_layout
+
+\begin_layout Itemize
+(Ᏹ + Ꮣ + ᎠᏂ + ᎤᏁᏨᎢ + ᎢᏐᎢ).
+\end_layout
+
+\end_deeper
+\begin_layout Section
+If it will be intended to \SpecialChar \ldots{}
+
+\end_layout
+
+\begin_layout Standard
+Add the prefix 
+\begin_inset Quotes eld
+\end_inset
+
+Ᏹ-
+\begin_inset Quotes erd
+\end_inset
+
+ and the 
+\noun on
+Conditional Future
+\noun default
+ suffix 
+\begin_inset Quotes eld
+\end_inset
+
+-ᎢᏎᏍᏗ
+\begin_inset Quotes erd
+\end_inset
+
+ to the 
+\noun on
+Ꮯompletive Future
+\noun default
+ form.
+ Be careful to follow the same pronunciation pattern as illustrated in 
+\emph on
+
+\begin_inset Quotes eld
+\end_inset
+
+If it should with intent (under the condition of) \SpecialChar \ldots{}
+
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+ᏱᏗᏥᏁᏥᏎᏍᏗ.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+If I will intend to speak.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+ᏱᏘᏁᏥᏎᏍᏗ.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+If you will intend to speak.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+ᏱᏓᎧᏁᏥᏎᏍᏗ.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+If he/she will intend to speak.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Intend to \SpecialChar \ldots{}
+ (Imperfect Future Tense)
+\end_layout
+
+\begin_layout Standard
+To indicate 
+\begin_inset Quotes eld
+\end_inset
+
+did will to \SpecialChar \ldots{}
+
+\begin_inset Quotes erd
+\end_inset
+
+ or 
+\begin_inset Quotes eld
+\end_inset
+
+did intend to \SpecialChar \ldots{}
+
+\begin_inset Quotes erd
+\end_inset
+
+ use the ending 
+\begin_inset Quotes eld
+\end_inset
+
+-ᎡᏐᎢ
+\begin_inset Quotes erd
+\end_inset
+
+ on the 
+\noun on
+past tense
+\noun default
+ stem.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Use 
+\begin_inset Quotes eld
+\end_inset
+
+Set A
+\begin_inset Quotes erd
+\end_inset
+
+ or 
+\begin_inset Quotes eld
+\end_inset
+
+Set B
+\begin_inset Quotes erd
+\end_inset
+
+ pronouns as the parent verb.
+\end_layout
+
+\begin_layout Description
+-ᎢᏐᎢ [-i²³so³ɂi] 
+\begin_inset Quotes eld
+\end_inset
+
+Intends to \SpecialChar \ldots{}
+ when \SpecialChar \ldots{}
+ 
+\begin_inset Quotes erd
+\end_inset
+
+.
+ 
+\emph on
+Conditional Future.
+\end_layout
+
+\begin_layout Description
+-ᎢᏒ [-i²³sv] 
+\begin_inset Quotes eld
+\end_inset
+
+Did intend to \SpecialChar \ldots{}
+
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\emph on
+Imperfect Future.
+\end_layout
+
+\begin_deeper
+\begin_layout Description
+-ᎢᏒᎩ [-i²³sv²³gi] 
+\begin_inset Quotes eld
+\end_inset
+
+Did intend to \SpecialChar \ldots{}
+ (with knowledge of)
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\emph on
+Imperfect Future.
+\end_layout
+
+\begin_layout Description
+-ᎢᏎᎢ [-i²³se²³ɂi] 
+\begin_inset Quotes eld
+\end_inset
+
+Did intend to \SpecialChar \ldots{}
+ (without knowledge of)
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\emph on
+Imperfect Future.
+\end_layout
+
+\end_deeper
+\begin_layout Description
+-ᎢᏎᏍᏗ [-i²³sẹ³sdi] 
+\begin_inset Quotes eld
+\end_inset
+
+Will be intending to \SpecialChar \ldots{}
+
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\emph on
+Double Future.
+\end_layout
+
+\begin_layout Description
+-ᎢᏒᎢ [-i²³sv²³ɂi] 
+\begin_inset Quotes eld
+\end_inset
+
+The intention to \SpecialChar \ldots{}
+
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\emph on
+Verbal Noun.
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \hfill{}
+\end_inset
+
+
+\emph on
+Cherokee Messenger
+\emph default
+ pg 32 
+\begin_inset Quotes eld
+\end_inset
+
+Imperfect of the Future Tense
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section
+Is about to \SpecialChar \ldots{}
+ (Immediate Future Tense)
+\end_layout
+
+\begin_layout Standard
+To indicate that something is about to take place.
+ Add the 
+\begin_inset Quotes eld
+\end_inset
+
+-ᎢᏗ
+\begin_inset Quotes erd
+\end_inset
+
+ suffix to the 
+\noun on
+Past Tense
+\noun default
+ form.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Uses 
+\begin_inset Quotes eld
+\end_inset
+
+Set B
+\begin_inset Quotes erd
+\end_inset
+
+ pronouns.
+\end_layout
+
+\begin_layout Description
+-ᎢᏗ [-Ꭲ⁴Ꮧ] 
+\begin_inset Quotes eld
+\end_inset
+
+is just about to \SpecialChar \ldots{}
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+This suffix is combined with 
+\begin_inset Quotes eld
+\end_inset
+
+intending to (-ᎢᏐᎢ)
+\begin_inset Quotes erd
+\end_inset
+
+ to indicate any of the following.
+\end_layout
+
+\begin_layout Description
+-ᎢᏗᏐᎢ [-i²di²³so³ɂi] 
+\begin_inset Quotes eld
+\end_inset
+
+Is just about to \SpecialChar \ldots{}
+ (with intent) when \SpecialChar \ldots{}
+ 
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Description
+-ᎢᏗᏒ [-i²di²³sv] 
+\begin_inset Quotes eld
+\end_inset
+
+Was just about to \SpecialChar \ldots{}
+ (with intent)
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+-ᎢᏗᏎᏍᏗ [-i²di²³sẹ³sdi] 
+\begin_inset Quotes eld
+\end_inset
+
+Will be about to \SpecialChar \ldots{}
+ (with intent)
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+-ᎢᏗᏒᎢ [-i²di²³sv²³ɂi] 
+\begin_inset Quotes eld
+\end_inset
+
+(His) being about to \SpecialChar \ldots{}
+ (with intent)
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\emph on
+Verbal Noun.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+\begin_inset space \hfill{}
+\end_inset
+
+Cherokee Messenger pg 95 
+\begin_inset Quotes eld
+\end_inset
+
+Immediate Future Tense
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Just before \SpecialChar \ldots{}
+ 
+\end_layout
+
+\begin_layout Standard
+This is used to refer to the point of time just before an event.
+\end_layout
+
+\begin_layout Standard
+Use the 
+\noun on
+Immediate Future
+\noun default
+ suffix 
+\begin_inset Quotes eld
+\end_inset
+
+-ᎢᏕᎾ
+\begin_inset Quotes erd
+\end_inset
+
+ and 
+\begin_inset Quotes eld
+\end_inset
+
+Set B
+\begin_inset Quotes erd
+\end_inset
+
+ pronoun prefixes on the 
+\noun on
+Past Tense
+\noun default
+ form.
+\end_layout
+
+\begin_layout Standard
+Examples:
+\end_layout
+
+\begin_layout Itemize
+ᎤᏁᏥᏕᎾ 
+\begin_inset Quotes eld
+\end_inset
+
+Just before he spoke.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+ᎤᎷᏥᏕᎾ 
+\begin_inset Quotes eld
+\end_inset
+
+Just before he came.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+ᎤᏃᎱᎦᏂᏕᎾ 
+\begin_inset Quotes eld
+\end_inset
+
+Just before the flood.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+ᎤᎾᏙᏓᏈᏕᎾ 
+\begin_inset Quotes eld
+\end_inset
+
+Just before the Sabbath.
+ (Saturday)
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+ᎤᎩᏨᏂᏕᎾ 
+\begin_inset Quotes eld
+\end_inset
+
+Just before daylight.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 Is going and doing \SpecialChar \ldots{}
 , Went and did \SpecialChar \ldots{}
@@ -16011,6 +14448,770 @@ Really easy.
 \end_layout
 
 \end_deeper
+\begin_layout Section
+Not able to if , Cannot if
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+See also 
+\begin_inset Quotes eld
+\end_inset
+
+Able to \SpecialChar \ldots{}
+
+\begin_inset Quotes erd
+\end_inset
+
+ and 
+\begin_inset Quotes eld
+\end_inset
+
+Able to if
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+For negative conditional ability, take the 
+\noun on
+Immediate Tense
+\noun default
+ stem and add 
+\begin_inset Quotes eld
+\end_inset
+
+Ꮭ
+\begin_inset Quotes erd
+\end_inset
+
+ and use prefix 
+\begin_inset Quotes eld
+\end_inset
+
+ᏴᎦ-
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Note: ᏴᎦ combines with an Ꭲ sound to become ᏴᎨ-, combines with an Ꭰ sound
+ to become ᏴᎬ-, and combines with an Ꭴ sound to become ᏴᎫ-.
+\end_layout
+
+\begin_layout Standard
+Examples:
+\end_layout
+
+\begin_layout Itemize
+Ꮭ ᏴᎦᏥᏁᎩ 
+\begin_inset Quotes eld
+\end_inset
+
+I cannot speak if \SpecialChar \ldots{}
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Ꮭ ᏴᎦᎯᏁᎩ 
+\begin_inset Quotes eld
+\end_inset
+
+You cannot speak if \SpecialChar \ldots{}
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Ꮭ ᏴᎬᏂᏁᎩ 
+\begin_inset Quotes eld
+\end_inset
+
+They cannot speak if \SpecialChar \ldots{}
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+While 
+\begin_inset Quotes eld
+\end_inset
+
+Ꮭ
+\begin_inset Quotes erd
+\end_inset
+
+ is commonly used with this prefix, its use is not required.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+\begin_inset space \hfill{}
+\end_inset
+
+Cherokee Messenger (CM)
+\emph default
+, pg 111
+\end_layout
+
+\begin_layout Section
+Not is, not was \SpecialChar \ldots{}
+
+\end_layout
+
+\begin_layout Standard
+Use 
+\begin_inset Quotes eld
+\end_inset
+
+Ꮭ
+\begin_inset Quotes erd
+\end_inset
+
+ and add the prefix 
+\begin_inset Quotes eld
+\end_inset
+
+Ᏹ-
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Examples:
+\end_layout
+
+\begin_layout Itemize
+Ꮭ ᏱᏥᏁᎦ.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+I am not speaking.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Ꮭ ᏱᏁᎦ.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+You are not speaking.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Ꮭ ᏱᎧᏁᎦ.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+He/she is not speaking.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Repeatedly (Frequentative) 
+\end_layout
+
+\begin_layout Standard
+To indicate that something is being done 
+\begin_inset Quotes eld
+\end_inset
+
+over and over
+\begin_inset Quotes erd
+\end_inset
+
+ you take the 
+\noun on
+past tense
+\noun default
+ form and add one of the following special endings.
+ 
+\emph on
+These endings are only for 
+\begin_inset Quotes eld
+\end_inset
+
+over and over
+\begin_inset Quotes erd
+\end_inset
+
+, not 
+\begin_inset Quotes eld
+\end_inset
+
+again
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Description
+-ᎢᎶᎠ [-i²³lọ³ɂa] 
+\begin_inset Quotes eld
+\end_inset
+
+is \SpecialChar \ldots{}
+ over and over
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+-ᎢᎶᎥᎢ [-i²³lọ³v²³ɂi] 
+\begin_inset Quotes eld
+\end_inset
+
+did \SpecialChar \ldots{}
+ over and over
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+-ᎢᎶᏍᎪᎢ [-i²³lo³²sgo³ɂi] 
+\begin_inset Quotes eld
+\end_inset
+
+habitually \SpecialChar \ldots{}
+-ing over and over
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+-ᎢᎶᏣ [-i²lo²³ja] 
+\begin_inset Quotes eld
+\end_inset
+
+let \SpecialChar \ldots{}
+ over and over
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+-ᎢᎶᏍᏗ [-i²³lo³²sdi] 
+\begin_inset Quotes eld
+\end_inset
+
+to \SpecialChar \ldots{}
+ over and over
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+To \SpecialChar \ldots{}
+ For \SpecialChar \ldots{}
+ (Dative)
+\end_layout
+
+\begin_layout Standard
+To indicate that something is being done to someone else or being done for
+ someone else, you take the 
+\noun on
+past tense
+\noun default
+ form and add one of the following special 
+\begin_inset Quotes eld
+\end_inset
+
+doing for
+\begin_inset Quotes erd
+\end_inset
+
+ endings.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+You should only use pronouns that indicate animate to animate relationships
+ when using this ending.
+\end_layout
+
+\begin_layout Description
+-ᎡᎭ [-eha] 
+\begin_inset Quotes eld
+\end_inset
+
+is doing for \SpecialChar \ldots{}
+ is doing to \SpecialChar \ldots{}
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+-ᎡᎸᎢ [-elvi] 
+\begin_inset Quotes eld
+\end_inset
+
+did for \SpecialChar \ldots{}
+ did to \SpecialChar \ldots{}
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Description
+-ᎡᎸᎢ [-elv²i] 
+\begin_inset Quotes eld
+\end_inset
+
+later, do it for \SpecialChar \ldots{}
+ later, do it to \SpecialChar \ldots{}
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+-ᎡᎵ [-eli] 
+\begin_inset Quotes eld
+\end_inset
+
+will do it for \SpecialChar \ldots{}
+ will do it to \SpecialChar \ldots{}
+
+\begin_inset Quotes erd
+\end_inset
+
+ - 
+\emph on
+Requires the use of the 
+\begin_inset Quotes eld
+\end_inset
+
+Ꮣ-
+\begin_inset Quotes erd
+\end_inset
+
+ future prefix.
+\end_layout
+
+\end_deeper
+\begin_layout Description
+-ᎡᎰᎢ [-ehoi] 
+\begin_inset Quotes eld
+\end_inset
+
+habitually does for \SpecialChar \ldots{}
+ habitually does to \SpecialChar \ldots{}
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Description
+-ᎡᎰᎢ [-ehvi] 
+\begin_inset Quotes eld
+\end_inset
+
+was doing for \SpecialChar \ldots{}
+ was doing to \SpecialChar \ldots{}
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+-ᎡᎮᏍᏗ [-ehesdi] 
+\begin_inset Quotes eld
+\end_inset
+
+will be doing for \SpecialChar \ldots{}
+ will be doing to \SpecialChar \ldots{}
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Description
+-Ꮟ [-si] 
+\begin_inset Quotes eld
+\end_inset
+
+let be doing for \SpecialChar \ldots{}
+ let be doing to \SpecialChar \ldots{}
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Description
+-ᎡᎵ [-eli] 
+\begin_inset Quotes eld
+\end_inset
+
+just did for \SpecialChar \ldots{}
+ just doing to \SpecialChar \ldots{}
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Description
+-ᎡᏗ [-ehdi] 
+\begin_inset Quotes eld
+\end_inset
+
+to do for \SpecialChar \ldots{}
+ to do to \SpecialChar \ldots{}
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Examples:
+\end_layout
+
+\begin_layout Itemize
+ᏄᏛᏁᎸᎢ.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+He did it.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+ᎾᏆᏛᏁᎴᎭ.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+He is doing it for me.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\emph on
+Ꮒ + ᎠᎩ + ᎤᏛᏁᎸᎢ + ᎡᎭ.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+ᏚᏟᏆᏗᏅᏒᎢ.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+He turned it over.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+ᏙᏓᏣᏟᏆᏗᏅᏎᎵ.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+He will turn it over for you.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\emph on
+Ꮧ + Ꮣ + Ꮳ + ᎤᏟᏆᏗᏅᏒᎢ + ᎡᎵ.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+ᏅᏯ ᎤᎩᏒᎢ.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+He got a rock.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+ᏅᏯ ᏥᎩᏎᎸᎢ.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+I got a rock for him.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\emph on
+Ꮵ + ᎤᎩᏒᎢ + ᎡᎸᎢ.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+On some verbs one can add the prefix 
+\begin_inset Quotes eld
+\end_inset
+
+Ꮻ-
+\begin_inset Quotes erd
+\end_inset
+
+ to indicate 
+\begin_inset Quotes eld
+\end_inset
+
+to
+\begin_inset Quotes erd
+\end_inset
+
+ as in 
+\begin_inset Quotes eld
+\end_inset
+
+towards someone or at someone
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Example:
+\end_layout
+
+\begin_layout Itemize
+ᏕᎪᏪᎵᎠ.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+He is writing them.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+ᏕᎪᏪᎳᏁᎭ.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+He is writing them for him.
+\begin_inset Quotes erd
+\end_inset
+
+ - 
+\emph on
+ᏕᎪᏪᎳᏅᎢ + ᎡᎭ.
+ (Writing them on his behalf.)
+\end_layout
+
+\begin_layout Itemize
+ᏫᏗᎪᏪᎳᏁᎭ.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+He is writing them to him.
+\begin_inset Quotes erd
+\end_inset
+
+ - 
+\emph on
+Ꮻ + ᏕᎪᏪᎳᏅᎢ + ᎡᎭ.
+ (Writing them for him to send to him.)
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+These endings are also used to indicate 
+\begin_inset Quotes eld
+\end_inset
+
+something bad happening by an unspecified actor to people
+\begin_inset Quotes erd
+\end_inset
+
+ when used with verbs that indicate or could indicate something negative
+ happening.
+\end_layout
+
+\begin_layout Standard
+Example:
+\end_layout
+
+\begin_layout Itemize
+ᏓᏆᎴᎳ ᎤᏲᏤ.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+The car broke.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+ᏓᏆᎴᎳ ᎤᏲᏤᎴ.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+The car broke down on him.
+\begin_inset Quotes erd
+\end_inset
+
+ - 
+\emph on
+Literally: The car broke for him.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+ᎤᏲᏨᎢ + ᎡᎸᎢ.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+
+\emph on
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Quotes eld
+\end_inset
+
+Cherokee Grammar Applicative Suffix
+\begin_inset Quotes erd
+\end_inset
+
+ - Dr.
+ Wyman Kirk.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Quotes eld
+\end_inset
+
+Cherokee Messenger
+\begin_inset Quotes erd
+\end_inset
+
+ - pp 143-144.
+\end_layout
+
 \begin_layout Section*
 Without
 \end_layout
@@ -16609,10 +15810,8 @@ one
 Special Vocabulary List
 \end_layout
 
-\begin_layout Standard
-
-\emph on
-The words are listed in Syllabary order, not English order.
+\begin_layout Description
+...
 \end_layout
 
 \begin_layout Standard
