@@ -259,11 +259,11 @@ ISBN: 978-1-xxx-xxxxx-x
 \end_layout
 
 \begin_layout Standard
-$Revision: 1.7 $
+$Revision: 1.8 $
 \end_layout
 
 \begin_layout Standard
-$Date: 2015/08/01 05:49:29 $ UTC
+$Date: 2015/08/01 05:49:51 $ UTC
 \end_layout
 
 \begin_layout Standard
@@ -9030,7 +9030,9 @@ Cherokee English Dictionary (CED)
 \end_layout
 
 \begin_layout Section
-Able to if , Can if
+Able to if \SpecialChar \ldots{}
+, Can if \SpecialChar \ldots{}
+
 \end_layout
 
 \begin_layout Standard
@@ -14425,7 +14427,9 @@ Really easy.
 
 \end_deeper
 \begin_layout Section
-Not able to if , Cannot if
+Not able to if \SpecialChar \ldots{}
+, Cannot if \SpecialChar \ldots{}
+
 \end_layout
 
 \begin_layout Standard
