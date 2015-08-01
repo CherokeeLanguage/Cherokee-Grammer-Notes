@@ -259,11 +259,11 @@ ISBN: 978-1-xxx-xxxxx-x
 \end_layout
 
 \begin_layout Standard
-$Revision: 1.8 $
+$Revision: 1.9 $
 \end_layout
 
 \begin_layout Standard
-$Date: 2015/08/01 05:49:51 $ UTC
+$Date: 2015/08/01 05:51:45 $ UTC
 \end_layout
 
 \begin_layout Standard
@@ -10661,133 +10661,6 @@ to come in order to \SpecialChar \ldots{}
 \end_layout
 
 \begin_layout Section
-Conditional Indicative Future \SpecialChar \ldots{}
- Weak Imperative \SpecialChar \ldots{}
-
-\end_layout
-
-\begin_layout Standard
-
-\emph on
-This form may be used as a conditional future tense of the Indicative Mood,
- or as a mild expression of the Imperative Mood.
-\end_layout
-
-\begin_layout Standard
-Take the 
-\noun on
-past tense
-\noun default
- form and add 
-\begin_inset Quotes eld
-\end_inset
-
--ᎥᎭ
-\begin_inset Quotes erd
-\end_inset
-
-.
- 
-\emph on
-Uses 
-\begin_inset Quotes eld
-\end_inset
-
-Set A
-\begin_inset Quotes erd
-\end_inset
-
- or 
-\begin_inset Quotes eld
-\end_inset
-
-Set B
-\begin_inset Quotes erd
-\end_inset
-
- as parent verb.
-\end_layout
-
-\begin_layout Standard
-This form is used to indicate a 
-\emph on
-conditional
-\emph default
- future factual statement or as a suggestion to do or let.
-\end_layout
-
-\begin_layout Description
-ᏥᏁᏨᎭ 
-\begin_inset Quotes eld
-\end_inset
-
-I will or shall speak
-\begin_inset Quotes erd
-\end_inset
-
-, 
-\begin_inset Quotes eld
-\end_inset
-
-Let it become that I will speak.
-\begin_inset Quotes erd
-\end_inset
-
-
-\end_layout
-
-\begin_layout Description
-ᎯᏁᏨᎭ 
-\begin_inset Quotes eld
-\end_inset
-
-You will or shall speak
-\begin_inset Quotes erd
-\end_inset
-
-, 
-\begin_inset Quotes eld
-\end_inset
-
-Let it become that you will or shall speak.
-\begin_inset Quotes erd
-\end_inset
-
-
-\end_layout
-
-\begin_layout Description
-ᎧᏁᏨᎭ 
-\begin_inset Quotes eld
-\end_inset
-
-He/she will or shall speak
-\begin_inset Quotes erd
-\end_inset
-
-, 
-\begin_inset Quotes eld
-\end_inset
-
-Let it become that he/she will or shall speak.
-\begin_inset Quotes erd
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset space \hfill{}
-\end_inset
-
-
-\emph on
-Cherokee Messenger,
-\emph default
- pg 96
-\end_layout
-
-\begin_layout Section
 Creating descriptive words - 
 \begin_inset Quotes eld
 \end_inset
@@ -15426,6 +15299,138 @@ He/she ate it without baking it.
 \end_deeper
 \end_deeper
 \begin_layout Section
+Would \SpecialChar \ldots{}
+, Should \SpecialChar \ldots{}
+
+\end_layout
+
+\begin_layout Standard
+This form may be used as a conditional future tense of the Indicative Mood
+ (
+\emph on
+would
+\emph default
+), or as a mild expression of the Imperative Mood (
+\emph on
+should
+\emph default
+).
+\end_layout
+
+\begin_layout Standard
+Take the 
+\noun on
+past tense
+\noun default
+ form and add 
+\begin_inset Quotes eld
+\end_inset
+
+-ᎥᎭ
+\begin_inset Quotes erd
+\end_inset
+
+.
+ 
+\emph on
+Uses 
+\begin_inset Quotes eld
+\end_inset
+
+Set A
+\begin_inset Quotes erd
+\end_inset
+
+ or 
+\begin_inset Quotes eld
+\end_inset
+
+Set B
+\begin_inset Quotes erd
+\end_inset
+
+ as parent verb.
+\end_layout
+
+\begin_layout Description
+ᏥᏁᏨᎭ 
+\begin_inset Quotes eld
+\end_inset
+
+I should or would speak
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+ᎯᏁᏨᎭ 
+\begin_inset Quotes eld
+\end_inset
+
+You should or would speak
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+ᎧᏁᏨᎭ 
+\begin_inset Quotes eld
+\end_inset
+
+He/she should or would speak
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Ꭷ, ᎯᎠᏉ ᏂᏪᏒᎭ.
+ (Ꮒ + Ꭿ + ᎤᏪᏒᎢ + ᎥᎭ)
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+ka, just this you should utter.
+\end_layout
+
+\begin_layout Itemize
+say, I pray thee.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+ᎯᎠ ᏄᏪᏎᎢ, ᎾᏍᏉ ᎨᎻᎵ ᏗᏣᏤᎵᎦ ᎠᎹ ᏓᎦᏥᏢᎡᎵ ᎬᏂ ᏓᎾᏗᏔᎰᏅᎭ.
+ (Ꮥ + ᎠᏂ + ᎤᏗᏔᎲᎢ + ᎣᏅ + ᎥᎭ)
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+this uttered, just those camels really of yours, water I will draw for them
+ until they-drink-finishing-would
+\end_layout
+
+\begin_layout Itemize
+and saith, also for thy camels I draw till they have finished drinking
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset space \hfill{}
+\end_inset
+
+
+\emph on
+Cherokee Messenger,
+\emph default
+ pg 96
+\end_layout
+
+\begin_layout Section
 Something already referenced \SpecialChar \ldots{}
 
 \end_layout
@@ -15791,7 +15796,15 @@ Special Vocabulary List
 \end_layout
 
 \begin_layout Description
-...
+ᎬᏂ [] 
+\begin_inset Quotes eld
+\end_inset
+
+Until.
+\begin_inset Quotes erd
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
