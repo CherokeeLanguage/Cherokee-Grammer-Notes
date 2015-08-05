@@ -259,11 +259,11 @@ ISBN: 978-1-xxx-xxxxx-x
 \end_layout
 
 \begin_layout Standard
-$Revision: 1.11 $
+$Revision: 1.12 $
 \end_layout
 
 \begin_layout Standard
-$Date: 2015/08/01 14:57:41 $ UTC
+$Date: 2015/08/01 15:15:19 $ UTC
 \end_layout
 
 \begin_layout Standard
@@ -343,7 +343,7 @@ This document is for the express and limited purpose of facilitating translation
 \end_layout
 
 \begin_layout Chapter
-Grammar
+Grammar 1
 \end_layout
 
 \begin_layout Section
@@ -7532,6 +7532,10 @@ Past, Reportative, Future Progressive, Pluperfect, Habitual, Infinitive,
 -Ꮷ, -Ꭸ, -Ꮎ, -Ꮂ, -ᎢᏏ, -ᏗᎾ, -Ꮫ
 \end_layout
 
+\begin_layout Chapter
+Grammar 2
+\end_layout
+
 \begin_layout Section
 ᎠᏂ, ᎠᎭᏂ, ᎾᎿ, ᎤᎿ, ᎠᎨ 
 \begin_inset Quotes eld
@@ -9152,7 +9156,15 @@ pg 325
 \end_layout
 
 \begin_layout Section
-ᎯᎳ ᎠᏟᎢᎵᏒ? What time is it?
+ᎯᎳ ᎠᏟᎢᎵᏒ? 
+\begin_inset Quotes eld
+\end_inset
+
+What time is it?
+\begin_inset Quotes erd
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -9190,7 +9202,7 @@ What time is it?
 
  - 
 \emph on
-How much is the progression of time? Primarly used in Western speech.
+How much is the progression of time? Primarily used in Western speech.
 \end_layout
 
 \begin_layout Description
@@ -9208,7 +9220,7 @@ What time is it?
 
  - 
 \emph on
-How many times has it struck? Primarly used in Eastern speech.
+How many times has it struck? Primarily used in Eastern speech.
 \end_layout
 
 \begin_layout Standard
@@ -12856,6 +12868,19 @@ Set B
 \end_layout
 
 \begin_layout Description
+-ᎡᎪᎢ [-e³go³ɂi] 
+\begin_inset Quotes eld
+\end_inset
+
+habitually goes somewhere to \SpecialChar \ldots{}
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
 -ᎤᎦ [-u³ga] 
 \begin_inset Quotes eld
 \end_inset
@@ -12883,19 +12908,6 @@ just went somewhere to \SpecialChar \ldots{}
 \end_layout
 
 \end_deeper
-\begin_layout Description
--ᎡᎪᎢ [-e³go³ɂi] 
-\begin_inset Quotes eld
-\end_inset
-
-habitually goes somewhere to \SpecialChar \ldots{}
-
-\begin_inset Quotes erd
-\end_inset
-
-
-\end_layout
-
 \begin_layout Description
 -ᎥᏍᏗ [-v³sdi] 
 \begin_inset Quotes eld
@@ -14015,7 +14027,6 @@ Did intend to \SpecialChar \ldots{}
 Imperfect Future.
 \end_layout
 
-\begin_deeper
 \begin_layout Description
 -ᎢᏒᎩ [-i²³sv²³gi] 
 \begin_inset Quotes eld
@@ -14046,7 +14057,6 @@ Did intend to \SpecialChar \ldots{}
 Imperfect Future.
 \end_layout
 
-\end_deeper
 \begin_layout Description
 -ᎢᏎᏍᏗ [-i²³sẹ³sdi] 
 \begin_inset Quotes eld
@@ -14146,7 +14156,7 @@ is just about to \SpecialChar \ldots{}
 \end_layout
 
 \begin_layout Standard
-This suffix is combined with 
+This suffix is many times combined with 
 \begin_inset Quotes eld
 \end_inset
 
@@ -17019,15 +17029,8 @@ Without
 \end_layout
 
 \begin_layout Standard
-☞ The Ꮒ- prefix can be combined with the special suffix 
-\begin_inset Quotes eld
-\end_inset
-
--v⁴nạ
-\begin_inset Quotes erd
-\end_inset
-
- on past events to create a 
+☞ The Ꮒ- prefix can be combined with the special suffix -ᎥᎾ (-v⁴nạ) on past
+ events to create a 
 \begin_inset Quotes eld
 \end_inset
 
@@ -17038,87 +17041,17 @@ without
  meaning.
 \end_layout
 
-\begin_layout Standard
-
-\emph on
-The high rising tone indicated on the 
-\begin_inset Quotes eld
-\end_inset
-
-v
-\begin_inset Quotes erd
-\end_inset
-
- in 
-\begin_inset Quotes eld
-\end_inset
-
--v⁴nạ
-\begin_inset Quotes erd
-\end_inset
-
- is very important.
-\end_layout
-
-\begin_layout Standard
-This suffix replaces the existing 
-\begin_inset Quotes eld
-\end_inset
-
--vi
-\begin_inset Quotes erd
-\end_inset
-
- or 
-\begin_inset Quotes eld
-\end_inset
-
--ei
-\begin_inset Quotes erd
-\end_inset
-
- ending.
-\end_layout
-
-\begin_layout Standard
-
-\emph on
-The following examples include the use of the word 
-\begin_inset Quotes eld
-\end_inset
-
-asehno
-\begin_inset Quotes erd
-\end_inset
-
- which translates as 
-\begin_inset Quotes eld
-\end_inset
-
-but
-\begin_inset Quotes erd
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Standard
-Examples:
-\end_layout
-
 \begin_layout Itemize
 ᎤᏬᏂᏒᎢ.
- Uwonisvi.
  “He/she spoke.”
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
 ᏄᏬᏂᏒᎾ.
- Nuwonisvna.
  
 \emph on
-Ni- -uwonis- -vna.
+(Ꮒ + ᎤᏬᏂᏒᎢ + ᎥᎾ.)
 \end_layout
 
 \begin_deeper
@@ -17136,7 +17069,6 @@ Without him speaking it.
 \end_deeper
 \begin_layout Itemize
 ᏣᎳᎩ ᏄᏬᏂᏒᎾ ᎤᏬᏂᏎᎢ.
- Jalagi nuwonisvna uwonisei.
 \end_layout
 
 \begin_deeper
@@ -17155,17 +17087,15 @@ He/she spoke without speaking Cherokee.
 \end_deeper
 \begin_layout Itemize
 ᎤᏚᎸᎲᎢ.
- Udulvhvi.
  “He/she wanted him/her/it.”
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
 ᏄᏚᎸᎲᎾ.
- Nudulvhvna.
  
 \emph on
-Ni- -udulvh- -vna.
+(Ꮒ + ᎤᏚᎸᎲᎢ + ᎥᎾ.)
 \end_layout
 
 \begin_deeper
@@ -17183,7 +17113,6 @@ He/she is without want of it.
 \end_deeper
 \begin_layout Itemize
 ᎤᎨᎢ ᏄᏚᎸᎲᎾ.
- Ugei nudulvhvna.
 \end_layout
 
 \begin_deeper
@@ -17201,7 +17130,6 @@ He/she ate it without wantint it.
 \end_deeper
 \begin_layout Itemize
 ᎠᎩᎠ ᏄᏚᎸᎲᎾ.
- Agia nudulvhvna.
 \end_layout
 
 \begin_deeper
@@ -17220,17 +17148,15 @@ He/she is eating it without wanting it.
 \end_deeper
 \begin_layout Itemize
 ᎤᏩᏚᏅᎢ.
- Uwaduhnvi.
  “He/she baked it.”
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
 ᎤᎨᎢ ᏄᏩᏚᏅᎾ.
- Ugei nuwaduhnvna.
  
 \emph on
-Ni- -uwaduhn- -vna.
+(Ꮒ + ᎤᏩᏛᏅᎢ + ᎥᎾ.)
 \end_layout
 
 \begin_deeper
@@ -17938,6 +17864,98 @@ More and Most
 \end_layout
 
 \begin_layout Description
+ᎠᎦᏬᎥᎢ [] 
+\begin_inset Quotes eld
+\end_inset
+
+He was being baptized.
+\begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Description
+ᎠᎦᏬᏐᎢ [] 
+\begin_inset Quotes eld
+\end_inset
+
+He habitually baptized.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+ᎠᎦᏬᎡᎢ
+\end_layout
+
+\begin_layout Description
+ᏗᎨᎦᏬᏍᏗᏱ
+\end_layout
+
+\begin_layout Description
+ᏕᎨᎦᏬᎥᎩ 
+\begin_inset Quotes eld
+\end_inset
+
+They were baptized.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+ᏕᎨᎦᏬᏍᏔᏅᎩ
+\end_layout
+
+\begin_layout Description
+ᏤᎦᏬᎥᎯ
+\begin_inset space ~
+\end_inset
+
+ᎨᏒ 
+\begin_inset Quotes eld
+\end_inset
+
+were baptized to
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+ᏂᎦᏛ
+\begin_inset space ~
+\end_inset
+
+ᏕᎨᎦᏬᏍᎨ 
+\begin_inset Quotes eld
+\end_inset
+
+all were baptized
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Description
 ᎠᏂ [ạ³hni] 
 \begin_inset Quotes eld
 \end_inset
@@ -17960,6 +17978,66 @@ Here.
 \end_inset
 
 
+\end_layout
+
+\end_deeper
+\begin_layout Description
+ᎠᏍᏗ [ạ²sdi] 
+\begin_inset Quotes eld
+\end_inset
+
+Edge of.
+ Boundary of.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Description
+ᎦᏍᏗ [na¹gwa⁴sdi] 
+\begin_inset Quotes eld
+\end_inset
+
+My edge.
+ My boundary.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+-----
+\end_layout
+
+\begin_layout Description
+ᎠᏍᏙᎢ [ạ²sdo³ɂi] 
+\begin_inset Quotes eld
+\end_inset
+
+Its habitual boundary.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+ᎠᏍᏕᏍᏗ [hạ²sde³sdi] 
+\begin_inset Quotes eld
+\end_inset
+
+Let your boundary be.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+-----
 \end_layout
 
 \end_deeper
@@ -18080,96 +18158,30 @@ Toward.
 
 \end_deeper
 \begin_layout Description
+ᎢᏯᏍᏗ [] 
+\begin_inset Quotes eld
+\end_inset
+
+Until.
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\emph on
+Postposition.
+\end_layout
+
+\begin_layout Description
 ᎢᏴᎢ,
 \begin_inset space ~
 \end_inset
 
 ᎢᏴ [ị²yv⁴ɂi, ị²yv⁴] “...
  that time ...
- that is when ...
  that place ...
  that area ...”
 \end_layout
 
-\begin_deeper
-\begin_layout Standard
-The word “ᎢᏴᎢ” is used to refer to the “when” of an event or the “where”
- of an event.
-\end_layout
-
-\begin_layout Standard
-Examples:
-\end_layout
-
-\begin_layout Itemize
-ᎯᎳ ᎢᏴ ᎬᏂᏍᎪ ᎧᏄᎦᏟ?
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-“When do blackberries get ripe?” - At what time, they usually become ripe,
- blackberries?
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-The combination “ᎯᎳ ᎢᏴ” can be understood to mean “At what time?” usually
- expressed in English as “When?”.
-\end_layout
-
-\end_deeper
-\end_deeper
-\begin_layout Itemize
-ᎭᏢ ᎢᏴ ᎤᏞᏎᎢ.
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-“Where did he turn off at?” - Where is that area he turned off?
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-The combination “ᎭᏢ ᎢᏴ” can be understood to be similar in meaning to “Where
- exactly?”
-\end_layout
-
-\end_deeper
-\end_deeper
-\begin_layout Itemize
-ᎠᏂᏍᏆᏂ ᏓᎨᏏ ᎪᎩ ᎢᏴᎢ.
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-“I'm going to Mexico in the summer.” - Mexico, I will go, summer, at that
- time.
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-The combination “ᎪᎯ ᎢᏴᎢ” can be understood to be “summertime”.
-\end_layout
-
-\end_deeper
-\end_deeper
-\begin_layout Itemize
-ᎠᏰᏟ ᎢᏴ ᎠᏰᎸ ᏚᎴᏴᏒᎢ.
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-“He burned half his body.” - Half the area of his body he burned it.
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-The combination “ᎠᏰᏟ ᎢᏴ” can be understood to mean “half the area of”.
-\end_layout
-
-\end_deeper
-\end_deeper
-\end_deeper
 \begin_layout Description
 ᎣᏍᏛ [o⁴sdv] 
 \begin_inset Quotes eld
@@ -18193,6 +18205,103 @@ Good.
 \end_inset
 
 
+\end_layout
+
+\end_deeper
+\begin_layout Description
+ᎤᎵᏂᎬᏁᎭ [xxx] 
+\begin_inset Quotes eld
+\end_inset
+
+He is laboring for another.
+\begin_inset Quotes erd
+\end_inset
+
+ (-ᎡᎭ)
+\end_layout
+
+\begin_deeper
+\begin_layout Description
+ᎠᏆᎵᏂᎬᏁᎭ [xxx] 
+\begin_inset Quotes eld
+\end_inset
+
+I am laboring for another.
+\begin_inset Quotes erd
+\end_inset
+
+ (-ᎡᎭ)
+\end_layout
+
+\begin_layout Description
+ᎤᎵᏂᎬᏁᎸᎢ [xxx] 
+\begin_inset Quotes eld
+\end_inset
+
+He labored for another.
+\begin_inset Quotes erd
+\end_inset
+
+ (-ᎡᎸᎢ)
+\end_layout
+
+\begin_layout Description
+ᎤᎵᏂᎬᏁᎰᎢ [xxx] 
+\begin_inset Quotes eld
+\end_inset
+
+He habitually labors for another.
+\begin_inset Quotes erd
+\end_inset
+
+ (-ᎡᎰᎢ)
+\end_layout
+
+\begin_layout Description
+ᏣᎵᏂᎬᏏ [xxx] 
+\begin_inset Quotes eld
+\end_inset
+
+Let you labor for another.
+\begin_inset Quotes erd
+\end_inset
+
+ [ok] (-Ꮟ)
+\end_layout
+
+\begin_layout Description
+ᎤᎵᏂᎬᏁᏗ [xxx] 
+\begin_inset Quotes eld
+\end_inset
+
+For him to labor for another.
+\begin_inset Quotes erd
+\end_inset
+
+ [ok] (-ᎡᏗ)
+\end_layout
+
+\end_deeper
+\begin_layout Description
+ᎤᏬᎯᏨᎢ [] 
+\begin_inset Quotes eld
+\end_inset
+
+For some time (it happened).
+ For some days (it happened).
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\emph on
+This verb's subject is a verb indicating an action.
+ This appears to be a verb that acts as an adverb.
+ ᎤᏬᎯᏤ, ᎤᏬᎯᏨ, ᏄᏬᎯᏨ, ᏄᏬᎯᏨᎾ, ᏄᏬᎯᏨᎯ
 \end_layout
 
 \end_deeper
@@ -18246,6 +18355,18 @@ Until.
 \end_inset
 
  (? Ꭶ + ᎠᏂ: specific point in time + here)
+\end_layout
+
+\begin_layout Description
+ᎬᏂᎨᏒᎢ [kv²hnị³ge¹sv⁴ɂi] 
+\begin_inset Quotes eld
+\end_inset
+
+In view.
+\begin_inset Quotes erd
+\end_inset
+
+
 \end_layout
 
 \begin_layout Description
@@ -18328,6 +18449,122 @@ A cause for becoming.
 
 \end_layout
 
+\begin_layout Description
+ᏄᏍᏗ [nu⁴sdi] 
+\begin_inset Quotes eld
+\end_inset
+
+His, its way.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Description
+ᎾᏆᏍᏗ [na¹gwa⁴sdi] 
+\begin_inset Quotes eld
+\end_inset
+
+My way.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+-----
+\end_layout
+
+\begin_layout Description
+ᏄᏍᏙᎢ [nu⁴sdo²³ɂi] 
+\begin_inset Quotes eld
+\end_inset
+
+His habitual way.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+ᏂᏣᏍᏕᏍᏗ [nị²ja⁴sdesdi] 
+\begin_inset Quotes eld
+\end_inset
+
+Let your way be.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+ᎢᏳᏍᏗ [ị²yu⁴sdi] 
+\begin_inset Quotes eld
+\end_inset
+
+For his way to be
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Description
+ᎢᏳᏍᏗ [ị²yu⁴sdi] 
+\begin_inset Quotes eld
+\end_inset
+
+Like.
+\begin_inset Quotes erd
+\end_inset
+
+ (CED)
+\end_layout
+
+\begin_layout Description
+ᎤᏍᏗᏳ [usdiyu] (nr)  
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+phantomsection{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "n9"
+
+\end_inset
+
+
+\begin_inset Quotes eld
+\end_inset
+
+Place to look.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Description
+ᎠᎩᏍᏗᏳ [a¹gịsdiyu]
+\end_layout
+
+\end_deeper
 \begin_layout Standard
 \begin_inset Newpage cleardoublepage
 \end_inset
