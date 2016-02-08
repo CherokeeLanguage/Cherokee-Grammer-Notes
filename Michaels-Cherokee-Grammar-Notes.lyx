@@ -259,11 +259,11 @@ ISBN: 978-1-xxx-xxxxx-x
 \end_layout
 
 \begin_layout Standard
-$Revision: 1.17 $
+$Revision: 1.18 $
 \end_layout
 
 \begin_layout Standard
-$Date: 2016/01/17 17:32:35 $ UTC
+$Date: 2016/01/24 01:03:44 $ UTC
 \end_layout
 
 \begin_layout Standard
@@ -8341,16 +8341,77 @@ is just about to \SpecialChar \ldots{}
 
 \end_layout
 
-\begin_layout Standard
-This suffix is many times combined with 
+\begin_deeper
+\begin_layout Description
+-ᎢᏗᏒᎢ [-i²di²³sv²³ɂi] 
 \begin_inset Quotes eld
 \end_inset
 
-intending to (-ᎢᏐᎢ)
+Was about to \SpecialChar \ldots{}
+ a while ago.
 \begin_inset Quotes erd
 \end_inset
 
- to indicate any of the following.
+
+\end_layout
+
+\begin_layout Description
+-ᎢᏗᏍᎪᎢ [-i²di²³sgo³ɂi] 
+\begin_inset Quotes eld
+\end_inset
+
+Habitually is about \SpecialChar \ldots{}
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+-ᎢᏕᎾ [-i²de⁴na] 
+\begin_inset Quotes eld
+\end_inset
+
+Let now be about to \SpecialChar \ldots{}
+ 
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+Additionally, the 
+\emph on
+Cherokee Messenger pg 95 
+\begin_inset Quotes eld
+\end_inset
+
+Immediate Future Tense
+\begin_inset Quotes erd
+\end_inset
+
+
+\emph default
+, indicates that the suffix 
+\begin_inset Quotes eld
+\end_inset
+
+-ᎢᏗ
+\begin_inset Quotes erd
+\end_inset
+
+ may be used in combination with the 
+\begin_inset Quotes eld
+\end_inset
+
+with intent
+\begin_inset Quotes erd
+\end_inset
+
+ suffix (-ᎢᏐᎢ):
 \end_layout
 
 \begin_layout Description
@@ -8367,6 +8428,7 @@ Is just about to \SpecialChar \ldots{}
 .
 \end_layout
 
+\begin_deeper
 \begin_layout Description
 -ᎢᏗᏒ [-i²di²³sv] 
 \begin_inset Quotes eld
@@ -8408,23 +8470,7 @@ Will be about to \SpecialChar \ldots{}
 Verbal Noun.
 \end_layout
 
-\begin_layout Standard
-
-\emph on
-\begin_inset space \hfill{}
-\end_inset
-
-Cherokee Messenger pg 95 
-\begin_inset Quotes eld
-\end_inset
-
-Immediate Future Tense
-\begin_inset Quotes erd
-\end_inset
-
-
-\end_layout
-
+\end_deeper
 \begin_layout Section
 Accidentally \SpecialChar \ldots{}
  (Accidental) 
@@ -8444,11 +8490,6 @@ accidentally
 past tense
 \noun default
  form and add one of the following special endings.
- (Note: There does not exist a 
-\noun on
-present tense 
-\noun default
-form.)
 \end_layout
 
 \begin_layout Description
@@ -8464,6 +8505,7 @@ did accidentally \SpecialChar \ldots{}
 
 \end_layout
 
+\begin_deeper
 \begin_layout Description
 -ᏙᏗᏍᎪᎢ [-dọ³dị³sgo³ɂi] 
 \begin_inset Quotes eld
@@ -8501,6 +8543,31 @@ to accidentally \SpecialChar \ldots{}
 \end_inset
 
 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+
+\emph on
+This is ending is a composite of 
+\begin_inset Quotes eld
+\end_inset
+
+Ꮩ-
+\begin_inset Quotes erd
+\end_inset
+
+ + causative.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+There does not exist a 
+\noun on
+present tense 
+\noun default
+form.
 \end_layout
 
 \begin_layout Section
@@ -8581,7 +8648,7 @@ is \SpecialChar \ldots{}
 \end_layout
 
 \begin_layout Description
--ᎢᏌᏅᎢ [-i²sa³hnv³ɂi] 
+-ᎢᏌᏅᎢ [-i²²sa³hnv³ɂi] 
 \begin_inset Quotes eld
 \end_inset
 
@@ -8593,6 +8660,21 @@ did \SpecialChar \ldots{}
 
 \end_layout
 
+\begin_deeper
+\begin_layout Description
+-ᎢᏏᎸᎢ [-i²si²lv³ɂi] 
+\begin_inset Quotes eld
+\end_inset
+
+did \SpecialChar \ldots{}
+ again
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_deeper
 \begin_layout Description
 -ᎢᏏᏍᎪᎢ [-i²³si³²sgo³ɂi] 
 \begin_inset Quotes eld
@@ -9763,7 +9845,7 @@ ch
 \begin_layout Section
 Completely\SpecialChar \ldots{}
  To finality \SpecialChar \ldots{}
- (Completive) 
+ (Terminative) (Completive) 
 \end_layout
 
 \begin_layout Standard
@@ -9795,6 +9877,7 @@ is completely \SpecialChar \ldots{}
 
 \end_layout
 
+\begin_deeper
 \begin_layout Description
 -ᎣᏅᎢ [-ọ²hnv²³ɂi] 
 \begin_inset Quotes eld
@@ -9847,6 +9930,7 @@ to completely \SpecialChar \ldots{}
 
 \end_layout
 
+\end_deeper
 \begin_layout Section
 Confirmingly \SpecialChar \ldots{}
 , Intensely \SpecialChar \ldots{}
@@ -9871,7 +9955,7 @@ Again \SpecialChar \ldots{}
 
 \begin_layout Section
 Come in order to \SpecialChar \ldots{}
- (Approaching)
+ (Venitive) (Approaching)
 \end_layout
 
 \begin_layout Standard
@@ -9895,6 +9979,7 @@ is coming in order to \SpecialChar \ldots{}
 
 \end_layout
 
+\begin_deeper
 \begin_layout Description
 -ᎢᎸᎢ [-i²³ḥlv²³ɂi] 
 \begin_inset Quotes eld
@@ -9955,6 +10040,13 @@ to come in order to \SpecialChar \ldots{}
 \end_inset
 
 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+
+\emph on
+May be attached to causitive.
 \end_layout
 
 \begin_layout Section
@@ -11018,58 +11110,26 @@ As in English, there are some forms which will not make sense when creating
 \end_layout
 
 \begin_layout Section
-For \SpecialChar \ldots{}
- To \SpecialChar \ldots{}
- (Dative)
+Go around doing \SpecialChar \ldots{}
+ (Ambulative)
 \end_layout
 
 \begin_layout Standard
-To indicate that something is being done to someone else or being done for
- someone else, you take the 
-\noun on
-past tense
-\noun default
- form and add one of the following special 
-\begin_inset Quotes eld
-\end_inset
-
-doing for
-\begin_inset Quotes erd
-\end_inset
-
- endings.
- 
+To indicate repeated movement as part of the action.
+ (Moving from place to place.)
 \end_layout
 
 \begin_layout Standard
-
-\emph on
-You should only use pronouns that indicate animate to animate relationships
- when using this ending.
+Attaches to past tense stem.
 \end_layout
 
 \begin_layout Description
--ᎡᎭ [-eha] 
+-ᎢᏙᎭ [-i²³do³²ha] 
 \begin_inset Quotes eld
 \end_inset
 
-is doing for \SpecialChar \ldots{}
- is doing to \SpecialChar \ldots{}
-
-\begin_inset Quotes erd
-\end_inset
-
-
-\end_layout
-
-\begin_layout Description
--ᎡᎸᎢ [-elvi] 
-\begin_inset Quotes eld
-\end_inset
-
-did for \SpecialChar \ldots{}
- did to \SpecialChar \ldots{}
-
+is \SpecialChar \ldots{}
+ while moving about.
 \begin_inset Quotes erd
 \end_inset
 
@@ -11078,13 +11138,12 @@ did for \SpecialChar \ldots{}
 
 \begin_deeper
 \begin_layout Description
--ᎡᎸᎢ [-elv²i] 
+-ᎢᏙᎸᎢ [-i²³do³²lv²³ɂi] 
 \begin_inset Quotes eld
 \end_inset
 
-later, do it for \SpecialChar \ldots{}
- later, do it to \SpecialChar \ldots{}
-
+\SpecialChar \ldots{}
+ while moving about.
 \begin_inset Quotes erd
 \end_inset
 
@@ -11092,53 +11151,12 @@ later, do it for \SpecialChar \ldots{}
 \end_layout
 
 \begin_layout Description
--ᎡᎵ [-eli] 
+-ᎢᏙᎰᎢ [-i²³do³²ho³ɂi] 
 \begin_inset Quotes eld
 \end_inset
 
-will do it for \SpecialChar \ldots{}
- will do it to \SpecialChar \ldots{}
-
-\begin_inset Quotes erd
-\end_inset
-
- - 
-\emph on
-Requires the use of the 
-\begin_inset Quotes eld
-\end_inset
-
-Ꮣ-
-\begin_inset Quotes erd
-\end_inset
-
- future prefix.
-\end_layout
-
-\end_deeper
-\begin_layout Description
--ᎡᎰᎢ [-ehoi] 
-\begin_inset Quotes eld
-\end_inset
-
-habitually does for \SpecialChar \ldots{}
- habitually does to \SpecialChar \ldots{}
-
-\begin_inset Quotes erd
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Description
--ᎡᎰᎢ [-ehvi] 
-\begin_inset Quotes eld
-\end_inset
-
-was doing for \SpecialChar \ldots{}
- was doing to \SpecialChar \ldots{}
-
+habitually \SpecialChar \ldots{}
+ while moving about.
 \begin_inset Quotes erd
 \end_inset
 
@@ -11146,346 +11164,41 @@ was doing for \SpecialChar \ldots{}
 \end_layout
 
 \begin_layout Description
--ᎡᎮᏍᏗ [-ehesdi] 
+-ᎢᏓ [-i²³da] 
 \begin_inset Quotes eld
 \end_inset
 
-will be doing for \SpecialChar \ldots{}
- will be doing to \SpecialChar \ldots{}
-
+let \SpecialChar \ldots{}
+ and let be moving about.
 \begin_inset Quotes erd
 \end_inset
 
 
 \end_layout
 
-\end_deeper
 \begin_layout Description
--Ꮟ [-si] 
+-ᎢᏓᏍᏗ [-i²dạ²sdi] 
 \begin_inset Quotes eld
 \end_inset
 
-let be doing for \SpecialChar \ldots{}
- let be doing to \SpecialChar \ldots{}
-
+for to \SpecialChar \ldots{}
+ while moving about.
 \begin_inset Quotes erd
 \end_inset
 
 
-\end_layout
-
-\begin_deeper
-\begin_layout Description
--ᎡᎵ [-eli] 
-\begin_inset Quotes eld
-\end_inset
-
-just did for \SpecialChar \ldots{}
- just doing to \SpecialChar \ldots{}
-
-\begin_inset Quotes erd
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Description
--ᎡᏗ [-ehdi] 
-\begin_inset Quotes eld
-\end_inset
-
-to do for \SpecialChar \ldots{}
- to do to \SpecialChar \ldots{}
-
-\begin_inset Quotes erd
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Examples:
-\end_layout
-
-\begin_layout Itemize
-ᏄᏛᏁᎸᎢ.
- 
-\begin_inset Quotes eld
-\end_inset
-
-He did it.
-\begin_inset Quotes erd
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-ᎾᏆᏛᏁᎴᎭ.
- 
-\begin_inset Quotes eld
-\end_inset
-
-He is doing it for me.
-\begin_inset Quotes erd
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-
-\emph on
-Ꮒ + ᎠᎩ + ᎤᏛᏁᎸᎢ + ᎡᎭ.
-\end_layout
-
-\end_deeper
-\end_deeper
-\begin_layout Itemize
-ᏚᏟᏆᏗᏅᏒᎢ.
- 
-\begin_inset Quotes eld
-\end_inset
-
-He turned it over.
-\begin_inset Quotes erd
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-ᏙᏓᏣᏟᏆᏗᏅᏎᎵ.
- 
-\begin_inset Quotes eld
-\end_inset
-
-He will turn it over for you.
-\begin_inset Quotes erd
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-
-\emph on
-Ꮧ + Ꮣ + Ꮳ + ᎤᏟᏆᏗᏅᏒᎢ + ᎡᎵ.
-\end_layout
-
-\end_deeper
-\end_deeper
-\begin_layout Itemize
-ᏅᏯ ᎤᎩᏒᎢ.
- 
-\begin_inset Quotes eld
-\end_inset
-
-He got a rock.
-\begin_inset Quotes erd
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-ᏅᏯ ᏥᎩᏎᎸᎢ.
- 
-\begin_inset Quotes eld
-\end_inset
-
-I got a rock for him.
-\begin_inset Quotes erd
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-
-\emph on
-Ꮵ + ᎤᎩᏒᎢ + ᎡᎸᎢ.
-\end_layout
-
-\end_deeper
-\end_deeper
-\begin_layout Standard
-On some verbs one can add the prefix 
-\begin_inset Quotes eld
-\end_inset
-
-Ꮻ-
-\begin_inset Quotes erd
-\end_inset
-
- to indicate 
-\begin_inset Quotes eld
-\end_inset
-
-to
-\begin_inset Quotes erd
-\end_inset
-
- as in 
-\begin_inset Quotes eld
-\end_inset
-
-towards someone or at someone
-\begin_inset Quotes erd
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Standard
-Example:
-\end_layout
-
-\begin_layout Itemize
-ᏕᎪᏪᎵᎠ.
- 
-\begin_inset Quotes eld
-\end_inset
-
-He is writing them.
-\begin_inset Quotes erd
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-ᏕᎪᏪᎳᏁᎭ.
- 
-\begin_inset Quotes eld
-\end_inset
-
-He is writing them for him.
-\begin_inset Quotes erd
-\end_inset
-
- - 
-\emph on
-ᏕᎪᏪᎳᏅᎢ + ᎡᎭ.
- (Writing them on his behalf.)
-\end_layout
-
-\begin_layout Itemize
-ᏫᏗᎪᏪᎳᏁᎭ.
- 
-\begin_inset Quotes eld
-\end_inset
-
-He is writing them to him.
-\begin_inset Quotes erd
-\end_inset
-
- - 
-\emph on
-Ꮻ + ᏕᎪᏪᎳᏅᎢ + ᎡᎭ.
- (Writing them for him to send to him.)
 \end_layout
 
 \end_deeper
 \begin_layout Standard
-These endings are also used to indicate 
-\begin_inset Quotes eld
-\end_inset
-
-something bad happening by an unspecified actor to people
-\begin_inset Quotes erd
-\end_inset
-
- when used with verbs that indicate or could indicate something negative
- happening.
-\end_layout
-
-\begin_layout Standard
-Example:
-\end_layout
-
-\begin_layout Itemize
-ᏓᏆᎴᎳ ᎤᏲᏤ.
- 
-\begin_inset Quotes eld
-\end_inset
-
-The car broke.
-\begin_inset Quotes erd
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-ᏓᏆᎴᎳ ᎤᏲᏤᎴ.
- 
-\begin_inset Quotes eld
-\end_inset
-
-The car broke down on him.
-\begin_inset Quotes erd
-\end_inset
-
- - 
-\emph on
-Literally: The car broke for him.
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-ᎤᏲᏨᎢ + ᎡᎸᎢ.
-\end_layout
-
-\end_deeper
-\end_deeper
-\begin_layout Standard
 
 \emph on
-\begin_inset space \hfill{}
-\end_inset
-
-
-\begin_inset Quotes eld
-\end_inset
-
-Cherokee Grammar Applicative Suffix
-\begin_inset Quotes erd
-\end_inset
-
- - Dr.
- Wyman Kirk.
-\end_layout
-
-\begin_layout Standard
-
-\emph on
-\begin_inset space \hfill{}
-\end_inset
-
-
-\begin_inset Quotes eld
-\end_inset
-
-Cherokee Messenger
-\begin_inset Quotes erd
-\end_inset
-
- - pp 143-144.
+(May be attached to causative.)
 \end_layout
 
 \begin_layout Section
 Going somewhere to \SpecialChar \ldots{}
- (Departing)
+ (Andative) (Departing)
 \end_layout
 
 \begin_layout Standard
@@ -11544,6 +11257,7 @@ is going somewhere to \SpecialChar \ldots{}
 
 \end_layout
 
+\begin_deeper
 \begin_layout Description
 -ᎥᏒᎢ [-v³sv³ɂi] 
 \begin_inset Quotes eld
@@ -11631,6 +11345,7 @@ Set B
 .
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 Examples:
 \end_layout
@@ -15810,7 +15525,7 @@ A bakery.
 
 \end_deeper
 \begin_layout Section
-Repeatedly (Frequentative) 
+Repeatedly (Repetitive) (Frequentative) 
 \end_layout
 
 \begin_layout Standard
@@ -15861,6 +15576,7 @@ is \SpecialChar \ldots{}
 
 \end_layout
 
+\begin_deeper
 \begin_layout Description
 -ᎢᎶᎥᎢ [-i²³lọ³v²³ɂi] 
 \begin_inset Quotes eld
@@ -15911,6 +15627,123 @@ to \SpecialChar \ldots{}
 \end_inset
 
 
+\end_layout
+
+\end_deeper
+\begin_layout Section
+Since \SpecialChar \ldots{}
+
+\end_layout
+
+\begin_layout Standard
+Ꭶ- is used to indicate a period of time has occurred (or will have occurred)
+ since the start of an event.
+\end_layout
+
+\begin_layout Standard
+This prefix goes just before the bound pronoun, after Ꮥ/Ꮧ.
+\end_layout
+
+\begin_layout Standard
+Add the prefix Ꭶ-, being careful about the pronunciation rules.
+\end_layout
+
+\begin_layout Standard
+Can be added to past tense, etc.
+\end_layout
+
+\begin_layout Standard
+Ꭶ- before consonents.
+ ᎦᏱ͓- before vowels; Ꭶ- + -Ꭰ => Ꭼ; Ꭶ- becomes Ꭸ- for 2nd person forms, Ꭶ-
+ becomes ᎬᏩ͓- for third person forms, ᎬᏩ͓ + Ꭴ => ᎬᏩ.
+\end_layout
+
+\begin_layout Itemize
+gaginigohvi, 
+\begin_inset Quotes eld
+\end_inset
+
+since you and I saw it
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+gayoginigohv, 
+\begin_inset Quotes eld
+\end_inset
+
+since he and I saw it
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+gvgigohvi, 
+\begin_inset Quotes eld
+\end_inset
+
+since I saw it
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+gejagohvi, 
+\begin_inset Quotes eld
+\end_inset
+
+since you saw it
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+gesdigohvi, 
+\begin_inset Quotes eld
+\end_inset
+
+since you two saw it
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+gvwagohvi, 
+\begin_inset Quotes eld
+\end_inset
+
+since he saw it
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+gvwanigohvi, 
+\begin_inset Quotes eld
+\end_inset
+
+since they saw it
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+[from CED, pg 255]
 \end_layout
 
 \begin_layout Section
@@ -16272,6 +16105,489 @@ one
 \end_inset
 
 
+\end_layout
+
+\begin_layout Section
+To \SpecialChar \ldots{}
+ For \SpecialChar \ldots{}
+ (Applicative) (Dative)
+\end_layout
+
+\begin_layout Standard
+To indicate that something is being done to someone else or being done for
+ someone else, you take the 
+\noun on
+past tense
+\noun default
+ form and add one of the following special 
+\begin_inset Quotes eld
+\end_inset
+
+doing for
+\begin_inset Quotes erd
+\end_inset
+
+ endings.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+You should only use pronouns that indicate animate to animate relationships
+ when using this ending.
+\end_layout
+
+\begin_layout Description
+-ᎡᎭ [-eha] 
+\begin_inset Quotes eld
+\end_inset
+
+is doing for \SpecialChar \ldots{}
+ is doing to \SpecialChar \ldots{}
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+-ᎡᎸᎢ [-elvi] 
+\begin_inset Quotes eld
+\end_inset
+
+did for \SpecialChar \ldots{}
+ did to \SpecialChar \ldots{}
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Description
+-ᎡᎸᎢ [-elv²i] 
+\begin_inset Quotes eld
+\end_inset
+
+later, do it for \SpecialChar \ldots{}
+ later, do it to \SpecialChar \ldots{}
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+-ᎡᎵ [-eli] 
+\begin_inset Quotes eld
+\end_inset
+
+will do it for \SpecialChar \ldots{}
+ will do it to \SpecialChar \ldots{}
+
+\begin_inset Quotes erd
+\end_inset
+
+ - 
+\emph on
+Requires the use of the 
+\begin_inset Quotes eld
+\end_inset
+
+Ꮣ-
+\begin_inset Quotes erd
+\end_inset
+
+ future prefix.
+\end_layout
+
+\end_deeper
+\begin_layout Description
+-ᎡᎰᎢ [-ehoi] 
+\begin_inset Quotes eld
+\end_inset
+
+habitually does for \SpecialChar \ldots{}
+ habitually does to \SpecialChar \ldots{}
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Description
+-ᎡᎰᎢ [-ehvi] 
+\begin_inset Quotes eld
+\end_inset
+
+was doing for \SpecialChar \ldots{}
+ was doing to \SpecialChar \ldots{}
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+-ᎡᎮᏍᏗ [-ehesdi] 
+\begin_inset Quotes eld
+\end_inset
+
+will be doing for \SpecialChar \ldots{}
+ will be doing to \SpecialChar \ldots{}
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Description
+-Ꮟ [-si] 
+\begin_inset Quotes eld
+\end_inset
+
+let be doing for \SpecialChar \ldots{}
+ let be doing to \SpecialChar \ldots{}
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Description
+-ᎡᎵ [-eli] 
+\begin_inset Quotes eld
+\end_inset
+
+just did for \SpecialChar \ldots{}
+ just doing to \SpecialChar \ldots{}
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Description
+-ᎡᏗ [-ehdi] 
+\begin_inset Quotes eld
+\end_inset
+
+to do for \SpecialChar \ldots{}
+ to do to \SpecialChar \ldots{}
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Examples:
+\end_layout
+
+\begin_layout Itemize
+ᏄᏛᏁᎸᎢ.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+He did it.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+ᎾᏆᏛᏁᎴᎭ.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+He is doing it for me.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\emph on
+Ꮒ + ᎠᎩ + ᎤᏛᏁᎸᎢ + ᎡᎭ.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+ᏚᏟᏆᏗᏅᏒᎢ.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+He turned it over.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+ᏙᏓᏣᏟᏆᏗᏅᏎᎵ.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+He will turn it over for you.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\emph on
+Ꮧ + Ꮣ + Ꮳ + ᎤᏟᏆᏗᏅᏒᎢ + ᎡᎵ.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+ᏅᏯ ᎤᎩᏒᎢ.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+He got a rock.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+ᏅᏯ ᏥᎩᏎᎸᎢ.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+I got a rock for him.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\emph on
+Ꮵ + ᎤᎩᏒᎢ + ᎡᎸᎢ.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+On some verbs one can add the prefix 
+\begin_inset Quotes eld
+\end_inset
+
+Ꮻ-
+\begin_inset Quotes erd
+\end_inset
+
+ to indicate 
+\begin_inset Quotes eld
+\end_inset
+
+to
+\begin_inset Quotes erd
+\end_inset
+
+ as in 
+\begin_inset Quotes eld
+\end_inset
+
+towards someone or at someone
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Example:
+\end_layout
+
+\begin_layout Itemize
+ᏕᎪᏪᎵᎠ.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+He is writing them.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+ᏕᎪᏪᎳᏁᎭ.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+He is writing them for him.
+\begin_inset Quotes erd
+\end_inset
+
+ - 
+\emph on
+ᏕᎪᏪᎳᏅᎢ + ᎡᎭ.
+ (Writing them on his behalf.)
+\end_layout
+
+\begin_layout Itemize
+ᏫᏗᎪᏪᎳᏁᎭ.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+He is writing them to him.
+\begin_inset Quotes erd
+\end_inset
+
+ - 
+\emph on
+Ꮻ + ᏕᎪᏪᎳᏅᎢ + ᎡᎭ.
+ (Writing them for him to send to him.)
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+These endings are also used to indicate 
+\begin_inset Quotes eld
+\end_inset
+
+something bad happening by an unspecified actor to people
+\begin_inset Quotes erd
+\end_inset
+
+ when used with verbs that indicate or could indicate something negative
+ happening.
+\end_layout
+
+\begin_layout Standard
+Example:
+\end_layout
+
+\begin_layout Itemize
+ᏓᏆᎴᎳ ᎤᏲᏤ.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+The car broke.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+ᏓᏆᎴᎳ ᎤᏲᏤᎴ.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+The car broke down on him.
+\begin_inset Quotes erd
+\end_inset
+
+ - 
+\emph on
+Literally: The car broke for him.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+ᎤᏲᏨᎢ + ᎡᎸᎢ.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+
+\emph on
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Quotes eld
+\end_inset
+
+Cherokee Grammar Applicative Suffix
+\begin_inset Quotes erd
+\end_inset
+
+ - Montgomery-Anderson 2008 pp352-.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Quotes eld
+\end_inset
+
+Cherokee Grammar Applicative Suffix
+\begin_inset Quotes erd
+\end_inset
+
+ - Dr.
+ Wyman Kirk.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Quotes eld
+\end_inset
+
+Cherokee Messenger
+\begin_inset Quotes erd
+\end_inset
+
+ pp 143-144.
 \end_layout
 
 \begin_layout Section
@@ -18622,7 +18938,7 @@ News.
 
 \end_deeper
 \begin_layout Description
-ᎬᏂ [] 
+ᎬᏂ [kv²hnị⁴] 
 \begin_inset Quotes eld
 \end_inset
 
@@ -18630,7 +18946,7 @@ Until.
 \begin_inset Quotes erd
 \end_inset
 
- (? Ꭶ + ᎠᏂ: specific point in time + here)
+ (? Ꭶ + ᎠᏂ: since this here place in time)
 \end_layout
 
 \begin_layout Description
@@ -18642,11 +18958,11 @@ In view.
 \begin_inset Quotes erd
 \end_inset
 
-
+ (? idiom ? was being until)
 \end_layout
 
 \begin_layout Description
-ᎬᏂᏳ [] 
+ᎬᏂᏳ [kv²hnị³yu] 
 \begin_inset Quotes eld
 \end_inset
 
@@ -18655,7 +18971,7 @@ Behold.
 \begin_inset Quotes erd
 \end_inset
 
- (? Ꭶ + ᎠᏂ + Ᏻ: specific point in time + here + more)
+ (? idiom ? ᎬᏂ + Ᏻ: until + more)
 \end_layout
 
 \begin_layout Description
@@ -18783,7 +19099,7 @@ Let your way be.
 \begin_inset Quotes eld
 \end_inset
 
-For his way to be
+For his way to be.
 \begin_inset Quotes erd
 \end_inset
 
