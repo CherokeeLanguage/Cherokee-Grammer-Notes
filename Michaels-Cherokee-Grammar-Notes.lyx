@@ -259,11 +259,11 @@ ISBN: 978-1-xxx-xxxxx-x
 \end_layout
 
 \begin_layout Standard
-$Revision: 1.19 $
+$Revision: 1.20 $
 \end_layout
 
 \begin_layout Standard
-$Date: 2016/02/08 01:40:32 $ UTC
+$Date: 2016/02/08 02:37:41 $ UTC
 \end_layout
 
 \begin_layout Standard
@@ -354,7 +354,7 @@ PRONOUNS
 \noindent
 \align center
 \begin_inset Tabular
-<lyxtabular version="3" rows="110" columns="3">
+<lyxtabular version="3" rows="111" columns="3">
 <features rotate="0" islongtable="true" longtabularalignment="center">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
@@ -850,7 +850,7 @@ You all + me
 \begin_inset Text
 
 \begin_layout Plain Layout
-You (one) + them and me
+You all + another and me
 \end_layout
 
 \end_inset
@@ -867,6 +867,35 @@ You (one) + them and me
 \end_inset
 </cell>
 <cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+You (one) + them and me
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -908,7 +937,7 @@ You two + them and me
 \begin_inset Text
 
 \begin_layout Plain Layout
-You all + another and me
+You all + them and me
 \end_layout
 
 \end_inset
@@ -10046,7 +10075,7 @@ to come in order to \SpecialChar \ldots{}
 \begin_layout Standard
 
 \emph on
-May be attached to causitive.
+May be attached to causative.
 \end_layout
 
 \begin_layout Section
