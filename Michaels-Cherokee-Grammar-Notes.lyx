@@ -259,11 +259,11 @@ ISBN: 978-1-xxx-xxxxx-x
 \end_layout
 
 \begin_layout Standard
-$Revision: 1.20 $
+$Revision: 1.21 $
 \end_layout
 
 \begin_layout Standard
-$Date: 2016/02/08 02:37:41 $ UTC
+$Date: 2016/02/14 15:54:37 $ UTC
 \end_layout
 
 \begin_layout Standard
@@ -354,7 +354,7 @@ PRONOUNS
 \noindent
 \align center
 \begin_inset Tabular
-<lyxtabular version="3" rows="111" columns="3">
+<lyxtabular version="3" rows="113" columns="3">
 <features rotate="0" islongtable="true" longtabularalignment="center">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
@@ -793,6 +793,64 @@ I + you all
 
 \begin_layout Plain Layout
 They and I + you (one)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+They and I + you two
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+They and I + you all
 \end_layout
 
 \end_inset
@@ -16168,7 +16226,7 @@ You should only use pronouns that indicate animate to animate relationships
 \end_layout
 
 \begin_layout Description
--ᎡᎭ [-eha] 
+-ᎡᎭ [-e²ha] 
 \begin_inset Quotes eld
 \end_inset
 
@@ -16181,8 +16239,9 @@ is doing for \SpecialChar \ldots{}
 
 \end_layout
 
+\begin_deeper
 \begin_layout Description
--ᎡᎸᎢ [-elvi] 
+-ᎡᎸᎢ [-e²lv²³ɂi] 
 \begin_inset Quotes eld
 \end_inset
 
@@ -16195,48 +16254,8 @@ did for \SpecialChar \ldots{}
 
 \end_layout
 
-\begin_deeper
 \begin_layout Description
--ᎡᎸᎢ [-elv²i] 
-\begin_inset Quotes eld
-\end_inset
-
-later, do it for \SpecialChar \ldots{}
- later, do it to \SpecialChar \ldots{}
-
-\begin_inset Quotes erd
-\end_inset
-
-
-\end_layout
-
-\begin_layout Description
--ᎡᎵ [-eli] 
-\begin_inset Quotes eld
-\end_inset
-
-will do it for \SpecialChar \ldots{}
- will do it to \SpecialChar \ldots{}
-
-\begin_inset Quotes erd
-\end_inset
-
- - 
-\emph on
-Requires the use of the 
-\begin_inset Quotes eld
-\end_inset
-
-Ꮣ-
-\begin_inset Quotes erd
-\end_inset
-
- future prefix.
-\end_layout
-
-\end_deeper
-\begin_layout Description
--ᎡᎰᎢ [-ehoi] 
+-ᎡᎰᎢ [-e²ho³ɂi] 
 \begin_inset Quotes eld
 \end_inset
 
@@ -16249,38 +16268,8 @@ habitually does for \SpecialChar \ldots{}
 
 \end_layout
 
-\begin_deeper
 \begin_layout Description
--ᎡᎰᎢ [-ehvi] 
-\begin_inset Quotes eld
-\end_inset
-
-was doing for \SpecialChar \ldots{}
- was doing to \SpecialChar \ldots{}
-
-\begin_inset Quotes erd
-\end_inset
-
-
-\end_layout
-
-\begin_layout Description
--ᎡᎮᏍᏗ [-ehesdi] 
-\begin_inset Quotes eld
-\end_inset
-
-will be doing for \SpecialChar \ldots{}
- will be doing to \SpecialChar \ldots{}
-
-\begin_inset Quotes erd
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Description
--Ꮟ [-si] 
+-Ꮟ [-¹si] 
 \begin_inset Quotes eld
 \end_inset
 
@@ -16295,7 +16284,7 @@ let be doing for \SpecialChar \ldots{}
 
 \begin_deeper
 \begin_layout Description
--ᎡᎵ [-eli] 
+-ᎡᎵ [-e²li] 
 \begin_inset Quotes eld
 \end_inset
 
@@ -16310,7 +16299,7 @@ just did for \SpecialChar \ldots{}
 
 \end_deeper
 \begin_layout Description
--ᎡᏗ [-ehdi] 
+-ᎡᏗ [-eh³di] 
 \begin_inset Quotes eld
 \end_inset
 
@@ -16323,6 +16312,7 @@ to do for \SpecialChar \ldots{}
 
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 Examples:
 \end_layout
