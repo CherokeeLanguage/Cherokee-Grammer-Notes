@@ -1,7 +1,9 @@
-#LyX 2.1 created this file. For more info see http://www.lyx.org/
-\lyxformat 474
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
 \begin_document
 \begin_header
+\save_transient_properties true
+\origin unavailable
 \textclass book
 \begin_preamble
 \usepackage{multicol}
@@ -18,16 +20,18 @@ fixltx2e
 \language_package default
 \inputencoding utf8-plain
 \fontencoding global
-\font_roman FreeSerif
-\font_sans FreeSans
-\font_typewriter FreeMono
-\font_math auto
+\font_roman "default" "FreeSerif"
+\font_sans "default" "FreeSans"
+\font_typewriter "default" "FreeMono"
+\font_math "auto" "auto"
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
 \font_osf true
-\font_sf_scale 100
-\font_tt_scale 100
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures false
 \graphics none
 \default_output_format pdf4
 \output_sync 1
@@ -70,6 +74,7 @@ fixltx2e
 \suppress_date true
 \justification true
 \use_refstyle 0
+\use_minted 0
 \branch smashwords
 \selected 0
 \filename_suffix 0
@@ -89,7 +94,10 @@ fixltx2e
 \tocdepth 1
 \paragraph_separation indent
 \paragraph_indentation default
-\quotes_language english
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
 \papercolumns 1
 \papersides 2
 \paperpagestyle plain
@@ -239,6 +247,7 @@ Michael’s Cherokee Grammar Notes
 
 \begin_layout Standard
 \begin_inset Branch smashwords
+inverted 0
 status collapsed
 
 \begin_layout Standard
@@ -251,7 +260,7 @@ Published by Michael Joyner at Smashwords
 \end_layout
 
 \begin_layout Standard
-Copyright 2015, Michael Joyner
+Copyright 2021, Michael Conrad
 \end_layout
 
 \begin_layout Standard
@@ -259,11 +268,11 @@ ISBN: 978-1-xxx-xxxxx-x
 \end_layout
 
 \begin_layout Standard
-$Revision: 1.21 $
+$Revision: 1.22 $
 \end_layout
 
 \begin_layout Standard
-$Date: 2016/02/14 15:54:37 $ UTC
+$Date: 2016/02/15 17:10:27 $ UTC
 \end_layout
 
 \begin_layout Standard
@@ -347,17 +356,18 @@ Grammar 1
 \end_layout
 
 \begin_layout Section
-PRONOUNS
+Bound Pronouns
 \end_layout
 
 \begin_layout Standard
 \noindent
 \align center
 \begin_inset Tabular
-<lyxtabular version="3" rows="113" columns="3">
-<features rotate="0" islongtable="true" longtabularalignment="center">
+<lyxtabular version="3" rows="113" columns="4">
+<features islongtable="true" longtabularalignment="center">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
+<column alignment="center" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
 <row endfirsthead="true" caption="true">
 <cell multicolumn="1" alignment="center" valignment="top" usebox="none">
@@ -370,6 +380,15 @@ PRONOUNS
 \end_inset
 </cell>
 <cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -405,6 +424,15 @@ Prefix
 
 \begin_layout Plain Layout
 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ɂ/h
 \end_layout
 
 \end_inset
@@ -449,13 +477,22 @@ Pairing
 
 \end_inset
 </cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
 </row>
 <row>
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-ᎬᏯ͓-, Ꭼ-
+Ꭼ-, ᎬᏯ͓-
 \end_layout
 
 \end_inset
@@ -464,7 +501,16 @@ Pairing
 \begin_inset Text
 
 \begin_layout Plain Layout
-Gvy-, Gv-
+Gv:-, Gv:y-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ɂ
 \end_layout
 
 \end_inset
@@ -494,6 +540,15 @@ I + you (one)
 
 \begin_layout Plain Layout
 Sgi-, Sgw-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+h
 \end_layout
 
 \end_inset
@@ -536,13 +591,22 @@ You (one) + me
 
 \end_inset
 </cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
 </row>
 <row>
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-ᏍᏛᏯ͓-, ᏍᏛ-
+ᏍᏛ-, ᏍᏛᏯ͓-
 \end_layout
 
 \end_inset
@@ -551,7 +615,16 @@ You (one) + me
 \begin_inset Text
 
 \begin_layout Plain Layout
-Sdvy-, Sdv-
+Sdv:-, Sdv:y-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ɂ
 \end_layout
 
 \end_inset
@@ -585,6 +658,15 @@ I + you two
 
 \end_inset
 </cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ɂ
+\end_layout
+
+\end_inset
+</cell>
 <cell alignment="center" valignment="top" rightline="true" usebox="none">
 \begin_inset Text
 
@@ -610,6 +692,15 @@ Another and I + you (one)
 
 \begin_layout Plain Layout
 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ɂ
 \end_layout
 
 \end_inset
@@ -643,6 +734,15 @@ Sgini-, Sgin-
 
 \end_inset
 </cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ɂ
+\end_layout
+
+\end_inset
+</cell>
 <cell alignment="center" valignment="top" rightline="true" usebox="none">
 \begin_inset Text
 
@@ -672,6 +772,15 @@ You two + me
 
 \end_inset
 </cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ɂ
+\end_layout
+
+\end_inset
+</cell>
 <cell alignment="center" valignment="top" rightline="true" usebox="none">
 \begin_inset Text
 
@@ -697,6 +806,15 @@ You (one) + another and me
 
 \begin_layout Plain Layout
 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ɂ
 \end_layout
 
 \end_inset
@@ -739,13 +857,22 @@ You two + another and me
 
 \end_inset
 </cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
 </row>
 <row>
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-ᎢᏨᏯ͓-, ᎢᏨ-
+ᎢᏨ-, ᎢᏨᏯ͓-
 \end_layout
 
 \end_inset
@@ -754,7 +881,16 @@ You two + another and me
 \begin_inset Text
 
 \begin_layout Plain Layout
-Ijvy-, Ijv-
+Ì:jv:-, Ì:jv:y-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ɂ
 \end_layout
 
 \end_inset
@@ -779,11 +915,58 @@ I + you all
 
 \end_inset
 </cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ɂ
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Another and I + you all
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
 <cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ɂ
 \end_layout
 
 \end_inset
@@ -817,6 +1000,15 @@ They and I + you (one)
 
 \end_inset
 </cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ɂ
+\end_layout
+
+\end_inset
+</cell>
 <cell alignment="center" valignment="top" rightline="true" usebox="none">
 \begin_inset Text
 
@@ -846,6 +1038,15 @@ They and I + you two
 
 \end_inset
 </cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ɂ
+\end_layout
+
+\end_inset
+</cell>
 <cell alignment="center" valignment="top" rightline="true" usebox="none">
 \begin_inset Text
 
@@ -861,7 +1062,7 @@ They and I + you all
 \begin_inset Text
 
 \begin_layout Plain Layout
-ᎢᏍᎩᏯ͓-, ᎢᏍᎩ-
+ᎢᏍᎩ-, ᎢᏍᎩᏯ͓-
 \end_layout
 
 \end_inset
@@ -870,7 +1071,16 @@ They and I + you all
 \begin_inset Text
 
 \begin_layout Plain Layout
-Isgiy-, Isgi-
+Ì:sgi:-, Ì:sgi:y-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ɂ
 \end_layout
 
 \end_inset
@@ -904,6 +1114,15 @@ You all + me
 
 \end_inset
 </cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ɂ
+\end_layout
+
+\end_inset
+</cell>
 <cell alignment="center" valignment="top" rightline="true" usebox="none">
 \begin_inset Text
 
@@ -929,6 +1148,15 @@ You all + another and me
 
 \begin_layout Plain Layout
 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ɂ
 \end_layout
 
 \end_inset
@@ -962,6 +1190,15 @@ You (one) + them and me
 
 \end_inset
 </cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ɂ
+\end_layout
+
+\end_inset
+</cell>
 <cell alignment="center" valignment="top" rightline="true" usebox="none">
 \begin_inset Text
 
@@ -987,6 +1224,15 @@ You two + them and me
 
 \begin_layout Plain Layout
 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ɂ
 \end_layout
 
 \end_inset
@@ -1029,13 +1275,22 @@ You all + them and me
 
 \end_inset
 </cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
 </row>
 <row>
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-ᏥᏯ-͓, Ꮵ-
+Ꮵ-, ᏥᏯ-͓
 \end_layout
 
 \end_inset
@@ -1044,7 +1299,16 @@ You all + them and me
 \begin_inset Text
 
 \begin_layout Plain Layout
-Jiy-, Ji-
+Ji:-, Ji:y-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ɂ
 \end_layout
 
 \end_inset
@@ -1064,7 +1328,7 @@ I + another (a)
 \begin_inset Text
 
 \begin_layout Plain Layout
-Ꭶ͓-, Ꮵ-
+Ꮵ-, Ꭶ͓-
 \end_layout
 
 \end_inset
@@ -1073,7 +1337,16 @@ I + another (a)
 \begin_inset Text
 
 \begin_layout Plain Layout
-G-, Jị-
+Ji-, G-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ɂ
 \end_layout
 
 \end_inset
@@ -1102,7 +1375,16 @@ I + another (i)
 \begin_inset Text
 
 \begin_layout Plain Layout
-Agi-, Agw-
+À:gi-, À:gw-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+h
 \end_layout
 
 \end_inset
@@ -1136,6 +1418,15 @@ I + another (i) [b]
 
 \end_inset
 </cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+h
+\end_layout
+
+\end_inset
+</cell>
 <cell alignment="center" valignment="top" bottomline="true" rightline="true" usebox="none">
 \begin_inset Text
 
@@ -1157,6 +1448,15 @@ Another + me
 \end_inset
 </cell>
 <cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1189,7 +1489,16 @@ Another + me
 \begin_inset Text
 
 \begin_layout Plain Layout
-Gajiy-, Gaji-
+Gaji:y-, Gaji:-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ɂ
 \end_layout
 
 \end_inset
@@ -1218,7 +1527,16 @@ I + them (a)
 \begin_inset Text
 
 \begin_layout Plain Layout
-Dagi-, Dagw-
+Dà:gi-, Dà:gw-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+h
 \end_layout
 
 \end_inset
@@ -1247,7 +1565,16 @@ I + them (i) [b]
 \begin_inset Text
 
 \begin_layout Plain Layout
-Gvgi-, Gvgw-
+Gv:gi-, Gv:gw-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+h
 \end_layout
 
 \end_inset
@@ -1267,7 +1594,7 @@ They + me
 \begin_inset Text
 
 \begin_layout Plain Layout
-ᏕᏥ-, ᏕᎦ͓
+ᏕᏥ-, ᏕᎦ͓-
 \end_layout
 
 \end_inset
@@ -1276,7 +1603,16 @@ They + me
 \begin_inset Text
 
 \begin_layout Plain Layout
-Dejị- Deg-
+De:ji-, De:g-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ɂ
 \end_layout
 
 \end_inset
@@ -1305,7 +1641,16 @@ I + them (i)
 \begin_inset Text
 
 \begin_layout Plain Layout
-De³ji-
+Dé:ji-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+h
 \end_layout
 
 \end_inset
@@ -1348,13 +1693,22 @@ You all + them (i)
 
 \end_inset
 </cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
 </row>
 <row>
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-ᎯᏯ͓-, Ꭿ-
+Ꭿ-, ᎯᏯ͓-
 \end_layout
 
 \end_inset
@@ -1363,7 +1717,16 @@ You all + them (i)
 \begin_inset Text
 
 \begin_layout Plain Layout
-Hiy-, Hi-
+Hi:-, Hi:y-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ɂ
 \end_layout
 
 \end_inset
@@ -1392,7 +1755,16 @@ You (one) + another (a)
 \begin_inset Text
 
 \begin_layout Plain Layout
-Hị-, H-
+Hi-, H-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+h
 \end_layout
 
 \end_inset
@@ -1426,6 +1798,15 @@ Ja-, J-
 
 \end_inset
 </cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+h
+\end_layout
+
+\end_inset
+</cell>
 <cell alignment="center" valignment="top" rightline="true" usebox="none">
 \begin_inset Text
 
@@ -1451,6 +1832,15 @@ You (one) + another (i) [b]
 
 \begin_layout Plain Layout
 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+h
 \end_layout
 
 \end_inset
@@ -1493,9 +1883,7 @@ Another + you (one).
 
 \end_inset
 </cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1504,11 +1892,31 @@ Another + you (one).
 
 \end_inset
 </cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ᎦᎯ-, ᎦᎯᏯ͓-
+\end_layout
+
+\end_inset
+</cell>
 <cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-Gahiy-, Gahi-
+Gahi:-, Gahi:y-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ɂ
 \end_layout
 
 \end_inset
@@ -1528,7 +1936,7 @@ You (one) + them (a)
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+ᏕᎯ-
 \end_layout
 
 \end_inset
@@ -1537,7 +1945,16 @@ You (one) + them (a)
 \begin_inset Text
 
 \begin_layout Plain Layout
-Dehị-, Deh-
+De:hi-, De:h-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+h
 \end_layout
 
 \end_inset
@@ -1557,7 +1974,7 @@ You (one) + them (i)
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+ᏕᏣ-
 \end_layout
 
 \end_inset
@@ -1566,7 +1983,16 @@ You (one) + them (i)
 \begin_inset Text
 
 \begin_layout Plain Layout
-Deja-, Dej-
+De:ja-, De:j-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+h
 \end_layout
 
 \end_inset
@@ -1586,7 +2012,7 @@ You (one) + them (i) [b]
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+ᎨᏣ-
 \end_layout
 
 \end_inset
@@ -1595,7 +2021,16 @@ You (one) + them (i) [b]
 \begin_inset Text
 
 \begin_layout Plain Layout
-Geja-
+Ge:ja-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+h
 \end_layout
 
 \end_inset
@@ -1615,7 +2050,7 @@ They + you (one)
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+ᎨᏥ-
 \end_layout
 
 \end_inset
@@ -1624,7 +2059,16 @@ They + you (one)
 \begin_inset Text
 
 \begin_layout Plain Layout
-Geji-, Gej-
+Ge:ji-, Ge:j-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ɂ
 \end_layout
 
 \end_inset
@@ -1654,6 +2098,15 @@ They + you all
 
 \begin_layout Plain Layout
 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ɂ
 \end_layout
 
 \end_inset
@@ -1696,9 +2149,7 @@ You all + them (a)
 
 \end_inset
 </cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1707,11 +2158,31 @@ You all + them (a)
 
 \end_inset
 </cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ᎡᏍᏗ-
+\end_layout
+
+\end_inset
+</cell>
 <cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-Esdi-, Esd-
+È:sdi-, È:sd-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ɂ
 \end_layout
 
 \end_inset
@@ -1731,7 +2202,7 @@ You two + another (a)
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+ᏍᏗ-
 \end_layout
 
 \end_inset
@@ -1741,6 +2212,15 @@ You two + another (a)
 
 \begin_layout Plain Layout
 Sdi-, Sd-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+h
 \end_layout
 
 \end_inset
@@ -1770,6 +2250,15 @@ You two + another (i)
 
 \begin_layout Plain Layout
 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+h
 \end_layout
 
 \end_inset
@@ -1812,9 +2301,7 @@ He + you two
 
 \end_inset
 </cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1823,11 +2310,31 @@ He + you two
 
 \end_inset
 </cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ᏕᏍᏗ-
+\end_layout
+
+\end_inset
+</cell>
 <cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-Desdi-, Desd-
+De:sdi-, De:sd-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+h
 \end_layout
 
 \end_inset
@@ -1847,7 +2354,7 @@ You two + them (i)
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+ᎨᏍᏗ-
 \end_layout
 
 \end_inset
@@ -1856,7 +2363,16 @@ You two + them (i)
 \begin_inset Text
 
 \begin_layout Plain Layout
-Gesdi- Gesd-
+Ge:sdi-, Ge:sd-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ɂ
 \end_layout
 
 \end_inset
@@ -1886,6 +2402,15 @@ You two + them (a)
 
 \begin_layout Plain Layout
 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ɂ
 \end_layout
 
 \end_inset
@@ -1928,9 +2453,7 @@ They + you two
 
 \end_inset
 </cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1939,11 +2462,31 @@ They + you two
 
 \end_inset
 </cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ᎡᏥ-
+\end_layout
+
+\end_inset
+</cell>
 <cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-Eji-, Ej-
+È:ji-, È:j-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ɂ
 \end_layout
 
 \end_inset
@@ -1963,7 +2506,7 @@ You all + another (a)
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+ᎢᏥ-
 \end_layout
 
 \end_inset
@@ -1972,7 +2515,16 @@ You all + another (a)
 \begin_inset Text
 
 \begin_layout Plain Layout
-Iji-, Ij-
+Ì:ji:-, Ì:j-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+h
 \end_layout
 
 \end_inset
@@ -2002,6 +2554,15 @@ You all + another (i)
 
 \begin_layout Plain Layout
 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+h
 \end_layout
 
 \end_inset
@@ -2044,9 +2605,7 @@ Another + you all
 
 \end_inset
 </cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2055,11 +2614,31 @@ Another + you all
 
 \end_inset
 </cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ᎡᏗ-
+\end_layout
+
+\end_inset
+</cell>
 <cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-Edi-, Ed-
+È:di-, È:d-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ɂ
 \end_layout
 
 \end_inset
@@ -2079,7 +2658,7 @@ You all and I + another (a)
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+ᎢᏗ-
 \end_layout
 
 \end_inset
@@ -2088,7 +2667,16 @@ You all and I + another (a)
 \begin_inset Text
 
 \begin_layout Plain Layout
-Idi-, Id-
+Ì:di-, Ì:d-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+h
 \end_layout
 
 \end_inset
@@ -2108,7 +2696,7 @@ You all and I + another (i)
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+ᎢᎩ-
 \end_layout
 
 \end_inset
@@ -2117,7 +2705,16 @@ You all and I + another (i)
 \begin_inset Text
 
 \begin_layout Plain Layout
-Igi-, Ig-
+Ì:gi-, Ì:g-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+h
 \end_layout
 
 \end_inset
@@ -2127,35 +2724,6 @@ Igi-, Ig-
 
 \begin_layout Plain Layout
 You all and I + another (i) [b]
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Another and I + you two.
 \end_layout
 
 \end_inset
@@ -2176,6 +2744,15 @@ Another and I + you two.
 
 \begin_layout Plain Layout
 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+h
 \end_layout
 
 \end_inset
@@ -2218,9 +2795,7 @@ Another + you all and me
 
 \end_inset
 </cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2229,11 +2804,31 @@ Another + you all and me
 
 \end_inset
 </cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ᎨᏗ-
+\end_layout
+
+\end_inset
+</cell>
 <cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-Gedi-, Ged-
+Ge:di-, Ge:d-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ɂ
 \end_layout
 
 \end_inset
@@ -2253,7 +2848,7 @@ You all and I + them (a)
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+ᏕᏗ-
 \end_layout
 
 \end_inset
@@ -2262,7 +2857,16 @@ You all and I + them (a)
 \begin_inset Text
 
 \begin_layout Plain Layout
-Dedi-, Ded-
+Dé:di-, Dé:d-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+h
 \end_layout
 
 \end_inset
@@ -2282,7 +2886,7 @@ You all and I + them (i)
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+ᎨᎩ-
 \end_layout
 
 \end_inset
@@ -2291,7 +2895,16 @@ You all and I + them (i)
 \begin_inset Text
 
 \begin_layout Plain Layout
-Gegi-, Geg-
+Ge:gi-, Ge:g-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+h
 \end_layout
 
 \end_inset
@@ -2334,9 +2947,7 @@ They + you all and me.
 
 \end_inset
 </cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2345,11 +2956,31 @@ They + you all and me.
 
 \end_inset
 </cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ᎡᏂ-, ᎡᏂ͓
+\end_layout
+
+\end_inset
+</cell>
 <cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-Eni-, En-
+È:ni-, È:n-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ɂ
 \end_layout
 
 \end_inset
@@ -2369,7 +3000,7 @@ You and I + another (a)
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+ᎢᏂ-, ᎢᏂ͓-
 \end_layout
 
 \end_inset
@@ -2378,7 +3009,16 @@ You and I + another (a)
 \begin_inset Text
 
 \begin_layout Plain Layout
-Ini-, In-
+Ì:ni-, Ì:n-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+h
 \end_layout
 
 \end_inset
@@ -2398,7 +3038,7 @@ You and I + another (i)
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+ᎩᏂ-
 \end_layout
 
 \end_inset
@@ -2408,6 +3048,15 @@ You and I + another (i)
 
 \begin_layout Plain Layout
 Gini-, Gin-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+h
 \end_layout
 
 \end_inset
@@ -2437,6 +3086,15 @@ You and I + another (i) [b]
 
 \begin_layout Plain Layout
 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+h
 \end_layout
 
 \end_inset
@@ -2479,9 +3137,7 @@ Another + you and me
 
 \end_inset
 </cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2490,11 +3146,31 @@ Another + you and me
 
 \end_inset
 </cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ᎨᏂ-, ᎨᏂ͓-
+\end_layout
+
+\end_inset
+</cell>
 <cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-Geni-, Gen-
+Ge:ni-, Ge:n-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ɂ
 \end_layout
 
 \end_inset
@@ -2514,7 +3190,7 @@ You and I + them (a)
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+ᏕᏂ-
 \end_layout
 
 \end_inset
@@ -2523,7 +3199,16 @@ You and I + them (a)
 \begin_inset Text
 
 \begin_layout Plain Layout
-De³ni-, Den-
+Dé:ni-, Dé:n-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+h
 \end_layout
 
 \end_inset
@@ -2557,6 +3242,15 @@ Degini-, Degin-
 
 \end_inset
 </cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+h
+\end_layout
+
+\end_inset
+</cell>
 <cell alignment="center" valignment="top" rightline="true" usebox="none">
 \begin_inset Text
 
@@ -2572,7 +3266,7 @@ You and I + them (i) [b]
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+ᎨᎩᏂ-
 \end_layout
 
 \end_inset
@@ -2581,7 +3275,16 @@ You and I + them (i) [b]
 \begin_inset Text
 
 \begin_layout Plain Layout
-Gegini-, Gegin-
+Ge:gini-, Ge:gin-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+h
 \end_layout
 
 \end_inset
@@ -2624,9 +3327,7 @@ They + you (one) and me.
 
 \end_inset
 </cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2635,11 +3336,31 @@ They + you (one) and me.
 
 \end_inset
 </cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ᎣᏍᏗ-, ᎣᏍᏗ͓-
+\end_layout
+
+\end_inset
+</cell>
 <cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-Osdi-, Osd-
+Ò:sdi-, Ò:sd-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ɂ
 \end_layout
 
 \end_inset
@@ -2673,6 +3394,15 @@ Another and I + another (a)
 
 \end_inset
 </cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+h
+\end_layout
+
+\end_inset
+</cell>
 <cell alignment="center" valignment="top" rightline="true" usebox="none">
 \begin_inset Text
 
@@ -2688,7 +3418,7 @@ Another and I + another (i)
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+ᎣᎩᏂ-
 \end_layout
 
 \end_inset
@@ -2697,7 +3427,16 @@ Another and I + another (i)
 \begin_inset Text
 
 \begin_layout Plain Layout
-Ogini-, Ogin-
+Ò:gini-, Ò:gin-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+h
 \end_layout
 
 \end_inset
@@ -2727,6 +3466,15 @@ Another and I + another (i) [b]
 
 \begin_layout Plain Layout
 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+h
 \end_layout
 
 \end_inset
@@ -2769,9 +3517,7 @@ Another + another and me
 
 \end_inset
 </cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2780,11 +3526,31 @@ Another + another and me
 
 \end_inset
 </cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ᎪᏍᏗ-, ᎪᏍᏗ͓-
+\end_layout
+
+\end_inset
+</cell>
 <cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-Gosdi-, Gosd-
+Go:sdi-, Go:sd-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ɂ
 \end_layout
 
 \end_inset
@@ -2804,7 +3570,7 @@ Another and I + them (a)
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+ᏙᏍᏗ-, ᏙᏍᏗ͓-
 \end_layout
 
 \end_inset
@@ -2813,7 +3579,16 @@ Another and I + them (a)
 \begin_inset Text
 
 \begin_layout Plain Layout
-Dosdi-, Dosd-
+Dò:sdi-, Dò:sd-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+h
 \end_layout
 
 \end_inset
@@ -2833,7 +3608,7 @@ Another and I + them (i)
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+ᏙᎩᏂ-
 \end_layout
 
 \end_inset
@@ -2842,7 +3617,16 @@ Another and I + them (i)
 \begin_inset Text
 
 \begin_layout Plain Layout
-Dogini-, Dogin-
+Dò:gini-, Dò:gin-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+h
 \end_layout
 
 \end_inset
@@ -2862,7 +3646,7 @@ Another and I + them (i) [b]
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+ᎪᎩᏂ-
 \end_layout
 
 \end_inset
@@ -2871,7 +3655,16 @@ Another and I + them (i) [b]
 \begin_inset Text
 
 \begin_layout Plain Layout
-Gogini-, Gogin-
+Gò:gini-, Gò:gin-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+h
 \end_layout
 
 \end_inset
@@ -2914,9 +3707,7 @@ They + another and me.
 
 \end_inset
 </cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2925,11 +3716,31 @@ They + another and me.
 
 \end_inset
 </cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ᎣᏥ-, ᎣᏥ͓-
+\end_layout
+
+\end_inset
+</cell>
 <cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-Oji-, Oj-
+Ò:ji-, Ò:j-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ɂ
 \end_layout
 
 \end_inset
@@ -2963,6 +3774,15 @@ They and I + another (a)
 
 \end_inset
 </cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+h
+\end_layout
+
+\end_inset
+</cell>
 <cell alignment="center" valignment="top" rightline="true" usebox="none">
 \begin_inset Text
 
@@ -2978,7 +3798,7 @@ They and I + another (i)
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+ᎣᎩ-, ᎣᎩ͓-
 \end_layout
 
 \end_inset
@@ -2987,7 +3807,16 @@ They and I + another (i)
 \begin_inset Text
 
 \begin_layout Plain Layout
-Ogi- Og-
+Ò:gi-, Ò:g-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+h
 \end_layout
 
 \end_inset
@@ -3017,6 +3846,15 @@ They and I + another (i) [b]
 
 \begin_layout Plain Layout
 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+h
 \end_layout
 
 \end_inset
@@ -3059,9 +3897,7 @@ Another + them and me.
 
 \end_inset
 </cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3070,11 +3906,31 @@ Another + them and me.
 
 \end_inset
 </cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ᎪᏥ-
+\end_layout
+
+\end_inset
+</cell>
 <cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-Goji-, Goj-
+Go:ji-, Go:j-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ɂ
 \end_layout
 
 \end_inset
@@ -3094,7 +3950,7 @@ They and I + them (a)
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+ᏙᏥ-
 \end_layout
 
 \end_inset
@@ -3103,7 +3959,16 @@ They and I + them (a)
 \begin_inset Text
 
 \begin_layout Plain Layout
-Doji-, Doj-
+Dò:ji-, Dò:j-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+h
 \end_layout
 
 \end_inset
@@ -3123,7 +3988,7 @@ They and I + them (i)
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+ᏙᎩ-
 \end_layout
 
 \end_inset
@@ -3132,7 +3997,16 @@ They and I + them (i)
 \begin_inset Text
 
 \begin_layout Plain Layout
-Dogi-, Dog-
+Dò:gi-, Dò:g-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+h
 \end_layout
 
 \end_inset
@@ -3152,7 +4026,7 @@ They and I + them (i) [b]
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+ᎪᎩ-
 \end_layout
 
 \end_inset
@@ -3161,7 +4035,16 @@ They and I + them (i) [b]
 \begin_inset Text
 
 \begin_layout Plain Layout
-Gogi-, Gog-
+Go:gi-, Go:g-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+h
 \end_layout
 
 \end_inset
@@ -3204,9 +4087,7 @@ They + them and me.
 
 \end_inset
 </cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3215,11 +4096,31 @@ They + them and me.
 
 \end_inset
 </cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Ꭰ-, Ꭶ, Ꭶ͓-
+\end_layout
+
+\end_inset
+</cell>
 <cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-Ạ-, Gạ-, G-
+A-, Ga-, G-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+h
 \end_layout
 
 \end_inset
@@ -3253,6 +4154,15 @@ Another + another (a)
 
 \end_inset
 </cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+h
+\end_layout
+
+\end_inset
+</cell>
 <cell alignment="left" valignment="top" rightline="true" usebox="none">
 \begin_inset Text
 
@@ -3277,7 +4187,16 @@ Another + another (i)
 \begin_inset Text
 
 \begin_layout Plain Layout
-U-, Uw-
+Ù:-, Ù:w-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+h
 \end_layout
 
 \end_inset
@@ -3311,6 +4230,15 @@ Another + another (i) [b]
 
 \end_inset
 </cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
 <cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
@@ -3326,7 +4254,7 @@ Another + another (i) [b]
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+ᎠᏂ-
 \end_layout
 
 \end_inset
@@ -3335,7 +4263,16 @@ Another + another (i) [b]
 \begin_inset Text
 
 \begin_layout Plain Layout
-Ạni-, Ạn-
+À:ni-, À:n-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+h
 \end_layout
 
 \end_inset
@@ -3369,6 +4306,15 @@ They + another (a)
 
 \end_inset
 </cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+h
+\end_layout
+
+\end_inset
+</cell>
 <cell alignment="center" valignment="top" rightline="true" usebox="none">
 \begin_inset Text
 
@@ -3384,7 +4330,7 @@ They + another (i)
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+ᎤᏂ-
 \end_layout
 
 \end_inset
@@ -3393,7 +4339,16 @@ They + another (i)
 \begin_inset Text
 
 \begin_layout Plain Layout
-Uni-, Un-
+Ù:ni-, Ù:n-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+h
 \end_layout
 
 \end_inset
@@ -3413,7 +4368,7 @@ They + another (i) [b]
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+ᏕᎦ-, ᏕᎦ͓-, Ꮣ-
 \end_layout
 
 \end_inset
@@ -3422,7 +4377,16 @@ They + another (i) [b]
 \begin_inset Text
 
 \begin_layout Plain Layout
-Degạ-, Deg-, Dạ-
+De:ga-, De:g-, Da-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+h
 \end_layout
 
 \end_inset
@@ -3456,6 +4420,15 @@ Another + them (a)
 
 \end_inset
 </cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+h
+\end_layout
+
+\end_inset
+</cell>
 <cell alignment="center" valignment="top" rightline="true" usebox="none">
 \begin_inset Text
 
@@ -3471,7 +4444,7 @@ Another + them (i)
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+ᏕᎦ-, ᏕᎩ-
 \end_layout
 
 \end_inset
@@ -3480,7 +4453,16 @@ Another + them (i)
 \begin_inset Text
 
 \begin_layout Plain Layout
-De³ga-, De³gi-
+Dé:gi-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+h
 \end_layout
 
 \end_inset
@@ -3500,7 +4482,7 @@ You all and I + them (i) [b]
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Ꮪ-
 \end_layout
 
 \end_inset
@@ -3509,7 +4491,16 @@ You all and I + them (i) [b]
 \begin_inset Text
 
 \begin_layout Plain Layout
-Du-, Duw-
+Dù:-, Dù:w-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+h
 \end_layout
 
 \end_inset
@@ -3552,9 +4543,7 @@ Another + them (i) [b]
 
 \end_inset
 </cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3563,11 +4552,31 @@ Another + them (i) [b]
 
 \end_inset
 </cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ᏓᏂ-
+\end_layout
+
+\end_inset
+</cell>
 <cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-Dạni-, Dạn-
+Dà:ni-, Dà:n-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+h
 \end_layout
 
 \end_inset
@@ -3601,6 +4610,15 @@ They + them (a)
 
 \end_inset
 </cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+h
+\end_layout
+
+\end_inset
+</cell>
 <cell alignment="center" valignment="top" rightline="true" usebox="none">
 \begin_inset Text
 
@@ -3616,7 +4634,7 @@ They + them (i)
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+ᏚᏂ-
 \end_layout
 
 \end_inset
@@ -3625,7 +4643,16 @@ They + them (i)
 \begin_inset Text
 
 \begin_layout Plain Layout
-Duni-, Dun-
+Dù:ni-, Dù:n-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+h
 \end_layout
 
 \end_inset
@@ -3651,8 +4678,9 @@ They + them (i) [b]
 \noindent
 \align center
 \begin_inset Tabular
-<lyxtabular version="3" rows="13" columns="4">
-<features rotate="0" islongtable="true" longtabularalignment="center">
+<lyxtabular version="3" rows="13" columns="5">
+<features islongtable="true" longtabularalignment="center">
+<column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
@@ -3676,6 +4704,15 @@ Indefinite Subject+Object Pairings.
 \end_inset
 </cell>
 <cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3714,6 +4751,15 @@ Prefix
 \end_inset
 </cell>
 <cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3780,9 +4826,7 @@ Pairing
 
 \end_inset
 </cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3791,11 +4835,31 @@ Pairing
 
 \end_inset
 </cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ᎥᎩ-, ᎥᏆ͓-
+\end_layout
+
+\end_inset
+</cell>
 <cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-Vgi-, Vgw-
+V̀:gi-, V̀:gw-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
 \end_layout
 
 \end_inset
@@ -3824,7 +4888,7 @@ One(s) who + me
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+ᎡᎩᏂ-
 \end_layout
 
 \end_inset
@@ -3833,7 +4897,16 @@ One(s) who + me
 \begin_inset Text
 
 \begin_layout Plain Layout
-Egini-
+È:gini-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
 \end_layout
 
 \end_inset
@@ -3862,7 +4935,7 @@ One(s) who + you and me
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+ᎣᎩᏂ-
 \end_layout
 
 \end_inset
@@ -3871,7 +4944,16 @@ One(s) who + you and me
 \begin_inset Text
 
 \begin_layout Plain Layout
-Ogini-
+Ò:gini-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
 \end_layout
 
 \end_inset
@@ -3900,7 +4982,7 @@ One(s) who + another and me
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+ᎡᎩ-
 \end_layout
 
 \end_inset
@@ -3909,7 +4991,16 @@ One(s) who + another and me
 \begin_inset Text
 
 \begin_layout Plain Layout
-Egi-
+È:gi-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
 \end_layout
 
 \end_inset
@@ -3938,7 +5029,7 @@ One(s) who + you all and me
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+ᎣᎩ-
 \end_layout
 
 \end_inset
@@ -3947,7 +5038,16 @@ One(s) who + you all and me
 \begin_inset Text
 
 \begin_layout Plain Layout
-Ogi-
+Ò:gi-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
 \end_layout
 
 \end_inset
@@ -3976,7 +5076,7 @@ One(s) who + them and me
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+ᎡᏣ-
 \end_layout
 
 \end_inset
@@ -3985,7 +5085,16 @@ One(s) who + them and me
 \begin_inset Text
 
 \begin_layout Plain Layout
-Eja-, Ej-
+È:ja-, È:j-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
 \end_layout
 
 \end_inset
@@ -4014,7 +5123,7 @@ One(s) who + you (one)
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+ᎡᏍᏗ-
 \end_layout
 
 \end_inset
@@ -4023,7 +5132,16 @@ One(s) who + you (one)
 \begin_inset Text
 
 \begin_layout Plain Layout
-Esdi-
+È:sdi-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
 \end_layout
 
 \end_inset
@@ -4052,7 +5170,7 @@ One(s) who + you (two)
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+ᎡᏥ-
 \end_layout
 
 \end_inset
@@ -4061,7 +5179,16 @@ One(s) who + you (two)
 \begin_inset Text
 
 \begin_layout Plain Layout
-Eji-
+È:ji-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
 \end_layout
 
 \end_inset
@@ -4090,7 +5217,7 @@ One(s) who + you all
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+ᎠᏥ-, ᎠᎦ͓-
 \end_layout
 
 \end_inset
@@ -4099,7 +5226,16 @@ One(s) who + you all
 \begin_inset Text
 
 \begin_layout Plain Layout
-Ag-, Aji-
+À:ji-, À:g-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
 \end_layout
 
 \end_inset
@@ -4128,7 +5264,7 @@ One(s) who + him
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+ᎨᏥ-, ᎨᎦ͓-
 \end_layout
 
 \end_inset
@@ -4137,7 +5273,16 @@ One(s) who + him
 \begin_inset Text
 
 \begin_layout Plain Layout
-Geg-, Geji-
+Ge:ji-, Ge:g-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
 \end_layout
 
 \end_inset
@@ -4172,8 +5317,8 @@ One(s) who + them
 \noindent
 \align center
 \begin_inset Tabular
-<lyxtabular version="3" rows="18" columns="4">
-<features rotate="0" islongtable="true" longtabularalignment="center">
+<lyxtabular version="3" rows="22" columns="4">
+<features islongtable="true" longtabularalignment="center">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
@@ -4278,6 +5423,16 @@ Pairing
 \begin_inset Text
 
 \begin_layout Plain Layout
+-ada, -ad[a], -adad[eiouv]
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+DF/296!
+\end_layout
+
+\end_inset
+
 
 \end_layout
 
@@ -4307,7 +5462,7 @@ Pairing
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+ᎦᏓ[Ꮣ͓]-
 \end_layout
 
 \end_inset
@@ -4316,17 +5471,7 @@ Pairing
 \begin_inset Text
 
 \begin_layout Plain Layout
-Gada[d]-
-\begin_inset Foot
-status collapsed
-
-\begin_layout Plain Layout
-DF/296!
-\end_layout
-
-\end_inset
-
-
+Gada:[d]-
 \end_layout
 
 \end_inset
@@ -4355,7 +5500,7 @@ I + me
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+ᎠᏆᏓ[Ꮣ͓]-
 \end_layout
 
 \end_inset
@@ -4364,7 +5509,7 @@ I + me
 \begin_inset Text
 
 \begin_layout Plain Layout
-Agwada[d]-
+À:gwada:[d]-
 \end_layout
 
 \end_inset
@@ -4389,20 +5534,11 @@ I + me [b]
 </cell>
 </row>
 <row>
-<cell alignment="left" valignment="top" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Osdada[d]
+ᎠᏓ[Ꮣ͓]-
 \end_layout
 
 \end_inset
@@ -4411,7 +5547,130 @@ Osdada[d]
 \begin_inset Text
 
 \begin_layout Plain Layout
-He and I + ourselves
+À:da:[d]-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Another + themself
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ᎤᏓ[Ꮣ͓]-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Ù:da:[d]-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Another + themself [b]
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ᎠᎾᏓ[Ꮣ͓]-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+À:nada:[d]-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+They + themselves.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ᎤᎾᏓ[Ꮣ͓]-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Ù:nada:[d]-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+They + themselves.
 \end_layout
 
 \end_inset
@@ -4431,7 +5690,7 @@ He and I + ourselves
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+ᎣᏍᏓᏓ[Ꮣ͓]-
 \end_layout
 
 \end_inset
@@ -4440,7 +5699,45 @@ He and I + ourselves
 \begin_inset Text
 
 \begin_layout Plain Layout
-Ojada[d]-
+Ò:sdada:[d]
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Another and I + ourselves
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ᎣᏣᏓ[Ꮣ͓]-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Ò:jada:[d]-
 \end_layout
 
 \end_inset
@@ -4469,7 +5766,7 @@ They and I + ourselves
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+ᎣᎦᏓ[Ꮣ͓]-
 \end_layout
 
 \end_inset
@@ -4478,7 +5775,7 @@ They and I + ourselves
 \begin_inset Text
 
 \begin_layout Plain Layout
-Ogada[d]-
+Ò:gada:[d]-
 \end_layout
 
 \end_inset
@@ -4507,7 +5804,7 @@ They and I + ourselves
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+ᎢᏣᏓ[Ꮣ͓]-
 \end_layout
 
 \end_inset
@@ -4516,7 +5813,7 @@ They and I + ourselves
 \begin_inset Text
 
 \begin_layout Plain Layout
-Ijada[d]-
+Ì:jada:[d]-
 \end_layout
 
 \end_inset
@@ -4545,7 +5842,7 @@ You all + yourselves
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+ᎭᏓ[Ꮣ͓]-
 \end_layout
 
 \end_inset
@@ -4554,7 +5851,7 @@ You all + yourselves
 \begin_inset Text
 
 \begin_layout Plain Layout
-Hada[d]-
+Hada:[d]-
 \end_layout
 
 \end_inset
@@ -4583,7 +5880,7 @@ You + yourself
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+ᏣᏓ[Ꮣ͓]-
 \end_layout
 
 \end_inset
@@ -4592,7 +5889,7 @@ You + yourself
 \begin_inset Text
 
 \begin_layout Plain Layout
-Jada[d]-
+Jada:[d]-
 \end_layout
 
 \end_inset
@@ -4621,7 +5918,7 @@ You + yourself [b]
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+ᏍᏓᏓ[Ꮣ͓]-
 \end_layout
 
 \end_inset
@@ -4630,7 +5927,7 @@ You + yourself [b]
 \begin_inset Text
 
 \begin_layout Plain Layout
-Sdada[d]-
+Sdada:[d]-
 \end_layout
 
 \end_inset
@@ -4659,7 +5956,7 @@ You two + yourselves
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+ᎢᎾᏓ[Ꮣ͓]-
 \end_layout
 
 \end_inset
@@ -4668,7 +5965,7 @@ You two + yourselves
 \begin_inset Text
 
 \begin_layout Plain Layout
-Inada[d]-
+Ì:nada:[d]-
 \end_layout
 
 \end_inset
@@ -4697,7 +5994,7 @@ You and I + ourselves
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+ᎩᎾᏓ[Ꮣ͓]-
 \end_layout
 
 \end_inset
@@ -4706,7 +6003,7 @@ You and I + ourselves
 \begin_inset Text
 
 \begin_layout Plain Layout
-Ginada[d]-
+Ginada:[d]-
 \end_layout
 
 \end_inset
@@ -4735,7 +6032,7 @@ You and I + ourselves
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+ᎢᏓᏓ[Ꮣ͓]-
 \end_layout
 
 \end_inset
@@ -4744,7 +6041,7 @@ You and I + ourselves
 \begin_inset Text
 
 \begin_layout Plain Layout
-Idada[d]-
+Ì:dada:[d]-
 \end_layout
 
 \end_inset
@@ -4773,7 +6070,7 @@ You all and I + ourselves
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+ᎢᎦᏓ[Ꮣ͓]-
 \end_layout
 
 \end_inset
@@ -4782,7 +6079,7 @@ You all and I + ourselves
 \begin_inset Text
 
 \begin_layout Plain Layout
-Igada[d]-
+Ì:gada:[d]-
 \end_layout
 
 \end_inset
@@ -4811,7 +6108,7 @@ You all and I + ourselves
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+ᎣᏍᏓᏓ[Ꮣ͓]-
 \end_layout
 
 \end_inset
@@ -4820,7 +6117,7 @@ You all and I + ourselves
 \begin_inset Text
 
 \begin_layout Plain Layout
-Osdada[d]-
+Ò:sdada:[d]-
 \end_layout
 
 \end_inset
@@ -4849,7 +6146,7 @@ Another and I + ourselves.
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+ᎣᎩᎾᏓ[Ꮣ͓]-
 \end_layout
 
 \end_inset
@@ -4858,7 +6155,7 @@ Another and I + ourselves.
 \begin_inset Text
 
 \begin_layout Plain Layout
-Oginada[d]-
+Ò:ginada:[d]-
 \end_layout
 
 \end_inset
@@ -4891,7 +6188,7 @@ Another and I + ourselves.
 \end_layout
 
 \begin_layout Section
-ORDER OF SUFFIXES
+Verb Post Stem Affixes
 \end_layout
 
 \begin_layout Standard
@@ -4899,23 +6196,33 @@ From Stem to Final Position.
 \end_layout
 
 \begin_layout Enumerate
-Again
+Reversive
 \end_layout
 
 \begin_layout Enumerate
-Over and Over
+Duplicative, Again
 \end_layout
 
 \begin_layout Enumerate
-Causative OR Accidentally
+Repetitive, Over and Over
 \end_layout
 
 \begin_layout Enumerate
-Completely
+Instrumental, Causative
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+=OR= Unintentional, Accidental
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Completive, Completely
 \end_layout
 
 \begin_layout Enumerate
-ToFor
+Dative-Benefactive, To/For
 \end_layout
 
 \begin_layout Enumerate
@@ -4923,11 +6230,31 @@ Around
 \end_layout
 
 \begin_layout Enumerate
-CameFor OR WentTo
+At Intervals
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+=OR= Came For, Went To
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Progressive Marker
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+=OR= Pre-incipient, About To, Intent To
 \end_layout
 
 \begin_layout Enumerate
-AboutTo OR IntentTo
+=OR= Future Marker
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Tense Marker
 \end_layout
 
 \begin_layout Enumerate
@@ -4940,6 +6267,80 @@ AboutTo OR IntentTo
 
 \begin_layout Enumerate
 -Ꮷ, -Ꭸ, -Ꮎ, -Ꮂ, -ᎢᏏ, -ᏗᎾ, -Ꮫ
+\end_layout
+
+\begin_layout Standard
+☞ 
+\emph on
+Per the dialect in the C.E.D.
+ Other dialects will use different orderings.
+\end_layout
+
+\begin_layout Section
+H Alternation
+\end_layout
+
+\begin_layout Standard
+In many words which use bound pronouns, there is a pattern called the 
+\begin_inset Quotes eld
+\end_inset
+
+h alternation
+\begin_inset Quotes erd
+\end_inset
+
+ or 
+\begin_inset Quotes eld
+\end_inset
+
+glottal stop alternation
+\begin_inset Quotes erd
+\end_inset
+
+.
+ In effect, certain bound pronouns when combined with certain words trigger
+ a pronunciation change where an 'h' is either present, or it is absent
+ or replaced with a glottal stop.
+\end_layout
+
+\begin_layout Quotation
+Glottal stop appears under the following conditions: in all forms with a
+ first person singular subject; in forms with a second person singular subject
+ and a third person animate or first person exclusive object; in forms with
+ a first person inclusive subject and a third person animate object; in
+ forms with a first person exclusive subject and a third person animate
+ or second person dual or plural object.
+ In all other cases, -h- appears.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+\begin_inset space \hfill{}
+\end_inset
+
+C.E.D.
+ Grammar
+\emph default
+, pp 265-266
+\end_layout
+
+\begin_layout Quotation
+The stem of "hit" exhibits an alternation between -h- and its absence; -h-
+ appears under the same conditions as in Paradigm One, but note that there
+ are no instances of glottal stop.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+\begin_inset space \hfill{}
+\end_inset
+
+C.E.D.
+ Grammar
+\emph default
+, pg 267
 \end_layout
 
 \begin_layout Chapter
@@ -4967,11 +6368,11 @@ That Place or Time
 \begin_inset Quotes eld
 \end_inset
 
-\SpecialChar \ldots{}
- that time \SpecialChar \ldots{}
- that is when \SpecialChar \ldots{}
- that place \SpecialChar \ldots{}
- that area \SpecialChar \ldots{}
+\SpecialChar ldots
+ that time \SpecialChar ldots
+ that is when \SpecialChar ldots
+ that place \SpecialChar ldots
+ that area \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -5200,7 +6601,7 @@ half of that area
 \end_deeper
 \end_deeper
 \begin_layout Section
-ᎤᏤᎵ, his \SpecialChar \ldots{}
+ᎤᏤᎵ, his \SpecialChar ldots
 
 \end_layout
 
@@ -5657,7 +7058,7 @@ Cherokee Messenger
 \end_layout
 
 \begin_layout Section
-ᎤᏩᏒ, himself \SpecialChar \ldots{}
+ᎤᏩᏒ, himself \SpecialChar ldots
 
 \end_layout
 
@@ -5766,7 +7167,7 @@ Ourselves.
 \end_inset
 
 Ourselves.
- (Themself and myself.)
+ (Themselves and myself.)
 \begin_inset Quotes erd
 \end_inset
 
@@ -6030,7 +7431,7 @@ His word (that he spoke).
 
 \end_deeper
 \begin_layout Section
-ᎨᏒᎢ, ᎨᏐᎢ \SpecialChar \ldots{}
+ᎨᏒᎢ, ᎨᏐᎢ \SpecialChar ldots
 
 \end_layout
 
@@ -6124,8 +7525,8 @@ being
 \begin_inset Quotes eld
 \end_inset
 
-He \SpecialChar \ldots{}
- She \SpecialChar \ldots{}
+He \SpecialChar ldots
+ She \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -7587,7 +8988,7 @@ Forty minutes past five strikes.
 \end_deeper
 \end_deeper
 \begin_layout Section
-Ꮒ- \SpecialChar \ldots{}
+Ꮒ- \SpecialChar ldots
 
 \end_layout
 
@@ -7686,6 +9087,7 @@ nị-
 \end_inset
 
  unless followed by a high tone.
+ (Ꮒ- + Ꮥ- becomes ᏂᏗ-)
 \end_layout
 
 \end_deeper
@@ -7818,8 +9220,8 @@ iy-
 \end_layout
 
 \begin_layout Section
-Able to \SpecialChar \ldots{}
-, Can \SpecialChar \ldots{}
+Able to\SpecialChar ldots
+, Can\SpecialChar ldots
 
 \end_layout
 
@@ -7879,7 +9281,7 @@ There is a noticeable difference between the 1844 Cherokee Messenger (CM)
 \begin_inset Quotes eld
 \end_inset
 
-I am able to \SpecialChar \ldots{}
+I am able to \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -7895,7 +9297,7 @@ I am able to \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-I am able to \SpecialChar \ldots{}
+I am able to \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -7909,7 +9311,7 @@ I am able to \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-You are able to \SpecialChar \ldots{}
+You are able to \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -7925,7 +9327,7 @@ You are able to \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-You are able to \SpecialChar \ldots{}
+You are able to \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -7939,7 +9341,7 @@ You are able to \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-He is able to \SpecialChar \ldots{}
+He is able to \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -7955,7 +9357,7 @@ He is able to \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-He is able to \SpecialChar \ldots{}
+He is able to \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -7969,7 +9371,7 @@ He is able to \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-You and I are able to \SpecialChar \ldots{}
+You and I are able to \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -7985,7 +9387,7 @@ You and I are able to \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-You and I are able to \SpecialChar \ldots{}
+You and I are able to \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -8001,7 +9403,7 @@ You and I are able to \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-He and I are able to \SpecialChar \ldots{}
+He and I are able to \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -8016,7 +9418,7 @@ He and I are able to \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-You two are able to \SpecialChar \ldots{}
+You two are able to \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -8032,7 +9434,7 @@ You two are able to \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-You two are able to \SpecialChar \ldots{}
+You two are able to \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -8048,7 +9450,7 @@ You two are able to \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-You all and I are able to \SpecialChar \ldots{}
+You all and I are able to \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -8064,7 +9466,7 @@ You all and I are able to \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-You all and I are able to \SpecialChar \ldots{}
+You all and I are able to \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -8080,7 +9482,7 @@ You all and I are able to \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-You all are able to \SpecialChar \ldots{}
+You all are able to \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -8096,7 +9498,7 @@ You all are able to \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-You all are able to \SpecialChar \ldots{}
+You all are able to \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -8112,7 +9514,7 @@ You all are able to \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-They and I are able to \SpecialChar \ldots{}
+They and I are able to \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -8127,7 +9529,7 @@ They and I are able to \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-They are able to \SpecialChar \ldots{}
+They are able to \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -8160,8 +9562,8 @@ Cherokee English Dictionary (CED)
 \end_layout
 
 \begin_layout Section
-Able to if \SpecialChar \ldots{}
-, Can if \SpecialChar \ldots{}
+Able to if \SpecialChar ldots
+, Can if \SpecialChar ldots
 
 \end_layout
 
@@ -8172,7 +9574,7 @@ See also
 \begin_inset Quotes eld
 \end_inset
 
-Able to \SpecialChar \ldots{}
+Able to\SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -8181,7 +9583,8 @@ Able to \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-Not able to if
+Not able to\SpecialChar ldots
+
 \begin_inset Quotes erd
 \end_inset
 
@@ -8213,7 +9616,7 @@ Examples:
 \begin_inset Quotes eld
 \end_inset
 
-I can speak if \SpecialChar \ldots{}
+I can speak if \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -8226,7 +9629,7 @@ I can speak if \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-You can speak if \SpecialChar \ldots{}
+You can speak if \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -8239,7 +9642,7 @@ You can speak if \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-He/she can speak if \SpecialChar \ldots{}
+He/she can speak if \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -8252,7 +9655,7 @@ He/she can speak if \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-We (you one and I) can speak if \SpecialChar \ldots{}
+We (you one and I) can speak if \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -8271,7 +9674,7 @@ We (you one and I) can speak if \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-We (he/she and I) can speak if \SpecialChar \ldots{}
+We (he/she and I) can speak if \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -8284,7 +9687,7 @@ We (he/she and I) can speak if \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-You two can speak if \SpecialChar \ldots{}
+You two can speak if \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -8297,7 +9700,7 @@ You two can speak if \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-We (you all and I) can speak if \SpecialChar \ldots{}
+We (you all and I) can speak if \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -8316,7 +9719,7 @@ We (you all and I) can speak if \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-We (they and I) can speak if \SpecialChar \ldots{}
+We (they and I) can speak if \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -8335,7 +9738,7 @@ We (they and I) can speak if \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-You all can speak if \SpecialChar \ldots{}
+You all can speak if \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -8354,7 +9757,7 @@ You all can speak if \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-They can speak if \SpecialChar \ldots{}
+They can speak if \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -8380,7 +9783,7 @@ Cherokee Messenger (CM)
 \end_layout
 
 \begin_layout Section
-About to \SpecialChar \ldots{}
+About to\SpecialChar ldots
  (Immediate Future Tense)
 \end_layout
 
@@ -8420,7 +9823,7 @@ Set B
 \begin_inset Quotes eld
 \end_inset
 
-is just about to \SpecialChar \ldots{}
+is just about to \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -8434,7 +9837,7 @@ is just about to \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-Was about to \SpecialChar \ldots{}
+Was about to \SpecialChar ldots
  a while ago.
 \begin_inset Quotes erd
 \end_inset
@@ -8447,7 +9850,7 @@ Was about to \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-Habitually is about \SpecialChar \ldots{}
+Habitually is about \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -8460,7 +9863,7 @@ Habitually is about \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-Let now be about to \SpecialChar \ldots{}
+Let now be about to \SpecialChar ldots
  
 \begin_inset Quotes erd
 \end_inset
@@ -8506,8 +9909,8 @@ with intent
 \begin_inset Quotes eld
 \end_inset
 
-Is just about to \SpecialChar \ldots{}
- (with intent) when \SpecialChar \ldots{}
+Is just about to \SpecialChar ldots
+ (with intent) when \SpecialChar ldots
  
 \begin_inset Quotes erd
 \end_inset
@@ -8521,7 +9924,7 @@ Is just about to \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-Was just about to \SpecialChar \ldots{}
+Was just about to \SpecialChar ldots
  (with intent)
 \begin_inset Quotes erd
 \end_inset
@@ -8534,7 +9937,7 @@ Was just about to \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-Will be about to \SpecialChar \ldots{}
+Will be about to \SpecialChar ldots
  (with intent)
 \begin_inset Quotes erd
 \end_inset
@@ -8547,7 +9950,7 @@ Will be about to \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-(His) being about to \SpecialChar \ldots{}
+(His) being about to \SpecialChar ldots
  (with intent)
 \begin_inset Quotes erd
 \end_inset
@@ -8559,8 +9962,8 @@ Verbal Noun.
 
 \end_deeper
 \begin_layout Section
-Accidentally \SpecialChar \ldots{}
- (Accidental) 
+Accidentally\SpecialChar ldots
+ (Accidental)
 \end_layout
 
 \begin_layout Standard
@@ -8584,7 +9987,7 @@ past tense
 \begin_inset Quotes eld
 \end_inset
 
-did accidentally \SpecialChar \ldots{}
+did accidentally \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -8598,7 +10001,7 @@ did accidentally \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-habitually \SpecialChar \ldots{}
+habitually \SpecialChar ldots
 -ing accidentally
 \begin_inset Quotes erd
 \end_inset
@@ -8611,7 +10014,7 @@ habitually \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-let accidentally \SpecialChar \ldots{}
+let accidentally \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -8624,7 +10027,7 @@ let accidentally \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-to accidentally \SpecialChar \ldots{}
+to accidentally \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -8636,7 +10039,7 @@ to accidentally \SpecialChar \ldots{}
 \begin_layout Standard
 
 \emph on
-This is ending is a composite of 
+This ending is a composite of 
 \begin_inset Quotes eld
 \end_inset
 
@@ -8726,7 +10129,7 @@ Set B
 \begin_inset Quotes eld
 \end_inset
 
-is \SpecialChar \ldots{}
+is \SpecialChar ldots
  again
 \begin_inset Quotes erd
 \end_inset
@@ -8739,7 +10142,7 @@ is \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-did \SpecialChar \ldots{}
+did \SpecialChar ldots
  again
 \begin_inset Quotes erd
 \end_inset
@@ -8753,7 +10156,7 @@ did \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-did \SpecialChar \ldots{}
+did \SpecialChar ldots
  again
 \begin_inset Quotes erd
 \end_inset
@@ -8767,7 +10170,7 @@ did \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-habitually \SpecialChar \ldots{}
+habitually \SpecialChar ldots
 -ing again
 \begin_inset Quotes erd
 \end_inset
@@ -8780,7 +10183,7 @@ habitually \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-let \SpecialChar \ldots{}
+let \SpecialChar ldots
  again
 \begin_inset Quotes erd
 \end_inset
@@ -8793,7 +10196,7 @@ let \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-to \SpecialChar \ldots{}
+to \SpecialChar ldots
  again
 \begin_inset Quotes erd
 \end_inset
@@ -9100,8 +10503,12 @@ Cherokee Reference Grammer (2015) - Brad Montgomery-Anderson
 \end_layout
 
 \begin_layout Section
-Already have \SpecialChar \ldots{}
+Already have \SpecialChar ldots
 
+\end_layout
+
+\begin_layout Itemize
+Ꮒ- + Ꮥ- becomes ᏂᏗ-
 \end_layout
 
 \begin_layout Standard
@@ -9254,8 +10661,12 @@ when
 \end_deeper
 \end_deeper
 \begin_layout Section
-Already will have \SpecialChar \ldots{}
+Already will have \SpecialChar ldots
 
+\end_layout
+
+\begin_layout Itemize
+Ꮒ- + Ꮥ- becomes ᏂᏗ-
 \end_layout
 
 \begin_layout Standard
@@ -9408,8 +10819,8 @@ when
 \end_deeper
 \end_deeper
 \begin_layout Section
-Apt to \SpecialChar \ldots{}
- Likely \SpecialChar \ldots{}
+Apt to \SpecialChar ldots
+ Likely \SpecialChar ldots
 
 \end_layout
 
@@ -9437,7 +10848,7 @@ Set B
 \begin_inset Quotes eld
 \end_inset
 
-is apt to \SpecialChar \ldots{}
+is apt to \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -9450,7 +10861,7 @@ is apt to \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-was apt to \SpecialChar \ldots{}
+was apt to \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -9464,7 +10875,7 @@ was apt to \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-was (consciously) apt to \SpecialChar \ldots{}
+was (consciously) apt to \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -9477,7 +10888,7 @@ was (consciously) apt to \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-was (unconsciously) apt to \SpecialChar \ldots{}
+was (unconsciously) apt to \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -9491,7 +10902,7 @@ was (unconsciously) apt to \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-habitually is apt to \SpecialChar \ldots{}
+habitually is apt to \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -9505,7 +10916,7 @@ habitually is apt to \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-will be apt to \SpecialChar \ldots{}
+will be apt to \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -9519,7 +10930,7 @@ will be apt to \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-aptness to \SpecialChar \ldots{}
+aptness to \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -9528,7 +10939,7 @@ aptness to \SpecialChar \ldots{}
 \end_layout
 
 \begin_layout Section
-Causing \SpecialChar \ldots{}
+Causing \SpecialChar ldots
  (Instrumental/Causative) 
 \end_layout
 
@@ -9691,7 +11102,7 @@ sonorant
 \begin_inset Quotes eld
 \end_inset
 
-is causing it to \SpecialChar \ldots{}
+is causing it to \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -9704,7 +11115,7 @@ is causing it to \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-did cause it to \SpecialChar \ldots{}
+did cause it to \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -9717,7 +11128,7 @@ did cause it to \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-habitually causes it to be \SpecialChar \ldots{}
+habitually causes it to be \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -9730,7 +11141,7 @@ habitually causes it to be \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-let cause it to \SpecialChar \ldots{}
+let cause it to \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -9743,7 +11154,7 @@ let cause it to \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-to cause it to \SpecialChar \ldots{}
+to cause it to \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -9815,7 +11226,7 @@ obstruent
 \begin_inset Quotes eld
 \end_inset
 
-is causing it to \SpecialChar \ldots{}
+is causing it to \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -9828,7 +11239,7 @@ is causing it to \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-did cause it to \SpecialChar \ldots{}
+did cause it to \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -9841,7 +11252,7 @@ did cause it to \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-habitually causes it to be \SpecialChar \ldots{}
+habitually causes it to be \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -9854,7 +11265,7 @@ habitually causes it to be \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-let cause it to \SpecialChar \ldots{}
+let cause it to \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -9867,7 +11278,7 @@ let cause it to \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-to cause it to \SpecialChar \ldots{}
+to cause it to \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -9930,8 +11341,8 @@ ch
 \end_layout
 
 \begin_layout Section
-Completely\SpecialChar \ldots{}
- To finality \SpecialChar \ldots{}
+Completely\SpecialChar ldots
+ To finality \SpecialChar ldots
  (Terminative) (Completive) 
 \end_layout
 
@@ -9956,7 +11367,7 @@ past tense
 \begin_inset Quotes eld
 \end_inset
 
-is completely \SpecialChar \ldots{}
+is completely \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -9970,7 +11381,7 @@ is completely \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-did completely \SpecialChar \ldots{}
+did completely \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -9983,7 +11394,7 @@ did completely \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-habitually \SpecialChar \ldots{}
+habitually \SpecialChar ldots
  with completion
 \begin_inset Quotes erd
 \end_inset
@@ -9996,7 +11407,7 @@ habitually \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-let completely \SpecialChar \ldots{}
+let completely \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -10009,7 +11420,7 @@ let completely \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-to completely \SpecialChar \ldots{}
+to completely \SpecialChar ldots
  
 \begin_inset Quotes erd
 \end_inset
@@ -10019,8 +11430,8 @@ to completely \SpecialChar \ldots{}
 
 \end_deeper
 \begin_layout Section
-Confirmingly \SpecialChar \ldots{}
-, Intensely \SpecialChar \ldots{}
+Confirmingly \SpecialChar ldots
+, Intensely \SpecialChar ldots
  (Perfective or Intensive) 
 \end_layout
 
@@ -10032,7 +11443,7 @@ Use the endings for
 \begin_inset Quotes eld
 \end_inset
 
-Again \SpecialChar \ldots{}
+Again \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -10041,7 +11452,7 @@ Again \SpecialChar \ldots{}
 \end_layout
 
 \begin_layout Section
-Come in order to \SpecialChar \ldots{}
+Come in order to \SpecialChar ldots
  (Venitive) (Approaching)
 \end_layout
 
@@ -10058,7 +11469,7 @@ approaching
 \begin_inset Quotes eld
 \end_inset
 
-is coming in order to \SpecialChar \ldots{}
+is coming in order to \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -10068,11 +11479,11 @@ is coming in order to \SpecialChar \ldots{}
 
 \begin_deeper
 \begin_layout Description
--ᎢᎸᎢ [-i²³ḥlv²³ɂi] 
+-ᎢᎸᎢ [-i²³hlv²³ɂi] 
 \begin_inset Quotes eld
 \end_inset
 
-came in order to \SpecialChar \ldots{}
+came in order to \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -10095,7 +11506,7 @@ h
 \begin_inset Quotes eld
 \end_inset
 
-habitually comes in order to \SpecialChar \ldots{}
+habitually comes in order to \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -10104,11 +11515,11 @@ habitually comes in order to \SpecialChar \ldots{}
 \end_layout
 
 \begin_layout Description
--ᎢᎦ [-i²ga] 
+-ᎢᎦ [-i²gạ] 
 \begin_inset Quotes eld
 \end_inset
 
-let come in order to \SpecialChar \ldots{}
+let come in order to \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -10117,11 +11528,11 @@ let come in order to \SpecialChar \ldots{}
 \end_layout
 
 \begin_layout Description
--ᎢᏍᏗ [-ị²sdi] 
+-ᎢᏍᏗ [-ị²sdị] 
 \begin_inset Quotes eld
 \end_inset
 
-to come in order to \SpecialChar \ldots{}
+to come in order to \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -10299,7 +11710,7 @@ While not all verbs can be turned into descriptive words this way, many
 \end_layout
 
 \begin_layout Section
-Doer \SpecialChar \ldots{}
+Doer \SpecialChar ldots
 
 \end_layout
 
@@ -10804,8 +12215,8 @@ As in English, there are forms which will not make sense when creating new
 \end_layout
 
 \begin_layout Section
-Done unto \SpecialChar \ldots{}
- That which is done\SpecialChar \ldots{}
+Done unto \SpecialChar ldots
+ That which is done\SpecialChar ldots
 
 \end_layout
 
@@ -11197,7 +12608,7 @@ As in English, there are some forms which will not make sense when creating
 \end_layout
 
 \begin_layout Section
-Go around doing \SpecialChar \ldots{}
+Go around doing \SpecialChar ldots
  (Ambulative)
 \end_layout
 
@@ -11215,7 +12626,7 @@ Attaches to past tense stem.
 \begin_inset Quotes eld
 \end_inset
 
-is \SpecialChar \ldots{}
+is \SpecialChar ldots
  while moving about.
 \begin_inset Quotes erd
 \end_inset
@@ -11229,7 +12640,7 @@ is \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-\SpecialChar \ldots{}
+\SpecialChar ldots
  while moving about.
 \begin_inset Quotes erd
 \end_inset
@@ -11242,7 +12653,7 @@ is \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-habitually \SpecialChar \ldots{}
+habitually \SpecialChar ldots
  while moving about.
 \begin_inset Quotes erd
 \end_inset
@@ -11255,7 +12666,7 @@ habitually \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-let \SpecialChar \ldots{}
+let \SpecialChar ldots
  and let be moving about.
 \begin_inset Quotes erd
 \end_inset
@@ -11268,7 +12679,7 @@ let \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-for to \SpecialChar \ldots{}
+for to \SpecialChar ldots
  while moving about.
 \begin_inset Quotes erd
 \end_inset
@@ -11284,7 +12695,7 @@ for to \SpecialChar \ldots{}
 \end_layout
 
 \begin_layout Section
-Going somewhere to \SpecialChar \ldots{}
+Going somewhere to \SpecialChar ldots
  (Andative) (Departing)
 \end_layout
 
@@ -11336,7 +12747,7 @@ will be
 \begin_inset Quotes eld
 \end_inset
 
-is going somewhere to \SpecialChar \ldots{}
+is going somewhere to \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -11350,7 +12761,7 @@ is going somewhere to \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-went somewhere to \SpecialChar \ldots{}
+went somewhere to \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -11373,7 +12784,7 @@ Set B
 \begin_inset Quotes eld
 \end_inset
 
-habitually goes somewhere to \SpecialChar \ldots{}
+habitually goes somewhere to \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -11386,7 +12797,7 @@ habitually goes somewhere to \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-let go somewhere to \SpecialChar \ldots{}
+let go somewhere to \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -11400,7 +12811,7 @@ let go somewhere to \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-just went somewhere to \SpecialChar \ldots{}
+just went somewhere to \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -11414,7 +12825,7 @@ just went somewhere to \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-to go somewhere to \SpecialChar \ldots{}
+to go somewhere to \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -11681,7 +13092,7 @@ He entered it.
 \begin_inset Quotes eld
 \end_inset
 
-He was going to enter the horse barn.
+He was going (there) to enter the horse barn.
 \begin_inset Quotes erd
 \end_inset
 
@@ -11742,7 +13153,7 @@ I want him to climb a tree periodically.
 \end_deeper
 \end_deeper
 \begin_layout Section
-If about to \SpecialChar \ldots{}
+If about to \SpecialChar ldots
 
 \end_layout
 
@@ -11806,7 +13217,7 @@ If he/she is about to speak.
 \end_layout
 
 \begin_layout Section
-If have \SpecialChar \ldots{}
+If have \SpecialChar ldots
 
 \end_layout
 
@@ -11866,7 +13277,7 @@ If he/she has spoken.
 \end_layout
 
 \begin_layout Section
-If it \SpecialChar \ldots{}
+If it \SpecialChar ldots
 
 \end_layout
 
@@ -11926,7 +13337,7 @@ If he/she speaks.
 \end_layout
 
 \begin_layout Section
-If it intended to \SpecialChar \ldots{}
+If it intended to \SpecialChar ldots
 
 \end_layout
 
@@ -11962,7 +13373,7 @@ Conditional Future
 \begin_inset Quotes eld
 \end_inset
 
-If it should with intent (under the condition of) \SpecialChar \ldots{}
+If it should with intent (under the condition of) \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -12010,7 +13421,7 @@ If he/she intended to speak.
 \end_layout
 
 \begin_layout Section
-If it should (in the future) \SpecialChar \ldots{}
+If it should (in the future) \SpecialChar ldots
 
 \end_layout
 
@@ -12040,7 +13451,7 @@ Examples:
 \begin_inset Quotes eld
 \end_inset
 
-If I should speak \SpecialChar \ldots{}
+If I should speak \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -12054,7 +13465,7 @@ If I should speak \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-If you should speak \SpecialChar \ldots{}
+If you should speak \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -12068,7 +13479,7 @@ If you should speak \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-If he/she should speak \SpecialChar \ldots{}
+If he/she should speak \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -12077,7 +13488,7 @@ If he/she should speak \SpecialChar \ldots{}
 \end_layout
 
 \begin_layout Section
-If it should with intent (under the condition of) \SpecialChar \ldots{}
+If it should with intent (under the condition of) \SpecialChar ldots
 
 \end_layout
 
@@ -12118,7 +13529,7 @@ Be careful of the pronunciation pattern illustrated with the examples.
 \begin_inset Quotes eld
 \end_inset
 
-If, on the condition of \SpecialChar \ldots{}
+If, on the condition of \SpecialChar ldots
 , I will intend to speak.
 \begin_inset Quotes erd
 \end_inset
@@ -12142,7 +13553,7 @@ If, on the condition of \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-If, on the condition of \SpecialChar \ldots{}
+If, on the condition of \SpecialChar ldots
 , you will intend to speak.
 \begin_inset Quotes erd
 \end_inset
@@ -12166,7 +13577,7 @@ If, on the condition of \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-If, on the condition of \SpecialChar \ldots{}
+If, on the condition of \SpecialChar ldots
 , he/she will intend to speak.
 \begin_inset Quotes erd
 \end_inset
@@ -12190,7 +13601,7 @@ If, on the condition of \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-If, on the condition of \SpecialChar \ldots{}
+If, on the condition of \SpecialChar ldots
 , you one and I will intend to speak.
 \begin_inset Quotes erd
 \end_inset
@@ -12214,7 +13625,7 @@ If, on the condition of \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-If, on the condition of \SpecialChar \ldots{}
+If, on the condition of \SpecialChar ldots
 , he/she and I will intend to speak.
 \begin_inset Quotes erd
 \end_inset
@@ -12238,7 +13649,7 @@ If, on the condition of \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-If, on the condition of \SpecialChar \ldots{}
+If, on the condition of \SpecialChar ldots
 , you two will intend to speak.
 \begin_inset Quotes erd
 \end_inset
@@ -12262,7 +13673,7 @@ If, on the condition of \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-If, on the condition of \SpecialChar \ldots{}
+If, on the condition of \SpecialChar ldots
 , you all and I will intend to speak.
 \begin_inset Quotes erd
 \end_inset
@@ -12286,7 +13697,7 @@ If, on the condition of \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-If, on the condition of \SpecialChar \ldots{}
+If, on the condition of \SpecialChar ldots
 , they and I will intend to speak.
 \begin_inset Quotes erd
 \end_inset
@@ -12310,7 +13721,7 @@ If, on the condition of \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-If, on the condition of \SpecialChar \ldots{}
+If, on the condition of \SpecialChar ldots
 , you all will intend to speak.
 \begin_inset Quotes erd
 \end_inset
@@ -12334,7 +13745,7 @@ If, on the condition of \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-If, on the condition of \SpecialChar \ldots{}
+If, on the condition of \SpecialChar ldots
 , they intend to speak.
 \begin_inset Quotes erd
 \end_inset
@@ -12353,7 +13764,7 @@ If, on the condition of \SpecialChar \ldots{}
 
 \end_deeper
 \begin_layout Section
-If it will be intended to \SpecialChar \ldots{}
+If it will be intended to \SpecialChar ldots
 
 \end_layout
 
@@ -12389,7 +13800,7 @@ Conditional Future
 \begin_inset Quotes eld
 \end_inset
 
-If it should with intent (under the condition of) \SpecialChar \ldots{}
+If it should with intent (under the condition of) \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -12437,7 +13848,7 @@ If he/she will intend to speak.
 \end_layout
 
 \begin_layout Section
-Intend to \SpecialChar \ldots{}
+Intend to \SpecialChar ldots
  (Imperfect Future Tense)
 \end_layout
 
@@ -12446,7 +13857,7 @@ To indicate
 \begin_inset Quotes eld
 \end_inset
 
-did will to \SpecialChar \ldots{}
+did will to \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -12455,7 +13866,7 @@ did will to \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-did intend to \SpecialChar \ldots{}
+did intend to \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -12502,8 +13913,8 @@ Set B
 \begin_inset Quotes eld
 \end_inset
 
-Intends to \SpecialChar \ldots{}
- when \SpecialChar \ldots{}
+Intends to \SpecialChar ldots
+ when \SpecialChar ldots
  
 \begin_inset Quotes erd
 \end_inset
@@ -12519,7 +13930,7 @@ Conditional Future.
 \begin_inset Quotes eld
 \end_inset
 
-Did intend to \SpecialChar \ldots{}
+Did intend to \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -12534,7 +13945,7 @@ Imperfect Future.
 \begin_inset Quotes eld
 \end_inset
 
-Did intend to \SpecialChar \ldots{}
+Did intend to \SpecialChar ldots
  (with knowledge of)
 \begin_inset Quotes erd
 \end_inset
@@ -12549,7 +13960,7 @@ Imperfect Future.
 \begin_inset Quotes eld
 \end_inset
 
-Did intend to \SpecialChar \ldots{}
+Did intend to \SpecialChar ldots
  (without knowledge of)
 \begin_inset Quotes erd
 \end_inset
@@ -12564,7 +13975,7 @@ Imperfect Future.
 \begin_inset Quotes eld
 \end_inset
 
-Will be intending to \SpecialChar \ldots{}
+Will be intending to \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -12579,7 +13990,7 @@ Double Future.
 \begin_inset Quotes eld
 \end_inset
 
-The intention to \SpecialChar \ldots{}
+The intention to \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -12609,9 +14020,9 @@ Imperfect of the Future Tense
 \end_layout
 
 \begin_layout Section
-Is going and doing \SpecialChar \ldots{}
-, Went and did \SpecialChar \ldots{}
-, Will go and do \SpecialChar \ldots{}
+Is going and doing \SpecialChar ldots
+, Went and did \SpecialChar ldots
+, Will go and do \SpecialChar ldots
 
 \end_layout
 
@@ -12910,7 +14321,7 @@ Cherokee Grammar Go Suffix ega
 \end_layout
 
 \begin_layout Section
-Just before \SpecialChar \ldots{}
+Just before \SpecialChar ldots
  
 \end_layout
 
@@ -13013,6 +14424,10 @@ Just before daylight.
 
 \begin_layout Section
 Lateral
+\end_layout
+
+\begin_layout Itemize
+Ꮒ- + Ꮥ- becomes ᏂᏗ-
 \end_layout
 
 \begin_layout Standard
@@ -13371,6 +14786,158 @@ The least thirsty rabbit.
 \end_inset
 
 
+\end_layout
+
+\end_deeper
+\begin_layout Section*
+Might be about to do.
+\end_layout
+
+\begin_layout Standard
+By adding both the prefix 
+\begin_inset Quotes eld
+\end_inset
+
+yị-
+\begin_inset Quotes erd
+\end_inset
+
+ and the word ᎡᎵᏊ [e²li⁴gwu] 
+\begin_inset Quotes eld
+\end_inset
+
+It's possible
+\begin_inset Quotes erd
+\end_inset
+
+ to the 
+\emph on
+Recent Past
+\emph default
+ form you create the new meaning of 
+\begin_inset Quotes eld
+\end_inset
+
+Might be about to
+\begin_inset Quotes erd
+\end_inset
+
+, 
+\begin_inset Quotes eld
+\end_inset
+
+Could do.
+\begin_inset Quotes erd
+\end_inset
+
+, or 
+\begin_inset Quotes eld
+\end_inset
+
+May do.
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Examples:
+\end_layout
+
+\begin_layout Itemize
+ᏱᏥᎪᏩᏔ².
+ 
+\begin_inset Quotes eld
+\end_inset
+
+I'm about to see it.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+ᎡᎵᏊ ᏱᏥᎪᏩᏔ².
+ 
+\begin_inset Quotes eld
+\end_inset
+
+I might see it.
+ I may see it.
+ I could see it.
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\emph on
+It's possible that I am about to see it.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+ᏱᏣᏚᎳ².
+ 
+\begin_inset Quotes eld
+\end_inset
+
+You are about to want it.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+ᎡᎵᏊ ᏱᏣᏚᎳ².
+ 
+\begin_inset Quotes eld
+\end_inset
+
+You might want it.
+ You may want it.
+ You could want it.
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\emph on
+It's possible that you are about to want it.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+ᏱᏬᏂᎭ².
+ 
+\begin_inset Quotes eld
+\end_inset
+
+You are about to speak.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+ᎡᎵᏊ ᏱᏬᏂᎭ².
+ 
+\begin_inset Quotes eld
+\end_inset
+
+You might speak.
+ You may speak.
+ You could speak.
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\emph on
+It's possible that you are about to speak it.
 \end_layout
 
 \end_deeper
@@ -14360,7 +15927,7 @@ Most.
 
  - 
 \emph on
-This is common variation of 
+This is a common variation of 
 \begin_inset Quotes eld
 \end_inset
 
@@ -14628,8 +16195,8 @@ Really easy.
 
 \end_deeper
 \begin_layout Section
-Needs to \SpecialChar \ldots{}
-, Must do \SpecialChar \ldots{}
+Needs to \SpecialChar ldots
+, Must do \SpecialChar ldots
 
 \end_layout
 
@@ -14662,7 +16229,7 @@ must do
 \begin_inset Quotes eld
 \end_inset
 
-need to do
+need do
 \begin_inset Quotes erd
 \end_inset
 
@@ -14813,7 +16380,7 @@ Negative commands
 \end_layout
 
 \begin_layout Subsection*
-ᏞᏍᏗ \SpecialChar \ldots{}
+ᏞᏍᏗ \SpecialChar ldots
  Ꮵ-
 \end_layout
 
@@ -14849,9 +16416,13 @@ Immediate Tense
 Ꮵ- + Ꮥ- becomes ᏥᏙ-
 \end_layout
 
+\begin_layout Itemize
+Ꮵ- + Ꮻ- becomes ᏧᏫ-
+\end_layout
+
 \begin_layout Section
-Not able to \SpecialChar \ldots{}
-, Cannot \SpecialChar \ldots{}
+Not able to \SpecialChar ldots
+, Cannot \SpecialChar ldots
 
 \end_layout
 
@@ -14862,7 +16433,7 @@ See also
 \begin_inset Quotes eld
 \end_inset
 
-Able to \SpecialChar \ldots{}
+Able to \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -14927,7 +16498,7 @@ I cannot speak.
 \begin_inset Quotes eld
 \end_inset
 
-I cannot speak if \SpecialChar \ldots{}
+I cannot speak if \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -14948,7 +16519,7 @@ You cannot speak.
 \begin_inset Quotes eld
 \end_inset
 
-You cannot speak if \SpecialChar \ldots{}
+You cannot speak if \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -14969,7 +16540,7 @@ They cannot speak.
 \begin_inset Quotes eld
 \end_inset
 
-They cannot speak if \SpecialChar \ldots{}
+They cannot speak if \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -14988,7 +16559,7 @@ While
 \begin_inset Quotes erd
 \end_inset
 
- is commonly used with this prefix combinaton, its use is not required.
+ is commonly used with this prefix combination, its use is not required.
 \end_layout
 
 \begin_layout Standard
@@ -15003,7 +16574,7 @@ Cherokee Messenger (CM)
 \end_layout
 
 \begin_layout Section
-Not is, not was \SpecialChar \ldots{}
+Not is, not was \SpecialChar ldots
 
 \end_layout
 
@@ -15025,6 +16596,10 @@ Use
 \end_inset
 
 .
+\end_layout
+
+\begin_layout Itemize
+Ᏹ- + Ꮥ- becomes ᏱᏗ-
 \end_layout
 
 \begin_layout Standard
@@ -15071,7 +16646,7 @@ He/she is not speaking.
 \end_layout
 
 \begin_layout Section
-On, In, Into \SpecialChar \ldots{}
+On, In, Into \SpecialChar ldots
 
 \end_layout
 
@@ -15648,6 +17223,23 @@ again
 \end_inset
 
 .
+ Uses 
+\begin_inset Quotes eld
+\end_inset
+
+Set A
+\begin_inset Quotes erd
+\end_inset
+
+ or 
+\begin_inset Quotes eld
+\end_inset
+
+Set B
+\begin_inset Quotes erd
+\end_inset
+
+ as parent verb.
 \end_layout
 
 \begin_layout Description
@@ -15655,7 +17247,7 @@ again
 \begin_inset Quotes eld
 \end_inset
 
-is \SpecialChar \ldots{}
+is \SpecialChar ldots
  over and over
 \begin_inset Quotes erd
 \end_inset
@@ -15669,7 +17261,7 @@ is \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-did \SpecialChar \ldots{}
+did \SpecialChar ldots
  over and over
 \begin_inset Quotes erd
 \end_inset
@@ -15682,7 +17274,7 @@ did \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-habitually \SpecialChar \ldots{}
+habitually \SpecialChar ldots
 -ing over and over
 \begin_inset Quotes erd
 \end_inset
@@ -15695,7 +17287,7 @@ habitually \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-let \SpecialChar \ldots{}
+let \SpecialChar ldots
  over and over
 \begin_inset Quotes erd
 \end_inset
@@ -15708,7 +17300,7 @@ let \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-to \SpecialChar \ldots{}
+to \SpecialChar ldots
  over and over
 \begin_inset Quotes erd
 \end_inset
@@ -15718,7 +17310,182 @@ to \SpecialChar \ldots{}
 
 \end_deeper
 \begin_layout Section
-Since \SpecialChar \ldots{}
+Should \SpecialChar ldots
+, Would \SpecialChar ldots
+
+\end_layout
+
+\begin_layout Standard
+This form may be used as a conditional future tense of the Indicative Mood
+ (
+\emph on
+would
+\emph default
+), or as a mild expression of the Imperative Mood (
+\emph on
+should
+\emph default
+).
+\end_layout
+
+\begin_layout Standard
+Take the 
+\noun on
+past tense
+\noun default
+ form and add 
+\begin_inset Quotes eld
+\end_inset
+
+-ᎥᎭ
+\begin_inset Quotes erd
+\end_inset
+
+.
+ 
+\emph on
+Uses 
+\begin_inset Quotes eld
+\end_inset
+
+Set A
+\begin_inset Quotes erd
+\end_inset
+
+ or 
+\begin_inset Quotes eld
+\end_inset
+
+Set B
+\begin_inset Quotes erd
+\end_inset
+
+ as parent verb.
+\end_layout
+
+\begin_layout Description
+ᏥᏁᏨᎭ 
+\begin_inset Quotes eld
+\end_inset
+
+I should or would speak
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+ᎯᏁᏨᎭ 
+\begin_inset Quotes eld
+\end_inset
+
+You should or would speak
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+ᎧᏁᏨᎭ 
+\begin_inset Quotes eld
+\end_inset
+
+He/she should or would speak
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Ꭷ, ᎯᎠᏉ ᏂᏪᏒᎭ.
+ (Ꮒ + Ꭿ + ᎤᏪᏒᎢ + ᎥᎭ)
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+ka, just this you should utter.
+\end_layout
+
+\begin_layout Itemize
+say, I pray thee.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+ᎯᎠ ᏄᏪᏎᎢ, ᎾᏍᏉ ᎨᎻᎵ ᏗᏣᏤᎵᎦ ᎠᎹ ᏓᎦᏥᏢᎡᎵ ᎬᏂ ᏓᎾᏗᏔᎰᏅᎭ.
+ (Ꮥ + ᎠᏂ + ᎤᏗᏔᎲᎢ + ᎣᏅ + ᎥᎭ)
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+this uttered, just those camels really of yours, water I will draw for them
+ until they-drink-finishing-would
+\end_layout
+
+\begin_layout Itemize
+and saith, also for thy camels I draw till they have finished drinking
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+ᎥᏝ ᏰᎵᎦ ᎬᏂ ᏂᎦᏛ ᎠᏫ ᎠᏂᏟ\SpecialChar softhyphen
+ᏌᏃᏅᎭ (ᎠᏂ + ᎤᏩᏟᏌᏅᎢ + ᎣᏅ + ᎥᎭ)
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Not ᏰᎵᎦ until all deer they-gathering-it-finishing-would
+\end_layout
+
+\begin_layout Itemize
+We are not able, till that all the droves be gathered together
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+ᎠᎴ ᏣᏛᏛᏅᎭ, ᎯᎠ ᏂᎦᏪᏒᎭ, (Ꮳ + ᎤᏛᏛᏅᎢ + ᎥᎭ, Ꮒ + ᎤᏪᏒᎢ + ᎥᎭ)
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+and he-should-be-asking-you, this he-should-be-saying,
+\end_layout
+
+\begin_layout Itemize
+and hath asked thee, saying,
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+ᎠᎴ ᏌᏉᏉ ᏴᏫ ᏂᏓᎵᏍᏔᏅᎭ (Ꮒ + Ꮥ + Ꭰ + ᎤᎵᏍᏔᏅ + ᎥᎭ)
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+and just one people 
+\end_layout
+
+\begin_layout Itemize
+and have become one people
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset space \hfill{}
+\end_inset
+
+
+\emph on
+Cherokee Messenger,
+\emph default
+ pg 96
+\end_layout
+
+\begin_layout Section
+Since \SpecialChar ldots
 
 \end_layout
 
@@ -15834,7 +17601,7 @@ since they saw it
 \end_layout
 
 \begin_layout Section
-Something already referenced \SpecialChar \ldots{}
+Something already referenced \SpecialChar ldots
 
 \end_layout
 
@@ -15871,6 +17638,22 @@ the place where
 \end_inset
 
 the thing that
+\begin_inset Quotes erd
+\end_inset
+
+, 
+\begin_inset Quotes eld
+\end_inset
+
+that which
+\begin_inset Quotes erd
+\end_inset
+
+, 
+\begin_inset Quotes eld
+\end_inset
+
+who which
 \begin_inset Quotes erd
 \end_inset
 
@@ -16156,7 +17939,7 @@ e to use the prefix Ꮵ- here.
 \begin_inset Quotes eld
 \end_inset
 
-A white wolf and a black wolf were there.
+A black wolf and a white wolf were there.
  One of them ate a squirrel.
  It was the white one.
 \begin_inset Quotes erd
@@ -16195,8 +17978,8 @@ one
 \end_layout
 
 \begin_layout Section
-To \SpecialChar \ldots{}
- For \SpecialChar \ldots{}
+To \SpecialChar ldots
+ For \SpecialChar ldots
  (Applicative) (Dative)
 \end_layout
 
@@ -16230,8 +18013,8 @@ You should only use pronouns that indicate animate to animate relationships
 \begin_inset Quotes eld
 \end_inset
 
-is doing for \SpecialChar \ldots{}
- is doing to \SpecialChar \ldots{}
+is doing for \SpecialChar ldots
+ is doing to \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -16245,8 +18028,8 @@ is doing for \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-did for \SpecialChar \ldots{}
- did to \SpecialChar \ldots{}
+did for \SpecialChar ldots
+ did to \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -16259,8 +18042,8 @@ did for \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-habitually does for \SpecialChar \ldots{}
- habitually does to \SpecialChar \ldots{}
+habitually does for \SpecialChar ldots
+ habitually does to \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -16273,8 +18056,8 @@ habitually does for \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-let be doing for \SpecialChar \ldots{}
- let be doing to \SpecialChar \ldots{}
+let be doing for \SpecialChar ldots
+ let be doing to \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -16288,8 +18071,8 @@ let be doing for \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-just did for \SpecialChar \ldots{}
- just doing to \SpecialChar \ldots{}
+just did for \SpecialChar ldots
+ just doing to \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -16303,8 +18086,8 @@ just did for \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-to do for \SpecialChar \ldots{}
- to do to \SpecialChar \ldots{}
+to do for \SpecialChar ldots
+ to do to \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -16610,7 +18393,7 @@ Cherokee Messenger
 \end_layout
 
 \begin_layout Section
-Used to \SpecialChar \ldots{}
+Used to \SpecialChar ldots
 
 \end_layout
 
@@ -16815,7 +18598,7 @@ one used to do something
 \end_layout
 
 \begin_layout Section
-Was doing \SpecialChar \ldots{}
+Was doing \SpecialChar ldots
 
 \end_layout
 
@@ -17030,7 +18813,7 @@ He/she was reportedly wanting it.
 \begin_inset Quotes eld
 \end_inset
 
-was/were \SpecialChar \ldots{}
+was/were \SpecialChar ldots
 ing
 \begin_inset Quotes erd
 \end_inset
@@ -17041,7 +18824,7 @@ ing
 \begin_inset Quotes eld
 \end_inset
 
-was/were \SpecialChar \ldots{}
+was/were \SpecialChar ldots
 ing
 \begin_inset Quotes erd
 \end_inset
@@ -17050,7 +18833,7 @@ ing
 \end_layout
 
 \begin_layout Section
-Where \SpecialChar \ldots{}
+Where \SpecialChar ldots
  ᎠᏂ, ᎠᎭᏂ, ᎾᎿ, ᎤᎿ, ᎠᎨ
 \end_layout
 
@@ -17174,7 +18957,7 @@ Where's the dog?
 
 \begin_deeper
 \begin_layout Itemize
-Ꮭ ᏯᏆᏅᏔ ᎤᎿ ᏪᏙ.
+Ꮭ ᏯᏆᏅᏔ ᎤᎿ ᎩᏟ.
  
 \begin_inset Quotes eld
 \end_inset
@@ -17283,7 +19066,7 @@ Here is where I saw him or her.
 \end_layout
 
 \begin_layout Section
-Will be doing \SpecialChar \ldots{}
+Will be doing \SpecialChar ldots
 
 \end_layout
 
@@ -17443,7 +19226,7 @@ He/she will be wanting it.
 \begin_inset Quotes eld
 \end_inset
 
-will be \SpecialChar \ldots{}
+will be \SpecialChar ldots
 ing
 \begin_inset Quotes erd
 \end_inset
@@ -17454,7 +19237,7 @@ ing
 \begin_inset Quotes eld
 \end_inset
 
-will \SpecialChar \ldots{}
+will \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -17463,7 +19246,7 @@ will \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-will be \SpecialChar \ldots{}
+will be \SpecialChar ldots
 ing
 \begin_inset Quotes erd
 \end_inset
@@ -17472,7 +19255,7 @@ ing
 \end_layout
 
 \begin_layout Section
-Will do \SpecialChar \ldots{}
+Will do \SpecialChar ldots
 
 \end_layout
 
@@ -17545,7 +19328,7 @@ This indicates much the same meaning as the English
 \begin_inset Quotes eld
 \end_inset
 
-will \SpecialChar \ldots{}
+will \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -17554,7 +19337,7 @@ will \SpecialChar \ldots{}
 \begin_inset Quotes eld
 \end_inset
 
-be \SpecialChar \ldots{}
+be \SpecialChar ldots
 ing
 \begin_inset Quotes erd
 \end_inset
@@ -17978,7 +19761,7 @@ You will want wolves.
 \begin_inset Quotes eld
 \end_inset
 
-will be \SpecialChar \ldots{}
+will be \SpecialChar ldots
 ing
 \begin_inset Quotes erd
 \end_inset
@@ -17989,7 +19772,7 @@ ing
 \begin_inset Quotes eld
 \end_inset
 
-will be \SpecialChar \ldots{}
+will be \SpecialChar ldots
 ing
 \begin_inset Quotes erd
 \end_inset
@@ -18093,7 +19876,7 @@ He/she is without want of it.
 \begin_inset Quotes eld
 \end_inset
 
-He/she ate it without wantint it.
+He/she ate it without wanting it.
 \begin_inset Quotes erd
 \end_inset
 
@@ -18146,181 +19929,6 @@ He/she ate it without baking it.
 
 \end_deeper
 \end_deeper
-\begin_layout Section
-Would \SpecialChar \ldots{}
-, Should \SpecialChar \ldots{}
-
-\end_layout
-
-\begin_layout Standard
-This form may be used as a conditional future tense of the Indicative Mood
- (
-\emph on
-would
-\emph default
-), or as a mild expression of the Imperative Mood (
-\emph on
-should
-\emph default
-).
-\end_layout
-
-\begin_layout Standard
-Take the 
-\noun on
-past tense
-\noun default
- form and add 
-\begin_inset Quotes eld
-\end_inset
-
--ᎥᎭ
-\begin_inset Quotes erd
-\end_inset
-
-.
- 
-\emph on
-Uses 
-\begin_inset Quotes eld
-\end_inset
-
-Set A
-\begin_inset Quotes erd
-\end_inset
-
- or 
-\begin_inset Quotes eld
-\end_inset
-
-Set B
-\begin_inset Quotes erd
-\end_inset
-
- as parent verb.
-\end_layout
-
-\begin_layout Description
-ᏥᏁᏨᎭ 
-\begin_inset Quotes eld
-\end_inset
-
-I should or would speak
-\begin_inset Quotes erd
-\end_inset
-
-
-\end_layout
-
-\begin_layout Description
-ᎯᏁᏨᎭ 
-\begin_inset Quotes eld
-\end_inset
-
-You should or would speak
-\begin_inset Quotes erd
-\end_inset
-
-
-\end_layout
-
-\begin_layout Description
-ᎧᏁᏨᎭ 
-\begin_inset Quotes eld
-\end_inset
-
-He/she should or would speak
-\begin_inset Quotes erd
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Ꭷ, ᎯᎠᏉ ᏂᏪᏒᎭ.
- (Ꮒ + Ꭿ + ᎤᏪᏒᎢ + ᎥᎭ)
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-ka, just this you should utter.
-\end_layout
-
-\begin_layout Itemize
-say, I pray thee.
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-ᎯᎠ ᏄᏪᏎᎢ, ᎾᏍᏉ ᎨᎻᎵ ᏗᏣᏤᎵᎦ ᎠᎹ ᏓᎦᏥᏢᎡᎵ ᎬᏂ ᏓᎾᏗᏔᎰᏅᎭ.
- (Ꮥ + ᎠᏂ + ᎤᏗᏔᎲᎢ + ᎣᏅ + ᎥᎭ)
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-this uttered, just those camels really of yours, water I will draw for them
- until they-drink-finishing-would
-\end_layout
-
-\begin_layout Itemize
-and saith, also for thy camels I draw till they have finished drinking
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-ᎥᏝ ᏰᎵᎦ ᎬᏂ ᏂᎦᏛ ᎠᏫ ᎠᏂᏟ\SpecialChar \-
-ᏌᏃᏅᎭ (ᎠᏂ + ᎤᏩᏟᏌᏅᎢ + ᎣᏅ + ᎥᎭ)
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Not ᏰᎵᎦ until all deer they-gathering-it-finishing-would
-\end_layout
-
-\begin_layout Itemize
-We are not able, till that all the droves be gathered together
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-ᎠᎴ ᏣᏛᏛᏅᎭ, ᎯᎠ ᏂᎦᏪᏒᎭ, (Ꮳ + ᎤᏛᏛᏅᎢ + ᎥᎭ, Ꮒ + ᎤᏪᏒᎢ + ᎥᎭ)
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-and he-should-be-asking-you, this he-should-be-saying,
-\end_layout
-
-\begin_layout Itemize
-and hath asked thee, saying,
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-ᎠᎴ ᏌᏉᏉ ᏴᏫ ᏂᏓᎵᏍᏔᏅᎭ (Ꮒ + Ꮥ + Ꭰ + ᎤᎵᏍᏔᏅ + ᎥᎭ)
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-and just one people 
-\end_layout
-
-\begin_layout Itemize
-and have become one people
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset space \hfill{}
-\end_inset
-
-
-\emph on
-Cherokee Messenger,
-\emph default
- pg 96
-\end_layout
-
 \begin_layout Chapter
 Special Vocabulary List
 \end_layout
@@ -18568,6 +20176,114 @@ all were baptized
 
 \end_deeper
 \begin_layout Description
+ᎠᎵᏟᎭ [a¹lị²dlị³ha] (vi)  
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+phantomsection{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "_11b34"
+
+\end_inset
+
+
+\begin_inset Quotes eld
+\end_inset
+
+it's boiling
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Description
+—–
+\end_layout
+
+\begin_layout Description
+ᎤᎵᏢᎲᎢ [u¹lị²dlv²hv²³ɂi]
+\end_layout
+
+\begin_layout Description
+ᎠᎵᏟᏍᎪᎢ [a¹lị²dli²³sgọ³ɂi]
+\end_layout
+
+\begin_layout Description
+ᏩᎵᏝ [wa¹lị²dla]
+\end_layout
+
+\begin_layout Description
+ᎤᎵᏟᏗ [u²lihl²di]
+\end_layout
+
+\end_deeper
+\begin_layout Description
+ᎠᎵᏟᏗᎭ [a¹lị²dlị³di²ha] (vt) 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+phantomsection{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "_11b34-1"
+
+\end_inset
+
+
+\begin_inset Quotes eld
+\end_inset
+
+he's boiling it
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Description
+ᎦᎵᏟᏗᎭ [ga²lị²dlị³di²ha]
+\end_layout
+
+\begin_layout Description
+ᎤᎵᏢᏓᏅᎢ [u¹lị²dlv²dạ²nv²³ɂi]
+\end_layout
+
+\begin_layout Description
+ᎠᎵᏟᏍᏗᏍᎪᎢ [a¹lị²dli²³sdi²sgọ³ɂi]
+\end_layout
+
+\begin_layout Description
+ᎭᎵᏟᏓ [a¹lị²hlda]
+\end_layout
+
+\begin_layout Description
+ᎤᎵᏟᏙᏗ [u²lihl²do²di]
+\end_layout
+
+\end_deeper
+\begin_layout Description
 ᎠᏂ [ạ³hni] 
 \begin_inset Quotes eld
 \end_inset
@@ -18608,11 +20324,11 @@ Edge of.
 
 \begin_deeper
 \begin_layout Description
------
+—–
 \end_layout
 
 \begin_layout Description
------
+—–
 \end_layout
 
 \begin_layout Description
@@ -18640,7 +20356,7 @@ Let your boundary be.
 \end_layout
 
 \begin_layout Description
------
+—–
 \end_layout
 
 \end_deeper
@@ -18701,6 +20417,40 @@ Just yet.
 
 \end_deeper
 \begin_layout Description
+ᎤᎵᏏᏅᏗᎭ [ul²sinh²di²ha] (vt) 
+\begin_inset Quotes eld
+\end_inset
+
+to cause it to be protected, saved, preserved.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Description
+ᎠᏆᎵᏏᏅᏗᎭ [a¹gwal²sinh²di²ha]
+\end_layout
+
+\begin_layout Description
+ᎤᎵᏏᏅᏔᏅᎢ [ul²sinh²tạ²nv²³ɂi]
+\end_layout
+
+\begin_layout Description
+ᎤᎵᏏᏅᏗᏍᎪᎢ [ul²sinh²di²sgo³ɂi]
+\end_layout
+
+\begin_layout Description
+ᏣᎵᏏᏅᏓ [jal²sinh²da]
+\end_layout
+
+\begin_layout Description
+ᎤᎵᏏᏅᏙᏗ [ul²sinh²dọ²di]
+\end_layout
+
+\end_deeper
+\begin_layout Description
 ᎤᏟ [u¹dli] 
 \begin_inset Quotes eld
 \end_inset
@@ -18723,6 +20473,32 @@ More.
 \end_inset
 
 
+\end_layout
+
+\end_deeper
+\begin_layout Description
+ᎠᏯᏓᎾᎸᎢ,
+\begin_inset space ~
+\end_inset
+
+ᎠᏯᏔᎾᎸᎢ [a¹hyah²da²³na²³lv⁴ɂi, a¹hyah²ta²³na²³lv⁴ɂi] 
+\begin_inset Quotes eld
+\end_inset
+
+A shelf.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Description
+ᏓᏯᏓᎾᎸᎢ,
+\begin_inset space ~
+\end_inset
+
+ᏓᏯᏔᎾᎸᎢ [da¹hyah²da²³na²³lv⁴ɂi, da¹hyah²ta²³na²³lv⁴ɂi]
 \end_layout
 
 \end_deeper
@@ -19077,7 +20853,7 @@ My way.
 \end_layout
 
 \begin_layout Description
------
+—–
 \end_layout
 
 \begin_layout Description
@@ -19085,7 +20861,7 @@ My way.
 \begin_inset Quotes eld
 \end_inset
 
-His habitual way.
+His, its habitual way.
 \begin_inset Quotes erd
 \end_inset
 
@@ -19109,7 +20885,7 @@ Let your way be.
 \begin_inset Quotes eld
 \end_inset
 
-For his way to be.
+For his, its way to be.
 \begin_inset Quotes erd
 \end_inset
 
