@@ -11156,7 +11156,7 @@ sonorant
 \end_layout
 
 \begin_layout Description
--ᏍᏗᎭ [-sdi²ha] 
+-ᏍᏗᎭ [-sdi:ha] 
 \begin_inset Quotes eld
 \end_inset
 
@@ -11169,7 +11169,7 @@ is causing it to \SpecialChar ldots
 \end_layout
 
 \begin_layout Description
--ᏍᏓᏅᎢ [-sdạ²nv²³ɂi] 
+-ᏍᏓᏅᎢ [-sdanv̌:ɂi] 
 \begin_inset Quotes eld
 \end_inset
 
@@ -11182,7 +11182,7 @@ did cause it to \SpecialChar ldots
 \end_layout
 
 \begin_layout Description
--ᏍᏗᏍᎪᎢ [-sdi²sgo³ɂi] 
+-ᏍᏗᏍᎪᎢ [-sdi:sgó:ɂi] 
 \begin_inset Quotes eld
 \end_inset
 
@@ -11208,7 +11208,7 @@ let cause it to \SpecialChar ldots
 \end_layout
 
 \begin_layout Description
--ᏍᏙᏗ [-sdọ²di] 
+-ᏍᏙᏗ [-sdodi] 
 \begin_inset Quotes eld
 \end_inset
 
@@ -11280,7 +11280,7 @@ obstruent
 \end_layout
 
 \begin_layout Description
--ᏗᎭ [-hdi²ha] 
+-ᏗᎭ [-hdi:ha] 
 \begin_inset Quotes eld
 \end_inset
 
@@ -11293,7 +11293,7 @@ is causing it to \SpecialChar ldots
 \end_layout
 
 \begin_layout Description
--ᏓᏅᎢ [-hdạ²nv²³ɂi] 
+-ᏓᏅᎢ [-hdanv̌:ɂi] 
 \begin_inset Quotes eld
 \end_inset
 
@@ -11306,7 +11306,7 @@ did cause it to \SpecialChar ldots
 \end_layout
 
 \begin_layout Description
--ᏗᏍᎪᎢ [-hdi²sgo³ɂi] 
+-ᏗᏍᎪᎢ [-hdi:sgó:ɂi] 
 \begin_inset Quotes eld
 \end_inset
 
@@ -11332,7 +11332,7 @@ let cause it to \SpecialChar ldots
 \end_layout
 
 \begin_layout Description
--ᏙᏗ [-hdọ²di] 
+-ᏙᏗ [-hdodi] 
 \begin_inset Quotes eld
 \end_inset
 
@@ -11355,7 +11355,15 @@ d
 \begin_inset Quotes erd
 \end_inset
 
- becomes 
+ combines with the 
+\begin_inset Quotes eld
+\end_inset
+
+h
+\begin_inset Quotes erd
+\end_inset
+
+ and becomes 
 \begin_inset Quotes eld
 \end_inset
 
@@ -11371,7 +11379,15 @@ g
 \begin_inset Quotes erd
 \end_inset
 
- becomes 
+ combines with the 
+\begin_inset Quotes eld
+\end_inset
+
+h
+\begin_inset Quotes erd
+\end_inset
+
+ and becomes 
 \begin_inset Quotes eld
 \end_inset
 
@@ -11379,7 +11395,7 @@ k
 \begin_inset Quotes erd
 \end_inset
 
-, , and an ending 
+, and an ending 
 \begin_inset Quotes eld
 \end_inset
 
@@ -11387,7 +11403,15 @@ j
 \begin_inset Quotes erd
 \end_inset
 
- becomes 
+ combines with the 
+\begin_inset Quotes eld
+\end_inset
+
+h
+\begin_inset Quotes erd
+\end_inset
+
+ and becomes 
 \begin_inset Quotes eld
 \end_inset
 
@@ -11421,7 +11445,7 @@ past tense
 \end_layout
 
 \begin_layout Description
--ᎣᎲᏍᎦ [-ọ²hṿ³sga] 
+-ᎣᎲᏍᎦ [-ohv́sga] 
 \begin_inset Quotes eld
 \end_inset
 
@@ -11435,7 +11459,7 @@ is completely \SpecialChar ldots
 
 \begin_deeper
 \begin_layout Description
--ᎣᏅᎢ [-ọ²hnv²³ɂi] 
+-ᎣᏅᎢ [-ohnv̌:ɂi] 
 \begin_inset Quotes eld
 \end_inset
 
@@ -11448,7 +11472,7 @@ did completely \SpecialChar ldots
 \end_layout
 
 \begin_layout Description
--ᎣᎲᏍᎪᎢ [-ọ²hṿ³sgo³ɂi] 
+-ᎣᎲᏍᎪᎢ [-ohv́sgó:ɂi] 
 \begin_inset Quotes eld
 \end_inset
 
@@ -11461,7 +11485,7 @@ habitually \SpecialChar ldots
 \end_layout
 
 \begin_layout Description
--ᎣᎿ [-ọ²hna] 
+-ᎣᎿ [-ohna] 
 \begin_inset Quotes eld
 \end_inset
 
@@ -11474,7 +11498,7 @@ let completely \SpecialChar ldots
 \end_layout
 
 \begin_layout Description
--ᎣᎲᏍᏗ [-ọ²hṿ²sdi] 
+-ᎣᎲᏍᏗ [-ohvsdi] 
 \begin_inset Quotes eld
 \end_inset
 
@@ -11523,7 +11547,7 @@ approaching
 \end_layout
 
 \begin_layout Description
--ᎢᎦ [-i³ga] 
+-ᎢᎦ [-í:ga] 
 \begin_inset Quotes eld
 \end_inset
 
@@ -11537,7 +11561,7 @@ is coming in order to \SpecialChar ldots
 
 \begin_deeper
 \begin_layout Description
--ᎢᎸᎢ [-i²³hlv²³ɂi] 
+-ᎢᎸᎢ [-ǐ:hlv̌:ɂi] 
 \begin_inset Quotes eld
 \end_inset
 
@@ -11560,7 +11584,7 @@ h
 \end_layout
 
 \begin_layout Description
--ᎢᎯᎰᎢ [-i²³hị³ho³ɂi] 
+-ᎢᎯᎰᎢ [-ǐ:híhó:ɂi] 
 \begin_inset Quotes eld
 \end_inset
 
@@ -11573,7 +11597,7 @@ habitually comes in order to \SpecialChar ldots
 \end_layout
 
 \begin_layout Description
--ᎢᎦ [-i²gạ] 
+-ᎢᎦ [-i:ga] 
 \begin_inset Quotes eld
 \end_inset
 
@@ -11586,7 +11610,7 @@ let come in order to \SpecialChar ldots
 \end_layout
 
 \begin_layout Description
--ᎢᏍᏗ [-ị²sdị] 
+-ᎢᏍᏗ [-isdi] 
 \begin_inset Quotes eld
 \end_inset
 
@@ -11606,15 +11630,7 @@ May be attached to causative.
 \end_layout
 
 \begin_layout Section
-Creating descriptive words - 
-\begin_inset Quotes eld
-\end_inset
-
--Ꭵ⁴Ꭲ
-\begin_inset Quotes erd
-\end_inset
-
-
+Creating descriptive words - ᎥᎢ [v̋:ɂi]
 \end_layout
 
 \begin_layout Standard
@@ -11659,7 +11675,7 @@ Past Tense
 \begin_inset Quotes eld
 \end_inset
 
--Ꭵ⁴Ꭲ
+-ᎥᎢ [v̋:ɂi]
 \begin_inset Quotes erd
 \end_inset
 
@@ -11677,7 +11693,7 @@ Past Tense
 \begin_inset Quotes eld
 \end_inset
 
--Ꭵ⁴Ꭲ
+-ᎥᎢ
 \begin_inset Quotes erd
 \end_inset
 
@@ -11685,15 +11701,7 @@ Past Tense
 g.
  
 \emph on
-Keeping the 
-\begin_inset Quotes eld
-\end_inset
-
-⁴
-\begin_inset Quotes erd
-\end_inset
-
- tone is very important.
+Use of the high rising tone is very important.
 \end_layout
 
 \begin_layout Standard
@@ -12063,7 +12071,7 @@ When creating an agentive form, the
 \begin_inset Quotes eld
 \end_inset
 
-de-
+de:-
 \begin_inset Quotes erd
 \end_inset
 
@@ -12071,7 +12079,7 @@ de-
 \begin_inset Quotes eld
 \end_inset
 
-dị-
+di-
 \begin_inset Quotes erd
 \end_inset
 
@@ -12079,7 +12087,7 @@ dị-
 \begin_inset Quotes eld
 \end_inset
 
-dị-
+di-
 \begin_inset Quotes erd
 \end_inset
 
@@ -12333,7 +12341,7 @@ to be
 \begin_inset Quotes eld
 \end_inset
 
-dị-
+di-
 \begin_inset Quotes erd
 \end_inset
 
@@ -12680,7 +12688,7 @@ Attaches to past tense stem.
 \end_layout
 
 \begin_layout Description
--ᎢᏙᎭ [-i²³do³²ha] 
+-ᎢᏙᎭ [-v̌:dô:ha] 
 \begin_inset Quotes eld
 \end_inset
 
@@ -12694,7 +12702,7 @@ is \SpecialChar ldots
 
 \begin_deeper
 \begin_layout Description
--ᎢᏙᎸᎢ [-i²³do³²lv²³ɂi] 
+-ᎢᏙᎸᎢ [-v̌:dô:lv̌:ɂi] 
 \begin_inset Quotes eld
 \end_inset
 
@@ -12707,7 +12715,7 @@ is \SpecialChar ldots
 \end_layout
 
 \begin_layout Description
--ᎢᏙᎰᎢ [-i²³do³²ho³ɂi] 
+-ᎢᏙᎰᎢ [-ǐ:dô:hó:ɂi] 
 \begin_inset Quotes eld
 \end_inset
 
@@ -12720,7 +12728,7 @@ habitually \SpecialChar ldots
 \end_layout
 
 \begin_layout Description
--ᎢᏓ [-i²³da] 
+-ᎢᏓ [-ǐ:da] 
 \begin_inset Quotes eld
 \end_inset
 
@@ -12733,7 +12741,7 @@ let \SpecialChar ldots
 \end_layout
 
 \begin_layout Description
--ᎢᏓᏍᏗ [-i²dạ²sdi] 
+-ᎢᏓᏍᏗ [-i:dasdi] 
 \begin_inset Quotes eld
 \end_inset
 
@@ -12801,7 +12809,7 @@ will be
 \end_layout
 
 \begin_layout Description
--ᎡᎦ [-e³ga] 
+-ᎡᎦ [-é:ga] 
 \begin_inset Quotes eld
 \end_inset
 
@@ -12815,7 +12823,7 @@ is going somewhere to \SpecialChar ldots
 
 \begin_deeper
 \begin_layout Description
--ᎥᏒᎢ [-v³sv³ɂi] 
+-ᎥᏒᎢ [-v́:sv̌:ɂi] 
 \begin_inset Quotes eld
 \end_inset
 
@@ -12838,7 +12846,7 @@ Set B
 \end_layout
 
 \begin_layout Description
--ᎡᎪᎢ [-e³go³ɂi] 
+-ᎡᎪᎢ [-é:gó:ɂi] 
 \begin_inset Quotes eld
 \end_inset
 
@@ -12851,7 +12859,7 @@ habitually goes somewhere to \SpecialChar ldots
 \end_layout
 
 \begin_layout Description
--ᎤᎦ [-u³ga] 
+-ᎤᎦ [-ú:ga] 
 \begin_inset Quotes eld
 \end_inset
 
@@ -12865,7 +12873,7 @@ let go somewhere to \SpecialChar ldots
 
 \begin_deeper
 \begin_layout Description
--ᎡᎾ [-e³na] 
+-ᎡᎾ [-é:na] 
 \begin_inset Quotes eld
 \end_inset
 
@@ -12879,7 +12887,7 @@ just went somewhere to \SpecialChar ldots
 
 \end_deeper
 \begin_layout Description
--ᎥᏍᏗ [-v³sdi] 
+-ᎥᏍᏗ [-v́:sdi] 
 \begin_inset Quotes eld
 \end_inset
 
@@ -13967,7 +13975,7 @@ Set B
 \end_layout
 
 \begin_layout Description
--ᎢᏐᎢ [-i²³so³ɂi] 
+-ᎢᏐᎢ [-v̌:só:ɂi] 
 \begin_inset Quotes eld
 \end_inset
 
@@ -13984,7 +13992,7 @@ Conditional Future.
 \end_layout
 
 \begin_layout Description
--ᎢᏒ [-i²³sv] 
+-ᎢᏒ [-ǐ:sv] 
 \begin_inset Quotes eld
 \end_inset
 
@@ -13999,7 +14007,7 @@ Imperfect Future.
 \end_layout
 
 \begin_layout Description
--ᎢᏒᎩ [-i²³sv²³gi] 
+-ᎢᏒᎩ [-ǐ:sv̌:gi] 
 \begin_inset Quotes eld
 \end_inset
 
@@ -14013,8 +14021,9 @@ Did intend to \SpecialChar ldots
 Imperfect Future.
 \end_layout
 
+\begin_deeper
 \begin_layout Description
--ᎢᏎᎢ [-i²³se²³ɂi] 
+-ᎢᏎᎢ [-ǐ:sě:ɂi] 
 \begin_inset Quotes eld
 \end_inset
 
@@ -14028,8 +14037,9 @@ Did intend to \SpecialChar ldots
 Imperfect Future.
 \end_layout
 
+\end_deeper
 \begin_layout Description
--ᎢᏎᏍᏗ [-i²³sẹ³sdi] 
+-ᎢᏎᏍᏗ [-ǐ:sésdi] 
 \begin_inset Quotes eld
 \end_inset
 
@@ -14044,7 +14054,7 @@ Double Future.
 \end_layout
 
 \begin_layout Description
--ᎢᏒᎢ [-i²³sv²³ɂi] 
+-ᎢᏒᎢ [-ǐ:sv̌:ɂi] 
 \begin_inset Quotes eld
 \end_inset
 
@@ -14149,7 +14159,7 @@ This form is created replacing
 \begin_inset Quotes erd
 \end_inset
 
- [-e³na] on the 
+ [-é:na] on the 
 \noun on
 past tense
 \noun default
@@ -14218,7 +14228,7 @@ This form is created by replacing
 \begin_inset Quotes erd
 \end_inset
 
- [-e³na] on the 
+ [-é:na] on the 
 \noun on
 past tense 
 \noun default
@@ -14289,7 +14299,7 @@ This form is created replacing
 \begin_inset Quotes erd
 \end_inset
 
- [-e³na] on the 
+ [-é:na] on the 
 \noun on
 past tense
 \noun default
@@ -14554,7 +14564,7 @@ In many cases the prefix
 \begin_inset Quotes eld
 \end_inset
 
-nị-
+ni-
 \begin_inset Quotes erd
 \end_inset
 
@@ -14856,11 +14866,11 @@ By adding both the prefix
 \begin_inset Quotes eld
 \end_inset
 
-yị-
+yi-
 \begin_inset Quotes erd
 \end_inset
 
- and the word ᎡᎵᏊ [e²li⁴gwu] 
+ and the word ᎡᎵᏊ [e:li̋:gwu] 
 \begin_inset Quotes eld
 \end_inset
 
@@ -15041,7 +15051,7 @@ more
 \end_layout
 
 \begin_layout Description
--Ꭸ⁴Ꭲ [-ge⁴ɂi] - This is a common ending.
+-Ꭸ⁴Ꭲ [-ge̋:ɂi] - This is a common ending.
  
 \emph on
 If the word ends with 
@@ -15239,7 +15249,7 @@ Littler.
 
 \end_deeper
 \begin_layout Description
-ᎤᎪᏗ [u¹go³²di] 
+ᎤᎪᏗ [ù:gô:di] 
 \begin_inset Quotes eld
 \end_inset
 
@@ -15267,7 +15277,7 @@ This word can also be used in place of the other endings in many circumstances.
 
 \begin_deeper
 \begin_layout Description
-ᎤᏟ [u¹dli] 
+ᎤᏟ [ù:dli] 
 \begin_inset Quotes eld
 \end_inset
 
@@ -15489,7 +15499,7 @@ more
 \begin_inset space ~
 \end_inset
 
--Ꭵ⁴Ꭲ [wị- + -v⁴ɂi] - This is the most common form for words that do not
+-Ꭵ⁴Ꭲ [wi- + -v̋:ɂi] - This is the most common form for words that do not
  end in 
 \begin_inset Quotes eld
 \end_inset
@@ -15694,7 +15704,7 @@ Most.
 \begin_inset space ~
 \end_inset
 
--Ᏼ⁴Ꭲ [wị- + -yv⁴ɂi] - This a common form to use on words that use 
+-Ᏼ⁴Ꭲ [wi- + -yv̋:ɂi] - This a common form to use on words that use 
 \begin_inset Quotes eld
 \end_inset
 
@@ -15790,7 +15800,7 @@ Smartest.
 \begin_inset space ~
 \end_inset
 
--Ꭼ⁴Ꭲ [wị- + -kv⁴ɂi] - This a common form to use on words that use 
+-Ꭼ⁴Ꭲ [wi- + -kv̋:ɂi] - This a common form to use on words that use 
 \begin_inset Quotes eld
 \end_inset
 
@@ -15908,7 +15918,7 @@ I-Littlest.
 
 \end_deeper
 \begin_layout Description
-Ꮻ- [wị-] - This prefix is used by itself on many words that end in 
+Ꮻ- [wi-] - This prefix is used by itself on many words that end in 
 \begin_inset Quotes eld
 \end_inset
 
@@ -15954,7 +15964,7 @@ Driest.
 
 \end_deeper
 \begin_layout Description
-ᏭᎪᏛᎢ [wu¹go³²dv⁴i] 
+ᏭᎪᏛᎢ [wù:gô:dv̋:i] 
 \begin_inset Quotes eld
 \end_inset
 
@@ -15975,7 +15985,7 @@ Most.
 
 \begin_deeper
 \begin_layout Description
-ᏭᏢᎢ [wu¹dlv⁴i] 
+ᏭᏢᎢ [wù:dlv̋:i] 
 \begin_inset Quotes eld
 \end_inset
 
@@ -16179,7 +16189,7 @@ especially good
 \end_layout
 
 \begin_layout Description
--Ꮢ⁴Ꭲ [-sv⁴ɂi] 
+-ᏒᎢ [-sv̋:ɂi] 
 \begin_inset Quotes eld
 \end_inset
 
@@ -16308,7 +16318,7 @@ Examples:
 
 \begin_layout Itemize
 ᎤᎪᏩᏛᏗ ᎤᏚᎵᎭ.
- U²gowh²tvh³di u¹du²lị³ha.
+ U:gowhtv́hdi ù:du:líha.
  
 \begin_inset Quotes eld
 \end_inset
@@ -16323,7 +16333,7 @@ He/she wants to see it.
 \begin_deeper
 \begin_layout Itemize
 ᎤᎪᏩᏛᏗ.
- U³²gowh²tvh³di.
+ Û:gowhtv́hdi.
  
 \begin_inset Quotes eld
 \end_inset
@@ -16339,7 +16349,7 @@ Note the change in tones.
 
 \begin_layout Itemize
 ᎠᏎ ᎤᎪᏩᏛᏗ.
- A²se u³²gowh²tvh³di.
+ A:se û:gowhtv́hdi.
  
 \begin_inset Quotes eld
 \end_inset
@@ -16368,7 +16378,7 @@ You know he must see it.
 \end_deeper
 \begin_layout Itemize
 ᎢᏳᏛᏅᏗ ᎤᏚᎵᎭ.
- I²yu²dvnh¹di u¹du²lị³ha.
+ I:yu:dv̀nhdi ù:du:líha.
  
 \begin_inset Quotes eld
 \end_inset
@@ -16383,7 +16393,7 @@ He/she wants to do it.
 \begin_deeper
 \begin_layout Itemize
 ᎢᏳᏛᏅᏗ.
- I²yu³²dvnh¹di.
+ I:yû:dv̀nhdi.
  
 \begin_inset Quotes eld
 \end_inset
@@ -16399,7 +16409,7 @@ Note the change in tones.
 
 \begin_layout Itemize
 ᎢᏳᏛᏅᏗ ᎠᏆᏅᏔ.
- I²yu³²dvnh¹di a¹gwanh²ta.
+ I:yv̂:dv̀nhdi à:gwanhta.
  
 \begin_inset Quotes eld
 \end_inset
@@ -16451,7 +16461,7 @@ Use the word
 \begin_inset Quotes eld
 \end_inset
 
-ᏞᏍᏗ (hle²sti)
+ᏞᏍᏗ (hle:sti)
 \begin_inset Quotes erd
 \end_inset
 
@@ -16459,7 +16469,7 @@ Use the word
 \begin_inset Quotes eld
 \end_inset
 
-Ꮵ- (ji²-)
+Ꮵ- (ji:-)
 \begin_inset Quotes erd
 \end_inset
 
@@ -16709,7 +16719,7 @@ On, In, Into \SpecialChar ldots
 \end_layout
 
 \begin_layout Description
--Ꭿ [-⁴hị] 
+-Ꭿ [-⁴hi] 
 \begin_inset Quotes eld
 \end_inset
 
@@ -16850,7 +16860,7 @@ Some rocks.
 \begin_deeper
 \begin_layout Itemize
 ᎢᎦᏓ ᏅᏯ ᎫᎫ⁴Ꭿ.
- Igada nvya gugu⁴hi.
+ Igada nvya gugű:hi.
  
 \begin_inset Quotes eld
 \end_inset
@@ -16883,7 +16893,7 @@ A wolf.
 \begin_deeper
 \begin_layout Itemize
 ᏩᏯ ᏌᏛᏗ⁴Ꭿ.
- Wahya sadvdi⁴hi.
+ Wahya sadvdi̋:hi.
  
 \begin_inset Quotes eld
 \end_inset
@@ -16916,7 +16926,7 @@ A deer.
 \begin_deeper
 \begin_layout Itemize
 ᎠᏫ ᏅᏲ⁴Ꭿ.
- Ahwi nvyo⁴hi.
+ Ahwi nvyő:hi.
  
 \begin_inset Quotes eld
 \end_inset
@@ -16971,8 +16981,8 @@ A bottle.
 
 \begin_deeper
 \begin_layout Itemize
-ᎫᎫ ᎦᏍᎩᎸ⁴Ꭲ.
- Gugu gasgilv⁴i.
+ᎫᎫ ᎦᏍᎩᎸᎢ.
+ Gugu gasgilv̋:i.
  
 \begin_inset Quotes eld
 \end_inset
@@ -17009,7 +17019,7 @@ Place Of, Location
 \begin_inset space ~
 \end_inset
 
--Ᏹ [-⁴ɂị, -⁴yị] 
+-Ᏹ [-⁴ɂi, -⁴yi] 
 \begin_inset Quotes eld
 \end_inset
 
@@ -17171,7 +17181,7 @@ Rabbit.
 \begin_deeper
 \begin_layout Itemize
 ᏥᏍᏚ⁴Ꭲ.
- Jisdu⁴ɂi.
+ Ji:sdű:ɂi.
  
 \begin_inset Quotes eld
 \end_inset
@@ -17188,7 +17198,7 @@ The place where rabbits are found.
 
 \begin_layout Itemize
 ᏥᏍᏚ⁴.
- Ji²sdu⁴.
+ Ji:sdű.
  
 \begin_inset Quotes eld
 \end_inset
@@ -17230,7 +17240,7 @@ One who bakes them.
 \begin_deeper
 \begin_layout Itemize
 ᏗᎦᏚᎲᏍᎩ⁴Ꭲ.
- Digaduhvsgi⁴i.
+ Digaduhvsgi̋:ɂi.
  
 \begin_inset Quotes eld
 \end_inset
@@ -17301,7 +17311,7 @@ Set B
 \end_layout
 
 \begin_layout Description
--ᎢᎶᎠ [-i²³lọ³ɂa] 
+-ᎢᎶᎠ [-ǐ:lóɂa] 
 \begin_inset Quotes eld
 \end_inset
 
@@ -17315,7 +17325,7 @@ is \SpecialChar ldots
 
 \begin_deeper
 \begin_layout Description
--ᎢᎶᎥᎢ [-i²³lọ³v²³ɂi] 
+-ᎢᎶᎥᎢ [-ǐ:lóv̌:ɂi] 
 \begin_inset Quotes eld
 \end_inset
 
@@ -17328,7 +17338,7 @@ did \SpecialChar ldots
 \end_layout
 
 \begin_layout Description
--ᎢᎶᏍᎪᎢ [-i²³lo³²sgo³ɂi] 
+-ᎢᎶᏍᎪᎢ [-ǐ:lô:sgó:ɂi] 
 \begin_inset Quotes eld
 \end_inset
 
@@ -17341,7 +17351,7 @@ habitually \SpecialChar ldots
 \end_layout
 
 \begin_layout Description
--ᎢᎶᏣ [-i²lo²³ja] 
+-ᎢᎶᏣ [-i:lǒ:ja] 
 \begin_inset Quotes eld
 \end_inset
 
@@ -17354,7 +17364,7 @@ let \SpecialChar ldots
 \end_layout
 
 \begin_layout Description
--ᎢᎶᏍᏗ [-i²³lo³²sdi] 
+-ᎢᎶᏍᏗ [-ǐ:lô:sdi] 
 \begin_inset Quotes eld
 \end_inset
 
@@ -18067,7 +18077,7 @@ You should only use pronouns that indicate animate to animate relationships
 \end_layout
 
 \begin_layout Description
--ᎡᎭ [-e²ha] 
+-ᎡᎭ [-e:ha] 
 \begin_inset Quotes eld
 \end_inset
 
@@ -18082,7 +18092,7 @@ is doing for \SpecialChar ldots
 
 \begin_deeper
 \begin_layout Description
--ᎡᎸᎢ [-e²lv²³ɂi] 
+-ᎡᎸᎢ [-e:lv̌:ɂi] 
 \begin_inset Quotes eld
 \end_inset
 
@@ -18096,7 +18106,7 @@ did for \SpecialChar ldots
 \end_layout
 
 \begin_layout Description
--ᎡᎰᎢ [-e²ho³ɂi] 
+-ᎡᎰᎢ [-e:hó:ɂi] 
 \begin_inset Quotes eld
 \end_inset
 
@@ -18125,7 +18135,7 @@ let be doing for \SpecialChar ldots
 
 \begin_deeper
 \begin_layout Description
--ᎡᎵ [-e²li] 
+-ᎡᎵ [-e:li] 
 \begin_inset Quotes eld
 \end_inset
 
@@ -18140,7 +18150,7 @@ just did for \SpecialChar ldots
 
 \end_deeper
 \begin_layout Description
--ᎡᏗ [-eh³di] 
+-ᎡᏗ [-éhdi] 
 \begin_inset Quotes eld
 \end_inset
 
@@ -18669,7 +18679,7 @@ Present Habitual
 \begin_inset Quotes eld
 \end_inset
 
--o³ɂi
+-ó:ɂi
 \begin_inset Quotes erd
 \end_inset
 
@@ -18677,7 +18687,7 @@ Present Habitual
 \begin_inset Quotes eld
 \end_inset
 
--v³ɂi
+-v̌:ɂi
 \begin_inset Quotes erd
 \end_inset
 
@@ -18685,7 +18695,7 @@ Present Habitual
 \begin_inset Quotes eld
 \end_inset
 
--e³ɂi
+-ě:ɂi
 \begin_inset Quotes erd
 \end_inset
 
@@ -19137,7 +19147,7 @@ Present Habitual
 \begin_inset Quotes eld
 \end_inset
 
--o³ɂi
+-ó:ɂi
 \begin_inset Quotes erd
 \end_inset
 
@@ -19145,7 +19155,7 @@ Present Habitual
 \begin_inset Quotes eld
 \end_inset
 
--e³sdi
+-é:sdi
 \begin_inset Quotes erd
 \end_inset
 
@@ -19326,7 +19336,7 @@ Remote Past
 \begin_inset Quotes eld
 \end_inset
 
-dạ-
+da-
 \begin_inset Quotes erd
 \end_inset
 
@@ -19334,7 +19344,7 @@ dạ-
 \begin_inset Quotes eld
 \end_inset
 
--vi
+-v̌:ɂi
 \begin_inset Quotes erd
 \end_inset
 
@@ -19342,7 +19352,7 @@ dạ-
 \begin_inset Quotes eld
 \end_inset
 
--ị
+-i
 \begin_inset Quotes erd
 \end_inset
 
@@ -19412,7 +19422,7 @@ Basic Pronunciation Rules:
 \begin_inset Quotes eld
 \end_inset
 
-dạ-
+da-
 \begin_inset Quotes erd
 \end_inset
 
@@ -19420,7 +19430,7 @@ dạ-
 \begin_inset Quotes eld
 \end_inset
 
-de-
+de:-
 \begin_inset Quotes erd
 \end_inset
 
@@ -19433,7 +19443,7 @@ If there is a
 \begin_inset Quotes eld
 \end_inset
 
-de-
+de:-
 \begin_inset Quotes erd
 \end_inset
 
@@ -19441,7 +19451,7 @@ de-
 \begin_inset Quotes eld
 \end_inset
 
-do-
+do:-
 \begin_inset Quotes erd
 \end_inset
 
@@ -19454,7 +19464,7 @@ If
 \begin_inset Quotes eld
 \end_inset
 
-dạ-
+da-
 \begin_inset Quotes erd
 \end_inset
 
@@ -19494,7 +19504,7 @@ v-
 \begin_inset Quotes eld
 \end_inset
 
-dạy-
+day-
 \begin_inset Quotes erd
 \end_inset
 
@@ -19506,7 +19516,7 @@ If
 \begin_inset Quotes eld
 \end_inset
 
-dạ-
+da-
 \begin_inset Quotes erd
 \end_inset
 
@@ -19522,7 +19532,7 @@ a-
 \begin_inset Quotes eld
 \end_inset
 
-dv-
+dv:-
 \begin_inset Quotes erd
 \end_inset
 
@@ -19553,7 +19563,7 @@ If
 \begin_inset Quotes eld
 \end_inset
 
-dạ-
+da-
 \begin_inset Quotes erd
 \end_inset
 
@@ -19577,7 +19587,7 @@ i-
 \begin_inset Quotes eld
 \end_inset
 
-dạ-
+da-
 \begin_inset Quotes erd
 \end_inset
 
@@ -19585,7 +19595,7 @@ dạ-
 \begin_inset Quotes eld
 \end_inset
 
-da¹-
+dà:-
 \begin_inset Quotes erd
 \end_inset
 
@@ -19597,7 +19607,7 @@ If
 \begin_inset Quotes eld
 \end_inset
 
-dạ-
+da-
 \begin_inset Quotes erd
 \end_inset
 
@@ -19636,7 +19646,7 @@ Examples:
 
 \begin_layout Itemize
 ᎠᎩᎪᎲᎢ.
- A²gị¹go²hv²³ɂi.
+ A:gigo:hv̌:ɂi.
  - 
 \begin_inset Quotes eld
 \end_inset
@@ -19653,7 +19663,7 @@ I saw it.
 \begin_deeper
 \begin_layout Itemize
 ᏓᏥᎪᎯ.
- Da²jị²go²hi.
+ Da:jigo:hi.
  - 
 \begin_inset Quotes eld
 \end_inset
@@ -19670,7 +19680,7 @@ I will see it.
 \end_deeper
 \begin_layout Itemize
 ᎠᏆᏚᎸᎲᎢ.
- A¹gwạ²du²lv²hv²³ɂi.
+ À:gwadu:lv:hv̌:ɂi.
  - 
 \begin_inset Quotes eld
 \end_inset
@@ -19687,7 +19697,7 @@ I wanted it.
 \begin_deeper
 \begin_layout Itemize
 ᏛᏆᏚᎸᎯ.
- Dv¹gwạ²du²lv²hi.
+ Dv̀:gwadu:lv:hi.
  - 
 \begin_inset Quotes eld
 \end_inset
@@ -19704,7 +19714,7 @@ I will want it.
 \end_deeper
 \begin_layout Itemize
 ᏩᎭᏯ ᎯᏯᏚᎸᎲᎢ.
- Wahaya hi²yạ²du²lv²hv²³ɂi.
+ Wahaya hi:yadu:lv:hv̌:ɂi.
  - 
 \begin_inset Quotes eld
 \end_inset
@@ -19725,7 +19735,7 @@ i)
 \begin_deeper
 \begin_layout Itemize
 ᏩᎭᏯ ᏘᏯᏚᎸᎯ.
- Wahaya ti²yạ²du²lv²hi.
+ Wahaya ti:yadu:lv:hi.
  - 
 \begin_inset Quotes eld
 \end_inset
@@ -19742,7 +19752,7 @@ You will want a wolf.
 \end_deeper
 \begin_layout Itemize
 ᏅᏯ ᏕᏣᏚᎸᎲᎢ.
- Nvya de²jạ²du²lv²hv²³ɂi.
+ Nvya de:jadu:lv:hv̌:ɂi.
  - 
 \begin_inset Quotes eld
 \end_inset
@@ -19763,7 +19773,7 @@ i)
 \begin_deeper
 \begin_layout Itemize
 ᏅᏯ ᏙᏓᏣᏚᎸᎯ.
- Nvya do²da²jạ²du²lv²hi.
+ Nvya do:da:jadu:lv:hi.
  - 
 \begin_inset Quotes eld
 \end_inset
@@ -19780,7 +19790,7 @@ You will want rocks.
 \end_deeper
 \begin_layout Itemize
 ᏩᎭᏯ ᎦᎯᏯᏚᎸᎲᎢ.
- Wahaya ga²hi²yạ²du²lv²hv²³ɂi.
+ Wahaya ga:hi:yadu:lv:hv̌:ɂi.
  - 
 \begin_inset Quotes eld
 \end_inset
@@ -19797,7 +19807,7 @@ You wanted wolves.
 \begin_deeper
 \begin_layout Itemize
 ᏩᎭᏯ ᏓᎦᎯᏯᏚᎸᎯ.
- Wahaya da²ga²hi²yạ²du²lv²hi.
+ Wahaya da:ga:hi:yadu:lv:hi.
  - 
 \begin_inset Quotes eld
 \end_inset
@@ -19843,8 +19853,8 @@ Without
 \end_layout
 
 \begin_layout Standard
-☞ The Ꮒ- prefix can be combined with the special suffix -ᎥᎾ (-v⁴nạ) on past
- events to create a 
+☞ The Ꮒ- prefix can be combined with the special suffix -ᎥᎾ (-v̋:na) on
+ past events to create a 
 \begin_inset Quotes eld
 \end_inset
 
@@ -19992,7 +20002,7 @@ Special Vocabulary List
 \end_layout
 
 \begin_layout Description
--ᎡᎢ [-e²³i] 
+-ᎡᎢ [-ě:ɂi] 
 \begin_inset Quotes eld
 \end_inset
 
@@ -20018,7 +20028,7 @@ Did or was doing.
 \end_layout
 
 \begin_layout Description
--ᎥᎢ [-v²³ɂi] 
+-ᎥᎢ [-v̌:ɂi] 
 \begin_inset Quotes eld
 \end_inset
 
@@ -20032,7 +20042,7 @@ This form should be treated as a noun in the text.
 \end_layout
 
 \begin_layout Description
--ᎥᎩ [-v²³gi] 
+-ᎥᎩ [-v̌:gi] 
 \begin_inset Quotes eld
 \end_inset
 
@@ -20074,7 +20084,7 @@ Just.
 
 \end_deeper
 \begin_layout Description
--ᏍᎩᏂ [-sgị²ni] 
+-ᏍᎩᏂ [-sgini] 
 \begin_inset Quotes eld
 \end_inset
 
@@ -20234,7 +20244,7 @@ all were baptized
 
 \end_deeper
 \begin_layout Description
-ᎠᎵᏟᎭ [a¹lị²dlị³ha] (vi)  
+ᎠᎵᏟᎭ [àlidlíha] (vi)  
 \begin_inset ERT
 status collapsed
 
@@ -20271,24 +20281,24 @@ it's boiling
 \end_layout
 
 \begin_layout Description
-ᎤᎵᏢᎲᎢ [u¹lị²dlv²hv²³ɂi]
+ᎤᎵᏢᎲᎢ [ù:lidlv:hv̌:ɂi]
 \end_layout
 
 \begin_layout Description
-ᎠᎵᏟᏍᎪᎢ [a¹lị²dli²³sgọ³ɂi]
+ᎠᎵᏟᏍᎪᎢ [àlidlǐ:sgóɂi]
 \end_layout
 
 \begin_layout Description
-ᏩᎵᏝ [wa¹lị²dla]
+ᏩᎵᏝ [wàlidla]
 \end_layout
 
 \begin_layout Description
-ᎤᎵᏟᏗ [u²lihl²di]
+ᎤᎵᏟᏗ [u:lihldi]
 \end_layout
 
 \end_deeper
 \begin_layout Description
-ᎠᎵᏟᏗᎭ [a¹lị²dlị³di²ha] (vt) 
+ᎠᎵᏟᏗᎭ [àlidlídi:ha] (vt) 
 \begin_inset ERT
 status collapsed
 
@@ -20321,28 +20331,28 @@ he's boiling it
 
 \begin_deeper
 \begin_layout Description
-ᎦᎵᏟᏗᎭ [ga²lị²dlị³di²ha]
+ᎦᎵᏟᏗᎭ [ga:lidlídi:ha]
 \end_layout
 
 \begin_layout Description
-ᎤᎵᏢᏓᏅᎢ [u¹lị²dlv²dạ²nv²³ɂi]
+ᎠᎵᏟᏍᏗᏍᎪᎢ [àlidlǐ:sdi:sgóɂi]
 \end_layout
 
 \begin_layout Description
-ᎠᎵᏟᏍᏗᏍᎪᎢ [a¹lị²dli²³sdi²sgọ³ɂi]
+ᎤᎵᏢᏓᏅᎢ [ù:lidlv:danv̌:ɂi]
 \end_layout
 
 \begin_layout Description
-ᎭᎵᏟᏓ [a¹lị²hlda]
+ᎭᎵᏟᏓ [àlihlda]
 \end_layout
 
 \begin_layout Description
-ᎤᎵᏟᏙᏗ [u²lihl²do²di]
+ᎤᎵᏟᏙᏗ [u:lihldo:di]
 \end_layout
 
 \end_deeper
 \begin_layout Description
-ᎠᏂ [ạ³hni] 
+ᎠᏂ [áhni] 
 \begin_inset Quotes eld
 \end_inset
 
@@ -20355,7 +20365,7 @@ Here.
 
 \begin_deeper
 \begin_layout Description
-ᎠᎭᏂ [ạ³hạ²ni] 
+ᎠᎭᏂ [áhani] 
 \begin_inset Quotes eld
 \end_inset
 
@@ -20368,7 +20378,7 @@ Here.
 
 \end_deeper
 \begin_layout Description
-ᎠᏍᏗ [ạ²sdi] 
+ᎠᏍᏗ [asdi] 
 \begin_inset Quotes eld
 \end_inset
 
@@ -20390,7 +20400,7 @@ Edge of.
 \end_layout
 
 \begin_layout Description
-ᎠᏍᏙᎢ [ạ²sdo³ɂi] 
+ᎠᏍᏙᎢ [asdó:ɂi] 
 \begin_inset Quotes eld
 \end_inset
 
@@ -20402,7 +20412,7 @@ Its habitual boundary.
 \end_layout
 
 \begin_layout Description
-ᎠᏍᏕᏍᏗ [hạ²sde³sdi] 
+ᎠᏍᏕᏍᏗ [hasdé:sdi] 
 \begin_inset Quotes eld
 \end_inset
 
@@ -20419,7 +20429,7 @@ Let your boundary be.
 
 \end_deeper
 \begin_layout Description
-ᎠᏏ [a²si] 
+ᎠᏏ [a:si] 
 \begin_inset Quotes eld
 \end_inset
 
@@ -20433,7 +20443,7 @@ Yet.
 
 \begin_deeper
 \begin_layout Description
-Ꮟ [si²³] 
+Ꮟ [sǐ:] 
 \begin_inset Quotes eld
 \end_inset
 
@@ -20447,7 +20457,7 @@ Yet.
 
 \end_deeper
 \begin_layout Description
-ᎠᏏᏉ [a²si²³gwo] 
+ᎠᏏᏉ [a:sǐ:gwo] 
 \begin_inset Quotes eld
 \end_inset
 
@@ -20461,7 +20471,7 @@ Just yet.
 
 \begin_deeper
 \begin_layout Description
-ᎠᏏᏊ [a²si²³gwu] 
+ᎠᏏᏊ [a:sǐ:gwu] 
 \begin_inset Quotes eld
 \end_inset
 
@@ -20475,7 +20485,7 @@ Just yet.
 
 \end_deeper
 \begin_layout Description
-ᎤᎵᏏᏅᏗᎭ [ul²sinh²di²ha] (vt) 
+ᎤᎵᏏᏅᏗᎭ [ulsinhdi:ha] (vt) 
 \begin_inset Quotes eld
 \end_inset
 
@@ -20488,28 +20498,28 @@ to cause it to be protected, saved, preserved.
 
 \begin_deeper
 \begin_layout Description
-ᎠᏆᎵᏏᏅᏗᎭ [a¹gwal²sinh²di²ha]
+ᎠᏆᎵᏏᏅᏗᎭ [à:gwalsinhdi:ha]
 \end_layout
 
 \begin_layout Description
-ᎤᎵᏏᏅᏔᏅᎢ [ul²sinh²tạ²nv²³ɂi]
+ᎤᎵᏏᏅᏔᏅᎢ [ulsinhtanv̌:ɂi]
 \end_layout
 
 \begin_layout Description
-ᎤᎵᏏᏅᏗᏍᎪᎢ [ul²sinh²di²sgo³ɂi]
+ᎤᎵᏏᏅᏗᏍᎪᎢ [ulsinhdi:sgó:ɂi]
 \end_layout
 
 \begin_layout Description
-ᏣᎵᏏᏅᏓ [jal²sinh²da]
+ᏣᎵᏏᏅᏓ [jalsinhda]
 \end_layout
 
 \begin_layout Description
-ᎤᎵᏏᏅᏙᏗ [ul²sinh²dọ²di]
+ᎤᎵᏏᏅᏙᏗ [ulsinhdodi]
 \end_layout
 
 \end_deeper
 \begin_layout Description
-ᎤᏟ [u¹dli] 
+ᎤᏟ [ù:dli] 
 \begin_inset Quotes eld
 \end_inset
 
@@ -20522,7 +20532,7 @@ More.
 
 \begin_deeper
 \begin_layout Description
-ᎤᎪᏗ [u¹go³²di] 
+ᎤᎪᏗ [ù:gô:di] 
 \begin_inset Quotes eld
 \end_inset
 
@@ -20539,7 +20549,7 @@ More.
 \begin_inset space ~
 \end_inset
 
-ᎠᏯᏔᎾᎸᎢ [a¹hyah²da²³na²³lv⁴ɂi, a¹hyah²ta²³na²³lv⁴ɂi] 
+ᎠᏯᏔᎾᎸᎢ [à:hyahdǎ:nǎ:lv̋:ɂi, à:hyahtǎ:nǎ:lv̋:ɂi] 
 \begin_inset Quotes eld
 \end_inset
 
@@ -20556,7 +20566,7 @@ A shelf.
 \begin_inset space ~
 \end_inset
 
-ᏓᏯᏔᎾᎸᎢ [da¹hyah²da²³na²³lv⁴ɂi, da¹hyah²ta²³na²³lv⁴ɂi]
+ᏓᏯᏔᎾᎸᎢ [dà:hyahdǎ:nǎ:lv̋:ɂi, dà:hyahtǎ:nǎ:lv̋:ɂi]
 \end_layout
 
 \end_deeper
@@ -20565,7 +20575,7 @@ A shelf.
 \begin_inset space ~
 \end_inset
 
-ᏗᏢ [i²di³dlv, di³dlv] 
+ᏗᏢ [i:dí:dlv, dí:dlv] 
 \begin_inset Quotes eld
 \end_inset
 
@@ -20582,7 +20592,7 @@ Toward.
 \begin_inset space ~
 \end_inset
 
-ᏗᏜ [i²di³dla, di³dla] 
+ᏗᏜ [i:dí:dla, dí:dla] 
 \begin_inset Quotes eld
 \end_inset
 
@@ -20613,13 +20623,13 @@ Postposition.
 \begin_inset space ~
 \end_inset
 
-ᎢᏴ [ị²yv⁴ɂi, ị²yv⁴] “...
+ᎢᏴ [iyv̋:ɂi, iyv̋] “...
  that time-frame ...
  that region ...”
 \end_layout
 
 \begin_layout Description
-ᎣᏍᏛ [o⁴sdv] 
+ᎣᏍᏛ [ő:sdv] 
 \begin_inset Quotes eld
 \end_inset
 
@@ -20632,7 +20642,7 @@ Good.
 
 \begin_deeper
 \begin_layout Description
-ᎣᏍᏓ [o⁴sda] 
+ᎣᏍᏓ [ő:sda] 
 \begin_inset Quotes eld
 \end_inset
 
@@ -20742,7 +20752,7 @@ This verb's subject is a verb indicating an action.
 
 \end_deeper
 \begin_layout Description
-ᎤᏰᎸᏗ [u²yehl⁴di] 
+ᎤᏰᎸᏗ [u:ye̋hldi] 
 \begin_inset Quotes eld
 \end_inset
 
@@ -20756,7 +20766,7 @@ Reason.
 \end_layout
 
 \begin_layout Description
-ᎧᏃᎮᏛ [kạ²no²he²³dv] 
+ᎧᏃᎮᏛ [kano:hě:dv] 
 \begin_inset Quotes eld
 \end_inset
 
@@ -20769,7 +20779,7 @@ News.
 
 \begin_deeper
 \begin_layout Description
-ᎧᏃᎮᏓ [kạ²no²he²³da] 
+ᎧᏃᎮᏓ [kano:hě:da] 
 \begin_inset Quotes eld
 \end_inset
 
@@ -20782,7 +20792,7 @@ News.
 
 \end_deeper
 \begin_layout Description
-ᎬᏂ [kv²hnị⁴] 
+ᎬᏂ [kv:hni̋] 
 \begin_inset Quotes eld
 \end_inset
 
@@ -20794,7 +20804,7 @@ Until.
 \end_layout
 
 \begin_layout Description
-ᎬᏂᎨᏒᎢ [kv²hnị³ge¹sv⁴ɂi] 
+ᎬᏂᎨᏒᎢ [kv:hnígè:sv̋:ɂi] 
 \begin_inset Quotes eld
 \end_inset
 
@@ -20806,7 +20816,7 @@ In view.
 \end_layout
 
 \begin_layout Description
-ᎬᏂᏳ [kv²hnị³yu] 
+ᎬᏂᏳ [kv:hníyu] 
 \begin_inset Quotes eld
 \end_inset
 
@@ -20819,7 +20829,7 @@ Behold.
 \end_layout
 
 \begin_layout Description
-ᎿᏉ [hna²³gwo] 
+ᎿᏉ [hnǎ:gwo] 
 \begin_inset Quotes eld
 \end_inset
 
@@ -20832,7 +20842,7 @@ Now.
 
 \begin_deeper
 \begin_layout Description
-ᏃᏊ [no²³gwu] 
+ᏃᏊ [nǒ:gwu] 
 \begin_inset Quotes eld
 \end_inset
 
@@ -20845,36 +20855,36 @@ Now.
 
 \end_deeper
 \begin_layout Description
-ᏂᎦᎵᏍᏘᎭ [nị²gạ²lsti²ha] “He is becoming.”
+ᏂᎦᎵᏍᏘᎭ [nigalsti:ha] “He is becoming.”
 \end_layout
 
 \begin_deeper
 \begin_layout Description
-ᏂᎦᎵᏍᏘᎭ [nị²ga¹lsti²ha] “I am becoming.”
+ᏂᎦᎵᏍᏘᎭ [nigà:lsti:ha] “I am becoming.”
 \end_layout
 
 \begin_layout Description
 ᏄᎵᏍᏔᏅᎢ.
- [nu¹lsta²nv²³ɂi] “He became.”
+ [nù:lsta:nv̌:ɂi] “He became.”
 \end_layout
 
 \begin_layout Description
 ᏂᎦᎵᏍᏗᏍᎪᎢ.
- [nị²gạ²lsdi²sgọ³ɂi ] “He usually becomes.”
+ [nigalsdi:sgóɂi ] “He usually becomes.”
 \end_layout
 
 \begin_layout Description
-ᎿᎵᏍᏓᏏ [hnạ²lsda²si] “Let you become.”
+ᎿᎵᏍᏓᏏ [hnalsda:si] “Let you become.”
 \end_layout
 
 \begin_layout Description
 ᎢᏳᎵᏍᏙᏗ.
- [ị²yu²lsdoh²di] “He to become.”
+ [iyu:lsdohdi] “He to become.”
 \end_layout
 
 \end_deeper
 \begin_layout Description
-ᏂᎦᎵᏍᏙᏗ [nị²gạ²lsdoh²di] 
+ᏂᎦᎵᏍᏙᏗ [nigalsdohdi] 
 \begin_inset Quotes eld
 \end_inset
 
@@ -20886,7 +20896,7 @@ A cause for becoming.
 \end_layout
 
 \begin_layout Description
-ᏄᏍᏗ [nu⁴sdi] 
+ᏄᏍᏗ [nű:sdi] 
 \begin_inset Quotes eld
 \end_inset
 
@@ -20899,7 +20909,7 @@ His, its way.
 
 \begin_deeper
 \begin_layout Description
-ᎾᏆᏍᏗ [na¹gwa⁴sdi] 
+ᎾᏆᏍᏗ [nà:gwa̋:sdi] 
 \begin_inset Quotes eld
 \end_inset
 
@@ -20915,7 +20925,7 @@ My way.
 \end_layout
 
 \begin_layout Description
-ᏄᏍᏙᎢ [nu⁴sdo²³ɂi] 
+ᏄᏍᏙᎢ [nű:sdǒ:ɂi] 
 \begin_inset Quotes eld
 \end_inset
 
@@ -20927,7 +20937,7 @@ His, its habitual way.
 \end_layout
 
 \begin_layout Description
-ᏂᏣᏍᏕᏍᏗ [nị²ja⁴sdesdi] 
+ᏂᏣᏍᏕᏍᏗ [nija̋:sdesdi] 
 \begin_inset Quotes eld
 \end_inset
 
@@ -20939,7 +20949,7 @@ Let your way be.
 \end_layout
 
 \begin_layout Description
-ᎢᏳᏍᏗ [ị²yu⁴sdi] 
+ᎢᏳᏍᏗ [iyű:sdi] 
 \begin_inset Quotes eld
 \end_inset
 
@@ -20952,7 +20962,7 @@ For his, its way to be.
 
 \end_deeper
 \begin_layout Description
-ᎢᏳᏍᏗ [ị²yu⁴sdi] 
+ᎢᏳᏍᏗ [iyű:sdi] 
 \begin_inset Quotes eld
 \end_inset
 
@@ -20964,7 +20974,7 @@ Like.
 \end_layout
 
 \begin_layout Description
-ᎤᏍᏗᏳ [usdiyu] (nr) 
+ᎤᏍᏗᏳ [ù:sdi:yu] (nr) 
 \begin_inset Quotes eld
 \end_inset
 
@@ -20977,7 +20987,7 @@ Place to look.
 
 \begin_deeper
 \begin_layout Description
-ᎠᎩᏍᏗᏳ [a¹gịsdiyu]
+ᎠᎩᏍᏗᏳ [à:gisdi:yu]
 \end_layout
 
 \end_deeper
