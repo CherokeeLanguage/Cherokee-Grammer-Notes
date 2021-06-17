@@ -53,8 +53,8 @@ fixltx2e
 \pdf_backref false
 \pdf_pdfusetitle true
 \pdf_quoted_options "unicode=true,hypertexnames=false"
-\papersize custom
-\use_geometry true
+\papersize letterpaper
+\use_geometry false
 \use_package amsmath 1
 \use_package amssymb 1
 \use_package cancel 1
@@ -185,7 +185,7 @@ ThisCenterWallPaper{.7}{images/front-page-syllabary-sequoyah-40.png}
 \end_layout
 
 \begin_layout Title
-ᎹᎦᎵ ᎤᏤᎵ ᏣᎳᎩ xxxxx
+ᎹᎦᎵ ᏣᎳᎩ ᎦᏬᏂᎯᏍᎬ ᎠᎦᏔᎲᎢ
 \begin_inset Newline newline
 \end_inset
 
@@ -238,7 +238,7 @@ Michael Conrad
 \end_layout
 
 \begin_layout Standard
-ᎹᎦᎵ ᎤᏤᎵ ᏣᎳᎩ xxxxx
+ᎹᎦᎵ ᎤᏤᎵ ᏣᎳᎩ ᎦᏬᏂᎯᏍᎬ ᎠᎦᏔᎲᎢ
 \end_layout
 
 \begin_layout Standard
@@ -351,68 +351,36 @@ Core Grammar Information
 Bound Pronouns
 \end_layout
 
-\begin_layout Description
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
 ☞ 
 \emph on
 It is important to keep in mind that several bound pronouns can have alternate
  meanings.
 \end_layout
 
-\begin_layout Description
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
 ⚠ 
 \emph on
 The tones as written here are subject to change depending on prepononimal
  prefixes, verb stem, contextual use, and other factors, such as dialect.
 \end_layout
 
+\begin_layout Subsection
+Main Pronouns
+\end_layout
+
 \begin_layout Standard
 \noindent
 \align center
 \begin_inset Tabular
-<lyxtabular version="3" rows="113" columns="4">
+<lyxtabular version="3" rows="112" columns="4">
 <features islongtable="true" longtabularalignment="center">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="center" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
-<row endfirsthead="true" caption="true">
-<cell multicolumn="1" alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
 <row endhead="true" endfirsthead="true">
 <cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
@@ -4680,72 +4648,21 @@ They + them (i) [b]
 
 \end_layout
 
+\begin_layout Subsection
+Indefinite Subject+Object Pairings.
+\end_layout
+
 \begin_layout Standard
 \noindent
 \align center
 \begin_inset Tabular
-<lyxtabular version="3" rows="13" columns="5">
+<lyxtabular version="3" rows="12" columns="5">
 <features islongtable="true" longtabularalignment="center">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
-<row endfirsthead="true" caption="true">
-<cell multicolumn="1" alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Indefinite Subject+Object Pairings.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
 <row endhead="true" endfirsthead="true">
 <cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
@@ -5319,62 +5236,35 @@ One(s) who + them
 
 \end_layout
 
+\begin_layout Subsection
+Reflexive Pairings
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+
+\emph on
+C.E.D.
+ Grammar
+\emph default
+, pg 296.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Standard
 \noindent
 \align center
 \begin_inset Tabular
-<lyxtabular version="3" rows="22" columns="4">
+<lyxtabular version="3" rows="21" columns="4">
 <features islongtable="true" longtabularalignment="center">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
-<row endfirsthead="true" caption="true">
-<cell multicolumn="1" alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Reflexive Pairings.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
 <row endhead="true" endfirsthead="true">
 <cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
@@ -5430,16 +5320,6 @@ Pairing
 
 \begin_layout Plain Layout
 -ada, -ad[a], -adad[eiouv]
-\begin_inset Foot
-status collapsed
-
-\begin_layout Plain Layout
-DF/296!
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \end_inset
