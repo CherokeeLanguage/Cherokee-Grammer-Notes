@@ -344,6 +344,1959 @@ This document is for the express and limited purpose of facilitating translation
 \end_layout
 
 \begin_layout Chapter
+Pronunciation Orthography
+\end_layout
+
+\begin_layout Section
+Orthographies
+\end_layout
+
+\begin_layout Standard
+There are multiple standards of pronunciation mark up which show tone and
+ cadence for Cherokee.
+ This material uses the Modified Community Orthography (MCO) standard.
+\end_layout
+
+\begin_layout Subsection
+Cherokee-English Dictionary Standard (CED).
+\end_layout
+
+\begin_layout Itemize
+The CED uses a combination of underdots and superscripted numbers to indicate
+ pronunciation.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+It is easy to miss the underdot for short vowel markings and the superscripted
+ numbers for the tones don't help one visualize the pitch shape and tone
+ of a vowel.
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Modified Community Orthography (MCO).
+\end_layout
+
+\begin_layout Itemize
+The MCO standard uses standard diactrics and has a clear vowel length marker
+ to indicate cadence.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The diactrics chosen, by their shape, help one visualize the pitch and tone
+ of a vowel.
+\end_layout
+
+\begin_layout Itemize
+Other styles, such as ones preferred by linguists, are usually very similar
+ to this style.
+\end_layout
+
+\end_deeper
+\begin_layout Section
+Modified Community Standard Pronunciation
+\end_layout
+
+\begin_layout Subsection
+Vowel Sounds
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:Vowel-Sounds"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Cherokee has six main vowels.
+ They are 
+\begin_inset Quotes eld
+\end_inset
+
+a
+\begin_inset Quotes erd
+\end_inset
+
+, 
+\begin_inset Quotes eld
+\end_inset
+
+e
+\begin_inset Quotes erd
+\end_inset
+
+, 
+\begin_inset Quotes eld
+\end_inset
+
+i
+\begin_inset Quotes erd
+\end_inset
+
+, 
+\begin_inset Quotes eld
+\end_inset
+
+o
+\begin_inset Quotes erd
+\end_inset
+
+, 
+\begin_inset Quotes eld
+\end_inset
+
+u
+\begin_inset Quotes erd
+\end_inset
+
+, and 
+\begin_inset Quotes eld
+\end_inset
+
+v
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+They are generally pronounced as follows:
+\end_layout
+
+\begin_layout Itemize
+a - as (ā) in fāther.
+\end_layout
+
+\begin_layout Itemize
+e - as (ā) in cāke.
+ 
+\emph on
+Some speakers shift this letter to sound more like the 
+\begin_inset Quotes eld
+\end_inset
+
+ē
+\begin_inset Quotes erd
+\end_inset
+
+ in 
+\begin_inset Quotes eld
+\end_inset
+
+ēcho
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+i - as (ē) in Pēte.
+ 
+\emph on
+Some speakers shift this letter to sound more like the 
+\begin_inset Quotes eld
+\end_inset
+
+ī
+\begin_inset Quotes erd
+\end_inset
+
+ in 
+\begin_inset Quotes eld
+\end_inset
+
+pīt
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+o - as (ō) in hellō.
+\end_layout
+
+\begin_layout Itemize
+u - as (ū) in tūba.
+\end_layout
+
+\begin_layout Itemize
+v - as (ū) in rūng and is always nasalized (sounded through the nose).
+\end_layout
+
+\begin_layout Paragraph
+Cadence
+\end_layout
+
+\begin_layout Standard
+Each Cherokee vowel is pronounced 
+\begin_inset Quotes eld
+\end_inset
+
+long
+\begin_inset Quotes erd
+\end_inset
+
+ or 
+\begin_inset Quotes eld
+\end_inset
+
+short
+\begin_inset Quotes erd
+\end_inset
+
+.
+ A long vowel is a vowel held for a normal length of time.
+ A short vowel is a vowel sound out about half as long as a long vowel.
+ Other than for the amount of time a vowel is spoken, the long and short
+ vowels sound the same.
+ Long vowels will be marked in the pronunciation guide with a colon.
+\end_layout
+
+\begin_layout Standard
+Examples (the diacritics will be explained shortly):
+\end_layout
+
+\begin_layout Description
+niga̋:da short 
+\begin_inset Quotes eld
+\end_inset
+
+i
+\begin_inset Quotes erd
+\end_inset
+
+, long 
+\begin_inset Quotes eld
+\end_inset
+
+a
+\begin_inset Quotes erd
+\end_inset
+
+, short 
+\begin_inset Quotes eld
+\end_inset
+
+a
+\begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\emph on
+This means 
+\begin_inset Quotes eld
+\end_inset
+
+all
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Description
+ahwi short 
+\begin_inset Quotes eld
+\end_inset
+
+a
+\begin_inset Quotes erd
+\end_inset
+
+, short 
+\begin_inset Quotes eld
+\end_inset
+
+i
+\begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\emph on
+This means 
+\begin_inset Quotes eld
+\end_inset
+
+deer
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Description
+nohji short 
+\begin_inset Quotes eld
+\end_inset
+
+o
+\begin_inset Quotes erd
+\end_inset
+
+, short 
+\begin_inset Quotes eld
+\end_inset
+
+i
+\begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\emph on
+This means 
+\begin_inset Quotes eld
+\end_inset
+
+pine
+\begin_inset Quotes erd
+\end_inset
+
+ or 
+\begin_inset Quotes eld
+\end_inset
+
+pine tree
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+Consonant Sounds
+\end_layout
+
+\begin_layout Standard
+All of the consonants in Cherokee sound the same as their English versions,
+ with the following few exceptions:
+\end_layout
+
+\begin_layout Itemize
+g: Sounds like either the 
+\begin_inset Quotes eld
+\end_inset
+
+g
+\begin_inset Quotes erd
+\end_inset
+
+ in 
+\begin_inset Quotes eld
+\end_inset
+
+gaff
+\begin_inset Quotes erd
+\end_inset
+
+ or the 
+\begin_inset Quotes eld
+\end_inset
+
+k
+\begin_inset Quotes erd
+\end_inset
+
+ in 
+\begin_inset Quotes eld
+\end_inset
+
+kite
+\begin_inset Quotes erd
+\end_inset
+
+.
+ When in doubt, use the 
+\begin_inset Quotes eld
+\end_inset
+
+g
+\begin_inset Quotes erd
+\end_inset
+
+ sound.
+ The pronunciation guide will be using both the 
+\begin_inset Quotes eld
+\end_inset
+
+g
+\begin_inset Quotes erd
+\end_inset
+
+ and 
+\begin_inset Quotes eld
+\end_inset
+
+k
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+qu: Sounds like the 
+\begin_inset Quotes eld
+\end_inset
+
+qu
+\begin_inset Quotes erd
+\end_inset
+
+ in 
+\begin_inset Quotes eld
+\end_inset
+
+question
+\begin_inset Quotes erd
+\end_inset
+
+ or the 
+\begin_inset Quotes eld
+\end_inset
+
+gw
+\begin_inset Quotes erd
+\end_inset
+
+ in 
+\begin_inset Quotes eld
+\end_inset
+
+Gwen
+\begin_inset Quotes erd
+\end_inset
+
+.
+ When in doubt, use the 
+\begin_inset Quotes eld
+\end_inset
+
+gw
+\begin_inset Quotes erd
+\end_inset
+
+ sound.
+ The pronunciation guide will be using 
+\begin_inset Quotes eld
+\end_inset
+
+kw
+\begin_inset Quotes erd
+\end_inset
+
+ and 
+\begin_inset Quotes eld
+\end_inset
+
+gw
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+s: Sounds like the 
+\begin_inset Quotes eld
+\end_inset
+
+s
+\begin_inset Quotes erd
+\end_inset
+
+ in 
+\begin_inset Quotes eld
+\end_inset
+
+sight
+\begin_inset Quotes erd
+\end_inset
+
+ for Otali Cherokee or the 
+\begin_inset Quotes eld
+\end_inset
+
+sh
+\begin_inset Quotes erd
+\end_inset
+
+ in 
+\begin_inset Quotes eld
+\end_inset
+
+shell
+\begin_inset Quotes erd
+\end_inset
+
+ for Kituhwa Cherokee.
+ The pronunciation guide will be using the Otali pronunciation for the 
+\begin_inset Quotes eld
+\end_inset
+
+s
+\begin_inset Quotes erd
+\end_inset
+
+ sound.
+\end_layout
+
+\begin_layout Itemize
+tl: This non-English sound is made by combining a 
+\begin_inset Quotes eld
+\end_inset
+
+t
+\begin_inset Quotes erd
+\end_inset
+
+ or 
+\begin_inset Quotes eld
+\end_inset
+
+h
+\begin_inset Quotes erd
+\end_inset
+
+ with the 
+\begin_inset Quotes eld
+\end_inset
+
+l
+\begin_inset Quotes erd
+\end_inset
+
+ sound while keeping the tongue's tip against the lower front teeth then
+ dropping the tongue straight down.
+ Those new to the language will many times think they are hearing the 
+\begin_inset Quotes eld
+\end_inset
+
+cl
+\begin_inset Quotes erd
+\end_inset
+
+ sound as found in 
+\begin_inset Quotes eld
+\end_inset
+
+clack
+\begin_inset Quotes erd
+\end_inset
+
+ or 
+\begin_inset Quotes eld
+\end_inset
+
+clock
+\begin_inset Quotes erd
+\end_inset
+
+.
+ With a little practice, you will be able to tell the 
+\begin_inset Quotes eld
+\end_inset
+
+tl
+\begin_inset Quotes erd
+\end_inset
+
+, 
+\begin_inset Quotes eld
+\end_inset
+
+hl
+\begin_inset Quotes erd
+\end_inset
+
+, and 
+\begin_inset Quotes eld
+\end_inset
+
+kl
+\begin_inset Quotes erd
+\end_inset
+
+ sounds apart.
+ When in doubt, use the 
+\begin_inset Quotes eld
+\end_inset
+
+hl
+\begin_inset Quotes erd
+\end_inset
+
+ sound.
+ The pronunciation guide will be using 
+\begin_inset Quotes eld
+\end_inset
+
+hl
+\begin_inset Quotes erd
+\end_inset
+
+ and 
+\begin_inset Quotes eld
+\end_inset
+
+tl
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+ts: Sounds like either the 
+\begin_inset Quotes eld
+\end_inset
+
+j
+\begin_inset Quotes erd
+\end_inset
+
+ in 
+\begin_inset Quotes eld
+\end_inset
+
+John
+\begin_inset Quotes erd
+\end_inset
+
+, the 
+\begin_inset Quotes eld
+\end_inset
+
+ch
+\begin_inset Quotes erd
+\end_inset
+
+ in 
+\begin_inset Quotes eld
+\end_inset
+
+chair
+\begin_inset Quotes erd
+\end_inset
+
+, the 
+\begin_inset Quotes eld
+\end_inset
+
+ds
+\begin_inset Quotes erd
+\end_inset
+
+ in 
+\begin_inset Quotes eld
+\end_inset
+
+best buds
+\begin_inset Quotes erd
+\end_inset
+
+, or the 
+\begin_inset Quotes eld
+\end_inset
+
+tz
+\begin_inset Quotes erd
+\end_inset
+
+ in 
+\begin_inset Quotes eld
+\end_inset
+
+spritzer
+\begin_inset Quotes erd
+\end_inset
+
+.
+ In Otali Cherokee the 
+\begin_inset Quotes eld
+\end_inset
+
+j
+\begin_inset Quotes erd
+\end_inset
+
+ and 
+\begin_inset Quotes eld
+\end_inset
+
+ch
+\begin_inset Quotes erd
+\end_inset
+
+ soundings are more common.
+ In Kituwah Cherokee, the 
+\begin_inset Quotes eld
+\end_inset
+
+ds
+\begin_inset Quotes erd
+\end_inset
+
+ and 
+\begin_inset Quotes eld
+\end_inset
+
+tz
+\begin_inset Quotes erd
+\end_inset
+
+ soundings are more common.
+ As this material is primarily Otali based, when in doubt, try and use a
+ mixture between the 
+\begin_inset Quotes eld
+\end_inset
+
+j
+\begin_inset Quotes erd
+\end_inset
+
+ and 
+\begin_inset Quotes eld
+\end_inset
+
+ch
+\begin_inset Quotes erd
+\end_inset
+
+ sounds.
+ The pronunciation guide will be using 
+\begin_inset Quotes eld
+\end_inset
+
+j
+\begin_inset Quotes erd
+\end_inset
+
+, 
+\begin_inset Quotes eld
+\end_inset
+
+ch
+\begin_inset Quotes erd
+\end_inset
+
+, 
+\begin_inset Quotes eld
+\end_inset
+
+dz
+\begin_inset Quotes erd
+\end_inset
+
+, and 
+\begin_inset Quotes eld
+\end_inset
+
+tz
+\begin_inset Quotes erd
+\end_inset
+
+.
+ ☞
+\emph on
+ Some books and speakers of the language will strictly use the letter combinatio
+n 
+\begin_inset Quotes eld
+\end_inset
+
+ts
+\begin_inset Quotes erd
+\end_inset
+
+ and not any of the 
+\begin_inset Quotes eld
+\end_inset
+
+j
+\begin_inset Quotes erd
+\end_inset
+
+, 
+\begin_inset Quotes eld
+\end_inset
+
+ch
+\begin_inset Quotes erd
+\end_inset
+
+, or other combinations when using the English alphabet.
+\end_layout
+
+\begin_layout Itemize
+You will also see trailing and leading 
+\begin_inset Quotes eld
+\end_inset
+
+h
+\begin_inset Quotes erd
+\end_inset
+
+ sound indicators.
+ These are not silent like they are in English, they are always sounded
+ out.
+\end_layout
+
+\begin_layout Subsection
+Pronunciation Guide
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:Pronunciation-Guide"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The following describes the different symbols used in the pronunciation
+ guide.
+\end_layout
+
+\begin_layout Paragraph
+Vowels
+\end_layout
+
+\begin_layout Description
+a:,
+\begin_inset space ~
+\end_inset
+
+e:,
+\begin_inset space ~
+\end_inset
+
+i:,
+\begin_inset space ~
+\end_inset
+
+o:,
+\begin_inset space ~
+\end_inset
+
+u:,
+\begin_inset space ~
+\end_inset
+
+v: - These are long vowels.
+\end_layout
+
+\begin_layout Description
+a,
+\begin_inset space ~
+\end_inset
+
+e,
+\begin_inset space ~
+\end_inset
+
+i,
+\begin_inset space ~
+\end_inset
+
+o,
+\begin_inset space ~
+\end_inset
+
+u,
+\begin_inset space ~
+\end_inset
+
+v - These are short vowels.
+\end_layout
+
+\begin_layout Paragraph
+Pausing
+\end_layout
+
+\begin_layout Description
+ɂ - A dotless question mark indicates a brief pause in speaking.
+ This is called a 
+\emph on
+glottal stop
+\emph default
+.
+\begin_inset Newline newline
+\end_inset
+
+Examples of this brief pause can be found in the middle of the English words:
+ 
+\begin_inset Quotes eld
+\end_inset
+
+kitten
+\begin_inset Quotes erd
+\end_inset
+
+, 
+\begin_inset Quotes eld
+\end_inset
+
+mitten
+\begin_inset Quotes erd
+\end_inset
+
+, 
+\begin_inset Quotes eld
+\end_inset
+
+uh-oh
+\begin_inset Quotes erd
+\end_inset
+
+, 
+\begin_inset Quotes eld
+\end_inset
+
+stoplight
+\begin_inset Quotes erd
+\end_inset
+
+, and 
+\begin_inset Quotes eld
+\end_inset
+
+workload
+\begin_inset Quotes erd
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+⚠ 
+\emph on
+Glottal stops are important.
+\end_layout
+
+\begin_layout Paragraph
+Miscellaneous
+\end_layout
+
+\begin_layout Description
+, - This will be used to indicate alternate pronunciations and spellings.
+ Examples:
+\end_layout
+
+\begin_deeper
+\begin_layout Description
+Ꮭ [tla, hla] 
+\begin_inset Quotes eld
+\end_inset
+
+No
+\begin_inset Quotes erd
+\end_inset
+
+ - 
+\emph on
+Here the pronunciation guide shows 
+\begin_inset Quotes eld
+\end_inset
+
+Ꮭ
+\begin_inset Quotes erd
+\end_inset
+
+ is pronounced as either 
+\begin_inset Quotes eld
+\end_inset
+
+tla
+\begin_inset Quotes erd
+\end_inset
+
+ or 
+\begin_inset Quotes eld
+\end_inset
+
+hla
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Description
+ᎪᎱᏍᏗ,
+\begin_inset space ~
+\end_inset
+
+ᎪᏍᏗ [go:hű:sdi, gő:sdi] 
+\begin_inset Quotes eld
+\end_inset
+
+Something.
+ A thing.
+\begin_inset Quotes erd
+\end_inset
+
+ - 
+\emph on
+Here the pronunciation guide shows two different ways of spelling and saying
+ the same word.
+\end_layout
+
+\end_deeper
+\begin_layout Paragraph
+Tone
+\end_layout
+
+\begin_layout Standard
+In the CED and other source materials you will see references to pitch or
+ tone.
+\end_layout
+
+\begin_layout Standard
+What is pitch or tone? Pitch or tone, when dealing with languages, refers
+ to shifting the tone of the voice up or down.
+ An example of this in English is the shifting of the tone upwards towards
+ the end of a sentence when asking a question.
+ In Cherokee shifts in tone are actually considered parts of words and can
+ also be used to indicate things like 
+\begin_inset Quotes eld
+\end_inset
+
+happened in the past
+\begin_inset Quotes erd
+\end_inset
+
+ or 
+\begin_inset Quotes eld
+\end_inset
+
+let it happen in the future
+\begin_inset Quotes erd
+\end_inset
+
+.
+ ☞ 
+\emph on
+The tones used in words or phrases can change their meaning, sometimes dramatica
+lly.
+\end_layout
+
+\begin_layout Standard
+In this material, the MCO diacritic system is being used, where:
+\end_layout
+
+\begin_layout Itemize
+No marking (a, e, i, o, u, v) or a 
+\emph on
+macron
+\emph default
+ marking (ā, ē, ī, ō, ū, v̄) indicates a tone with a normal pitch.
+ ☞ 
+\emph on
+This tone is commonly referred to as the 
+\begin_inset Quotes eld
+\end_inset
+
+normal
+\begin_inset Quotes erd
+\end_inset
+
+, 
+\begin_inset Quotes eld
+\end_inset
+
+low
+\begin_inset Quotes erd
+\end_inset
+
+, or 
+\begin_inset Quotes eld
+\end_inset
+
+neutral
+\begin_inset Quotes erd
+\end_inset
+
+ tone.
+\end_layout
+
+\begin_layout Itemize
+An 
+\emph on
+acute accent
+\emph default
+ marking (á, é, í, ó, ú, v́) indicates a tone with a higher pitch.
+ ☞ 
+\emph on
+This tone is commonly referred to as the 
+\begin_inset Quotes eld
+\end_inset
+
+high
+\begin_inset Quotes erd
+\end_inset
+
+ tone.
+\end_layout
+
+\begin_layout Itemize
+A 
+\emph on
+grave accent
+\emph default
+ marking (à, è, ì, ò, ù, v̀) indicates a tone that starts with a normal
+ pitch and then is glided downwards.
+ ☞ 
+\emph on
+This tone is commonly referred to as the 
+\begin_inset Quotes eld
+\end_inset
+
+extra low fall
+\begin_inset Quotes erd
+\end_inset
+
+ or 
+\begin_inset Quotes eld
+\end_inset
+
+low fall
+\begin_inset Quotes erd
+\end_inset
+
+ tone.
+\end_layout
+
+\begin_layout Itemize
+A 
+\emph on
+caron
+\emph default
+ marking (ǎ, ě, ǐ, ǒ, ǔ, v̌) indicates a tone that starts out at a
+ normal pitch and then is glided higher in pitch.
+ ☞ 
+\emph on
+This tone is commonly referred to as the 
+\begin_inset Quotes eld
+\end_inset
+
+rising
+\begin_inset Quotes erd
+\end_inset
+
+ tone.
+\end_layout
+
+\begin_layout Itemize
+A 
+\emph on
+circumflex accent
+\emph default
+ marking (â, ê, î, ô, û, v̂) indicates a tone that starts out at a higher
+ pitch and then is glided down to a normal pitch.
+ ☞ 
+\emph on
+This tone is commonly referred to as the 
+\begin_inset Quotes eld
+\end_inset
+
+falling
+\begin_inset Quotes erd
+\end_inset
+
+ tone.
+\end_layout
+
+\begin_layout Itemize
+A 
+\emph on
+double accute accent
+\emph default
+ marking (a̋, e̋, i̋, ő, ű, v̋) indicates a tone that starts out usually
+ at either 
+\begin_inset Quotes eld
+\end_inset
+
+normal
+\begin_inset Quotes erd
+\end_inset
+
+ or 
+\begin_inset Quotes eld
+\end_inset
+
+high
+\begin_inset Quotes erd
+\end_inset
+
+, the closest matching the preceding syllable, and then is glided upwards
+ in pitch to end higher than the 
+\begin_inset Quotes eld
+\end_inset
+
+high
+\begin_inset Quotes erd
+\end_inset
+
+ tone.
+ ☞ 
+\emph on
+This tone is commonly referred to as the 
+\begin_inset Quotes eld
+\end_inset
+
+extra high rise
+\begin_inset Quotes erd
+\end_inset
+
+ or 
+\begin_inset Quotes eld
+\end_inset
+
+high rise
+\begin_inset Quotes erd
+\end_inset
+
+ tone.
+\end_layout
+
+\begin_layout Standard
+There is one special gliding tone that has no marking at all:
+\end_layout
+
+\begin_layout Itemize
+At the end of every word, unless otherwise marked, there is always a special
+ gliding tone which starts out with a very high pitch and then is glided
+ down very far.
+ Because this is at the end of most words it is never marked.
+ ☞ 
+\emph on
+This tone is commonly referred to as the 
+\begin_inset Quotes eld
+\end_inset
+
+extra high fall
+\begin_inset Quotes erd
+\end_inset
+
+ or 
+\begin_inset Quotes eld
+\end_inset
+
+high fall
+\begin_inset Quotes erd
+\end_inset
+
+ tone.
+ 
+\end_layout
+
+\begin_layout Standard
+Example pronunciation guide entries, including entries that change meaning
+ based on tone or cadence:
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{multicols}{2}
+\backslash
+raggedcolumns
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+ᎠᏓ [ada] Wood.
+\end_layout
+
+\begin_layout Description
+ᎠᏓ [a̋ɂda] Young animal.
+\end_layout
+
+\begin_layout Description
+ᎠᎹ [ama] Water.
+\end_layout
+
+\begin_layout Description
+ᎠᎹ [á:ma] Salt.
+\end_layout
+
+\begin_layout Description
+ᎬᏍᎦᎳᏗᎠ [gv:sgaládíɂa] He is hiding a long object.
+\end_layout
+
+\begin_layout Description
+ᎬᏍᎦᎳᏗᎠ [gv̀:sgaládíɂa] I am hiding a long object.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{multicols}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+⚠ Stay away from any material that does not indicate proper cadence, tone,
+ or does not supply proper dictionary entries.
+ This especially applies to simple word lists.
+ Only real dictionary entries, such as those found in the CED, will provide
+ you with correct meaning and pronunciation so that you do not end up speaking
+ gibberish or saying very bad things about yourself.
+\end_layout
+
+\begin_layout Subsection
+Things of note
+\end_layout
+
+\begin_layout Paragraph
+Stress
+\end_layout
+
+\begin_layout Standard
+Unlike English, where you stress different syllables in words with loudness
+ you should try and keep all the syllables in your Cherokee words held at
+ an equal volume.
+ As a general rule, one should only stress an ending vowel that has the
+ high fall tone when speaking Cherokee.
+ You will find some material that claims you should stress different parts
+ of Cherokee words and confuse cadence and tone together to create vocabulary
+ entries with stress marks without tone or cadence marks.
+ You should not rely on such materials for pronunciation, you will be led
+ astray.
+ ☞ 
+\emph on
+Speaking with this different way of using stress takes a bit of practice.
+ It is second nature for English speakers to stress certain parts of words
+ without realizing they are doing so.
+\end_layout
+
+\begin_layout Paragraph
+Nasalization
+\end_layout
+
+\begin_layout Standard
+When speaking Cherokee, the 
+\begin_inset Quotes eld
+\end_inset
+
+v
+\begin_inset Quotes erd
+\end_inset
+
+ vowel is 
+\emph on
+always
+\emph default
+ nasalized.
+ (Sending the sound through the nose).
+ Additionally, the ending sound on each word is also nasalized.
+ The English word 
+\begin_inset Quotes eld
+\end_inset
+
+huh
+\begin_inset Quotes erd
+\end_inset
+
+, contains an example of a nasalized 
+\begin_inset Quotes eld
+\end_inset
+
+v
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Paragraph
+Tongue Placement
+\end_layout
+
+\begin_layout Standard
+Cherokee is spoken with the tip of the tongue against the lower front teeth
+ most of the time.
+ You should be using the middle of your tongue to make the “s”, “d”, and
+ 
+\begin_inset Quotes eld
+\end_inset
+
+t
+\begin_inset Quotes erd
+\end_inset
+
+ sounds, not the tongue's tip.
+ Keeping your tongue properly placed takes practice, but is critical for
+ properly emulating native pronunciation.
+ 
+\emph on
+Do not give up
+\emph default
+.
+\end_layout
+
+\begin_layout Paragraph
+The Intrusive 
+\begin_inset Quotes eld
+\end_inset
+
+H
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Because of the way Cherokee is spoken, you will sometimes see an extra “h”
+ added to the beginning of a syllable in the pronunciation guide, even though
+ the matching syllabary character does not indicate any “h” sounds.
+ This extra sound is called 
+\emph on
+The Intrusive “H”
+\emph default
+.
+ Except for the special Cherokee letters Ꮏ, “hna”, and Ꮐ, “nah”, this sound
+ is not written.
+ The amount of Intrusive “H” will vary from speaker to speaker, so you will
+ hear the same words spoken with and without it to varying degrees.
+\end_layout
+
+\begin_layout Paragraph
+Bridging
+\end_layout
+
+\begin_layout Standard
+There is normally an extra sound between spoken words in the same sentence
+ in most languages.
+ Different languages use different sounds.
+ If you listen very carefully, you will notice that most American English
+ speakers use a 
+\begin_inset Quotes eld
+\end_inset
+
+y
+\begin_inset Quotes erd
+\end_inset
+
+ or 
+\begin_inset Quotes eld
+\end_inset
+
+w
+\begin_inset Quotes erd
+\end_inset
+
+ sound between many words and between vowels in a word.
+ Here are some American English words and phrases that bridge using the
+ 
+\begin_inset Quotes eld
+\end_inset
+
+w
+\begin_inset Quotes erd
+\end_inset
+
+ sound.
+ Where these bridges occur have been marked with the 
+\begin_inset Quotes eld
+\end_inset
+
++
+\begin_inset Quotes erd
+\end_inset
+
+ symbol.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{multicols}{2}
+\backslash
+raggedcolumns
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+heroic, hero₊ic
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Quotes eld
+\end_inset
+
+who asked
+\begin_inset Quotes erd
+\end_inset
+
+, 
+\begin_inset Quotes eld
+\end_inset
+
+who ₊ asked
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+intuition, intu₊ition
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Quotes eld
+\end_inset
+
+go away
+\begin_inset Quotes erd
+\end_inset
+
+, 
+\begin_inset Quotes eld
+\end_inset
+
+go ₊ away
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+fluent, flu₊ent
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Quotes eld
+\end_inset
+
+do it
+\begin_inset Quotes erd
+\end_inset
+
+, 
+\begin_inset Quotes eld
+\end_inset
+
+do ₊ it
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{multicols}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Here are some American English words and phrases that bridge using the 
+\begin_inset Quotes eld
+\end_inset
+
+y
+\begin_inset Quotes erd
+\end_inset
+
+ sound.
+ Where these bridges occur have been marked with the 
+\begin_inset Quotes eld
+\end_inset
+
++
+\begin_inset Quotes erd
+\end_inset
+
+ symbol.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{multicols}{2}
+\backslash
+raggedcolumns
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+idea, ide₊a
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Quotes eld
+\end_inset
+
+say it
+\begin_inset Quotes erd
+\end_inset
+
+, 
+\begin_inset Quotes eld
+\end_inset
+
+say ₊ it
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+react, re₊act
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Quotes eld
+\end_inset
+
+day after
+\begin_inset Quotes erd
+\end_inset
+
+, day ₊ after
+\end_layout
+
+\begin_layout Itemize
+science, sci₊ence
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Quotes eld
+\end_inset
+
+dry off
+\begin_inset Quotes erd
+\end_inset
+
+, dry ₊ off
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{multicols}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Different from American English, Cherokee speakers tend to use an 
+\begin_inset Quotes eld
+\end_inset
+
+h
+\begin_inset Quotes erd
+\end_inset
+
+ sound.
+ While it would be a good thing to learn to bridge with an 
+\begin_inset Quotes eld
+\end_inset
+
+h
+\begin_inset Quotes erd
+\end_inset
+
+ sound while speaking Cherokee, it is not required to be understood clearly
+ and correctly.
+ It is this bridging with an 
+\begin_inset Quotes eld
+\end_inset
+
+h
+\begin_inset Quotes erd
+\end_inset
+
+ sound that causes the existence of the Intrusive 
+\begin_inset Quotes eld
+\end_inset
+
+H
+\begin_inset Quotes erd
+\end_inset
+
+ and will give your Cherokee a more correct sound.
+\end_layout
+
+\begin_layout Section
+Cherokee is not English
+\end_layout
+
+\begin_layout Paragraph
+Sex-gender Neutral
+\end_layout
+
+\begin_layout Standard
+Cherokee does not make a distinction between 
+\begin_inset Quotes eld
+\end_inset
+
+he
+\begin_inset Quotes erd
+\end_inset
+
+, 
+\begin_inset Quotes eld
+\end_inset
+
+she
+\begin_inset Quotes erd
+\end_inset
+
+, or 
+\begin_inset Quotes eld
+\end_inset
+
+it
+\begin_inset Quotes erd
+\end_inset
+
+.
+ Whenever you see an English translation of 
+\begin_inset Quotes eld
+\end_inset
+
+he
+\begin_inset Quotes erd
+\end_inset
+
+, you can usually substitute 
+\begin_inset Quotes eld
+\end_inset
+
+she
+\begin_inset Quotes erd
+\end_inset
+
+ or 
+\begin_inset Quotes eld
+\end_inset
+
+it
+\begin_inset Quotes erd
+\end_inset
+
+.
+ To save space and typing, only one of the 
+\begin_inset Quotes eld
+\end_inset
+
+he
+\begin_inset Quotes erd
+\end_inset
+
+, 
+\begin_inset Quotes eld
+\end_inset
+
+she
+\begin_inset Quotes erd
+\end_inset
+
+, or 
+\begin_inset Quotes eld
+\end_inset
+
+it
+\begin_inset Quotes erd
+\end_inset
+
+ words will be provided depending on context.
+\end_layout
+
+\begin_layout Paragraph
+Language Precision
+\end_layout
+
+\begin_layout Standard
+As Cherokee is more precise than English when talking about people, the
+ English words 
+\begin_inset Quotes eld
+\end_inset
+
+we
+\begin_inset Quotes erd
+\end_inset
+
+ and 
+\begin_inset Quotes eld
+\end_inset
+
+us
+\begin_inset Quotes erd
+\end_inset
+
+ will be avoided.
+ They are too vague.
+ Instead the more precise indications of people such as 
+\begin_inset Quotes eld
+\end_inset
+
+he and I
+\begin_inset Quotes erd
+\end_inset
+
+ and 
+\begin_inset Quotes eld
+\end_inset
+
+they and I
+\begin_inset Quotes erd
+\end_inset
+
+ will be used.
+\end_layout
+
+\begin_layout Standard
+Cherokee also makes a clear distinction between 
+\begin_inset Quotes eld
+\end_inset
+
+you (one person)
+\begin_inset Quotes erd
+\end_inset
+
+, 
+\begin_inset Quotes eld
+\end_inset
+
+you two
+\begin_inset Quotes erd
+\end_inset
+
+, and 
+\begin_inset Quotes eld
+\end_inset
+
+you all
+\begin_inset Quotes erd
+\end_inset
+
+.
+ Assume that whenever you see 
+\begin_inset Quotes eld
+\end_inset
+
+you
+\begin_inset Quotes erd
+\end_inset
+
+ and not 
+\begin_inset Quotes eld
+\end_inset
+
+you two
+\begin_inset Quotes erd
+\end_inset
+
+ or 
+\begin_inset Quotes eld
+\end_inset
+
+you all
+\begin_inset Quotes erd
+\end_inset
+
+ it specifically means 
+\begin_inset Quotes eld
+\end_inset
+
+you (one person)
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Paragraph
+Animacy
+\end_layout
+
+\begin_layout Standard
+Animacy refers to whether a thing is alive or not.
+ Most alive things are considered animate.
+ Most non-living things are considered inanimate.
+ If something moves about by itself without outside help, some speakers
+ will use the animate form.
+\end_layout
+
+\begin_layout Chapter
 Core Grammar Information
 \end_layout
 
