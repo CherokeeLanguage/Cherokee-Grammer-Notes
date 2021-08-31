@@ -115,6 +115,120 @@ fixltx2e
 \begin_body
 
 \begin_layout Standard
+ᎨᏒᎢ, ᎨᏐᎢ\SpecialChar ldots
+
+\end_layout
+
+\begin_layout Standard
+The following indicates the main meanings for some of the more common forms
+ of 
+\begin_inset Quotes eld
+\end_inset
+
+is
+\begin_inset Quotes erd
+\end_inset
+
+ as found in the text.
+\end_layout
+
+\begin_layout Description
+ᎢᎩ [ǐ:gi] 
+\begin_inset Quotes eld
+\end_inset
+
+is
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+ᎢᎩ [ǐ:gā] 
+\begin_inset Quotes eld
+\end_inset
+
+just now was
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+ᎨᏒ [gè:sv́] 
+\begin_inset Quotes eld
+\end_inset
+
+was
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+ᎨᏐᎢ [gè:só:ɂi] 
+\begin_inset Quotes eld
+\end_inset
+
+is usually, is under certain conditions
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+ᎨᏒᎩ [gè:sv̌:gɂi] 
+\begin_inset Quotes eld
+\end_inset
+
+was (with personal knowledge, or consciousness)
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+ᎨᏎᎢ [gè:sé:ɂi] 
+\begin_inset Quotes eld
+\end_inset
+
+was (without personal knowledge, or consciousness)
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+ᎨᏎᏍᏗ [gè:sé:sdi] 
+\begin_inset Quotes eld
+\end_inset
+
+will be
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+ᎨᏒᎢ [gè:sv̌:ɂi] 
+\begin_inset Quotes eld
+\end_inset
+
+being
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset ERT
 status collapsed
 
@@ -9094,7 +9208,7 @@ did or was doing
 \end_layout
 
 \begin_layout Description
--ᎥᎩ [-v̌gi] 
+-ᎥᎩ [-v̌:gi] 
 \begin_inset Quotes eld
 \end_inset
 
@@ -9106,7 +9220,7 @@ did or was doing (with my personal knowledge or consciousness)
 \end_layout
 
 \begin_layout Description
--ᎡᎢ [-éɂi] 
+-ᎡᎢ [-é:ɂi] 
 \begin_inset Quotes eld
 \end_inset
 
@@ -9118,7 +9232,7 @@ did or was doing (without my personal knowledge or consciousness)
 \end_layout
 
 \begin_layout Description
--ᎥᎢ [-v̌ɂi] 
+-ᎥᎢ [-v̋:ɂi] 
 \begin_inset Quotes eld
 \end_inset
 
@@ -13482,7 +13596,7 @@ Cherokee Reference Grammer (2015) - Brad Montgomery-Anderson
 
 \begin_layout Subsection
 Come in order to\SpecialChar ldots
- (Approaching)(Purpose)(Venitive) 
+ (Approaching)(Purpose)(Venitive)
 \end_layout
 
 \begin_layout Standard
@@ -13856,7 +13970,7 @@ will be
 \begin_inset Quotes eld
 \end_inset
 
-is going somewhere to \SpecialChar ldots
+is now going somewhere to \SpecialChar ldots
 
 \begin_inset Quotes erd
 \end_inset
@@ -19937,11 +20051,11 @@ Can be added to past tense, etc.
 \begin_layout Standard
 Ꭶ- before consonents.
  ᎦᏱ͓- before vowels; Ꭶ- + -Ꭰ => Ꭼ; Ꭶ- becomes Ꭸ- for 2nd person forms, Ꭶ-
- becomes ᎬᏩ͓- for third person forms, ᎬᏩ͓ + Ꭴ => ᎬᏩ.
+ becomes ᎬᏩ͓- for third person forms, ᎬᏩ͓ + Ꭴ => ᎬᏭ.
 \end_layout
 
 \begin_layout Itemize
-gaginigohvi, 
+ᎦᎩᏂᎪᎲᎢ, gaginigohvi, 
 \begin_inset Quotes eld
 \end_inset
 
@@ -19953,7 +20067,7 @@ since you and I saw it
 \end_layout
 
 \begin_layout Itemize
-gayoginigohv, 
+ᎦᏲᎩᏂᎪᎲ, gayoginigohv, 
 \begin_inset Quotes eld
 \end_inset
 
@@ -19965,7 +20079,7 @@ since he and I saw it
 \end_layout
 
 \begin_layout Itemize
-gvgigohvi, 
+ᎬᎩᎪᎲᎢ, gvgigohvi, 
 \begin_inset Quotes eld
 \end_inset
 
@@ -19977,7 +20091,7 @@ since I saw it
 \end_layout
 
 \begin_layout Itemize
-gejagohvi, 
+ᎨᏣᎪᎲᎢ, gejagohvi, 
 \begin_inset Quotes eld
 \end_inset
 
@@ -19989,7 +20103,7 @@ since you saw it
 \end_layout
 
 \begin_layout Itemize
-gesdigohvi, 
+ᎨᏍᏗᎪᎲᎢ, gesdigohvi, 
 \begin_inset Quotes eld
 \end_inset
 
@@ -20001,7 +20115,7 @@ since you two saw it
 \end_layout
 
 \begin_layout Itemize
-gvwagohvi, 
+ᎬᏩᎪᎲᎢ, gvwagohvi, 
 \begin_inset Quotes eld
 \end_inset
 
@@ -20013,7 +20127,7 @@ since he saw it
 \end_layout
 
 \begin_layout Itemize
-gvwanigohvi, 
+ᎬᏩᏂᎪᎲᎢ, gvwanigohvi, 
 \begin_inset Quotes eld
 \end_inset
 
@@ -22906,6 +23020,18 @@ For his, its way to be.
 \end_layout
 
 \end_deeper
+\begin_layout Description
+ᏄᏍᏛ [nu:sdv] 
+\begin_inset Quotes eld
+\end_inset
+
+That which
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
 \begin_layout Description
 ᎢᏳᏍᏗ [iyű:sdi] 
 \begin_inset Quotes eld
