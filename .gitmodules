@@ -1,0 +1,3 @@
+[submodule "cc-md"]
+	path = cc-md
+	url = https://github.com/idleberg/Creative-Commons-Markdown
